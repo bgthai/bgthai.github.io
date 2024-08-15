@@ -1,8 +1,9 @@
 # Custom directory to exclude from syncing
 
-frames/kb
-frames/nod
-frame/noi
+
+frames/kb/
+frames/nod/
+frame/noi/
 
 
 !Build/
