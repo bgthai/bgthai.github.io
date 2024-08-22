@@ -8,44 +8,19 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="preconnect" href="https://fonts.googleapis.com" />
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-   <link rel="stylesheet" type="text/css" href="/vedabase.css">
+   <link rel="stylesheet" type="text/css" href="/css/frame.css">
    <link href="https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<style>
-  #content  {font-family: "Trirong", "Noto Serif", serif;text-align: justify;text-justify: inter-character;word-spacing: 6pt;}
-  .r-lang-en {font-family: "Noto Serif vedabaseio", "Noto Serif", serif;}
-  .hairsp {word-spacing: 1px}
-  .thinsp {word-spacing: -0.4pt}
-  .thickersp {word-spacing: -0.3pt;}
-  /*@media {.container{ max-width: 40em;}}*/
-  .verseText {display:inline; text-align: justify; text-justify:inter-character;margin-left:6px;}
-  .verseText::before{content: "";display:inline-block;width:0.2em;}
-  .dark-mode{background-image:none;background-color: black;color:#a9a9a9;}
-  .dark-btn{background-color:#1b1b1b !important;color:#a9a9a9 !important;}
-  .toggle{position:absolute;top:1em;right:1em;}
-   .mini-pager a { background: #efe0be;}
-</style>
-<script>
-  function toggleDay() {
-     var element = document.body;
-     element.classList.toggle("dark-mode");
-     var icon = document.getElementById("day");
-     icon.classList.toggle("fa-sun-o");
-     icon.classList.toggle("fa-moon-o");
-     var left= document.getElementById("left");
-     var right= document.getElementById("right");
-     left.classList.toggle("dark-btn");
-     right.classList.toggle("dark-btn");
-}
-</script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="/js/toggleDay.js"></script>
 </head>
-<body style="background: transparent;">
+<body>
 <div class="toggle">
 <i id="day" class="fa fa-moon-o" onclick="toggleDay()"></i>
 </div>
 <div id="content" class="container first-container">
 
 <h1 style="text-align:center;"><a href="https://bgthai.github.io/frames/bg/">ภควัท-คีตา ฉบับเดิม</a></h1>
+
 
 
 <h1 style="text-align:center;"  class="r r-title r-chapter">
@@ -236,19 +211,6 @@
 
 
 </div>
-
-
-    <script>
-        function sendHeightToParent() {
-            var height = document.body.scrollHeight;
-            var extraHeight = 20; // Add some extra heightt for any scroll bars or padding
-            window.parent.postMessage(height + extraHeight, 'https://ramkhamhaengcenter.iskconbangkok.com');
-        }
-
-        // Call this function when content loads or changes
-        window.onload = sendHeightToParent;
-        window.onresize = sendHeightToParent;
-    </script>
-
+<script src="/js/frame.js"></script>
 </body>
 </html>
