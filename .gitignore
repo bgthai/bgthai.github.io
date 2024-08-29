@@ -1,8 +1,8 @@
 # Custom directory to exclude from syncing
 
 frames/nod/
-#frames/noi/
-frames/kb/
+frames/noi/
+#frames/kb/
 
 
 

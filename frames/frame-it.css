@@ -1,0 +1,609 @@
+@media print {
+    *,:after,:before {
+        text-shadow: none!important;
+        box-shadow: none!important
+    }
+
+    a,a:visited {
+        text-decoration: underline
+    }
+
+    h2,p {
+        orphans: 3;
+        widows: 3
+    }
+
+    h2 {
+        page-break-after: avoid
+    }
+  .table {
+        border-collapse: collapse!important
+    }
+}
+
+*,:after,:before {
+    box-sizing: border-box
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent
+}
+
+@-ms-viewport {
+    width: device-width
+}
+
+body {
+    margin: 0;
+    font-family: Noto Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1d1601;
+    text-align: left;
+    background-color: transparent;
+}
+
+h1,h2 {
+    margin-bottom: .5rem
+}
+
+img {
+    page-break-inside: avoid;
+    vertical-align: middle;
+    border-style: none
+    }
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+ul {
+    margin-bottom: 1rem
+}
+
+ul {
+    margin-top: 0
+}
+
+strong {
+    font-weight: bolder
+}
+
+a {
+    color: #bc2e07;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:hover {
+    color: #721c04;
+    text-decoration: underline
+}
+
+a {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation
+}
+
+::-webkit-file-upload-button {
+    font: inherit;
+    -webkit-appearance: button
+}
+
+h1,h2 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media (min-width: 576px) {
+  .container {
+        max-width:40em;
+    }
+}
+
+@media (min-width: 768px) {
+  .container {
+        max-width:640px;
+    }
+}
+
+@media (min-width: 992px) {
+  .container {
+        max-width:640px;
+    }
+}
+
+@media (min-width: 1200px) {
+  .container {
+        max-width:640px;
+    }
+}
+
+.no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.col-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+
+.form-row>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+.btn:focus,.btn:hover {
+    text-decoration: none
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(188,46,7,.25)
+}
+
+.btn:disabled {
+    opacity: .65
+}
+
+.btn:active {
+    background-image: none
+}
+
+.modal-footer>:not(:first-child) {
+    margin-left: .25rem
+}
+
+.modal-footer>:not(:last-child) {
+    margin-right: .25rem
+}
+
+@supports (transform-style: preserve-3d) {
+}
+
+@supports (transform-style: preserve-3d) {
+}
+
+@supports (transform-style: preserve-3d) {
+}
+
+@supports ((position: -webkit-sticky) or (position:sticky)) {
+}
+
+.mt-2 {
+    margin-top: .5rem!important
+}
+
+.pb-4 {
+    padding-bottom: 1.5rem!important
+}
+
+.r {
+    margin-bottom: 1.5em
+}
+
+h1,h2 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1.5em
+}
+
+h2.section-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.2em
+}
+
+.r-chapter-title {
+    text-align: center
+}
+
+.r-verse h1 {
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em
+}
+
+.r-verse h1 {
+    text-align: center;
+    font-size: 1.2em
+}
+
+.r-verse-text {
+    text-align: center
+}
+
+.r-paragraph-thus-ends p {
+    font-style: italic
+}
+
+.r-reference p {
+    text-align: right
+}
+
+html {
+    background: transparent
+}
+
+body {
+    background-image: url(img/body-bg.jpg)
+}
+
+#content {
+    line-height: 1.8em
+}
+
+.first-container {
+    padding-top: 1em;
+}
+
+#content {
+    font-family: Noto Sans,sans-serif
+}
+
+.mini-pager {
+    padding: 0;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    list-style: none
+}
+
+.mini-pager .pager-prev {
+    float: left
+}
+
+.mini-pager .pager-prev i {
+    margin-right: .3em
+}
+
+.mini-pager .pager-next {
+    float: right
+}
+
+.mini-pager .pager-next i {
+    margin-left: .3em
+}
+
+.mini-pager a {
+    background: #efe0be;
+    color: #735403;
+    padding: .6em 2.5em;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(115,84,3,.4);
+    font-size: .8em
+}
+
+@media (min-width: 380px) {
+  .mini-pager a {
+        font-size:1em
+    }
+}
+
+@font-face {
+  font-family: 'Trirong';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3CqXNgp8wxdOdOn44QuY5h.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3BqXNgp8wxdOdOn44QFa9B4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3BqXNgp8wxdOdOn44QcaxB4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3EqXNgp8wxdOdOn44o3Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3BqXNgp8wxdOdOn44QKa1B4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3BqXNgp8wxdOdOn44QBapB4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3BqXNgp8wxdOdOn44QYatB4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3BqXNgp8wxdOdOn44QfahB4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3BqXNgp8wxdOdOn44QWalB4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3EqXNgp8wxdOdOl-go3Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3DqXNgp8wxdOdOl0QJ_a4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3DqXNgp8wxdOdOlyAK_a4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3GqXNgp8wxdOdOr4w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3DqXNgp8wxdOdOl3gL_a4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3DqXNgp8wxdOdOl1QM_a4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3DqXNgp8wxdOdOlzAN_a4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3DqXNgp8wxdOdOlywO_a4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Trirong';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/trirong/v15/7r3DqXNgp8wxdOdOlwgP_a4.ttf) format('truetype');
+}
+
+@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.5.0');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-chevron-left:before{content:"\f053"}.fa-chevron-right:before{content:"\f054"}
+
+
+/* Frames */
+
+  #content  {
+    font-family: "Trirong", "Noto Serif", serif;
+    text-align: justify;
+    text-justify: inter-character;
+    word-spacing: 6pt;
+}
+.r-lang-en {
+    font-family: "Noto Serif vedabaseio", "Noto Serif", serif;
+}
+.hairsp {
+    word-spacing: 1px;
+}
+.thinsp {
+    word-spacing: -0.4pt;
+}
+.thickersp {
+    word-spacing: -0.3pt;
+}
+  /*@media {.container{ max-width: 40em;}}*/
+.verseText {
+    display:inline;
+    text-align: justify;
+    text-justify:inter-character;
+    margin-left:6px;
+}
+.verseText::before{
+      content: "";
+      display:inline-block;
+      width:0.2em;
+}
+.dark-mode{
+    background-image:none;
+    background-color: black;
+    color:#a9a9a9;
+}
+.dark-btn{
+    background-color:#1b1b1b !important;
+    color:#a9a9a9 !important;
+}
+.toggle{
+    position:absolute;
+    top:1em;
+    right:1em;
+}
+.mini-pager a {
+    background: #efe0be;
+}
+
+
+.table {
+	display: table;
+	margin-left: 3em;
+	border-collapse: separate;
+	border-spacing: 10px 0px;
+	word-spacing:normal;
+}
+.table-row {
+	display: table-row;
+}
+.table-cell {
+	display: table-cell;
+}
+.pali-col {
+	font-weight:500;
+	font-style: italic;
+}
+.iast-col {
+	font-family: "Noto Serif Vedabase", serif;
+	font-style: italic;
+}
+.sample {
+	padding-left:2em;
+}
+.thankyou {
+	list-style-type: "\1F44D";
+	list-style-type: " - ";
+}
+.trans {
+	margin: 1em 0;
+}
+.r {
+	margin-bottom: 1em;
+}
+.r-title {
+	font-size: 2em;
+}
+.r-translation{
+	margin-top: 0.5em;
+}
+
+p {
+    margin-left:3em;
+}
+.contentOuter {
+    font-size:1.2rem;
+    line-height:2em;
+}
+
+.sig {
+    padding-bottom: 1.5em;
+}
+
+.firstPage {
+    font-size:1.2rem;
+    text-align: left;
+    word-spacing: 0pt;
+    line-height: 2em;
+}
+
+.kb-subtitle {
+    font-size:1.2em;
+    line-height:2em;
+    text-align:center;
+    margin-bottom: 30px;
+
+}
+
+.dedication {
+    padding-bottom:2em;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.purport {
+    text-indent: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.reference {
+    text-align: right;
+    font-size:0.9em;
+    padding-right: 10em;
+}
+.p-end {
+    font-style:italic;
+}
