@@ -611,5 +611,8 @@ p {
     text-align:center;
 }
 .nomargin {
-    margin-left: 0;
+    margin-left: 0em;
+}
+.text {
+    margin-left: 0em;
 }
