@@ -607,3 +607,12 @@ p {
 .p-end {
     font-style:italic;
 }
+.p-centered {
+    text-align:center;
+}
+.nomargin {
+    margin-left: 0em;
+}
+.text {
+    margin-left: 0em;
+}
