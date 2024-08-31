@@ -608,6 +608,7 @@ p {
     font-style:italic;
 }
 .p-centered {
+    padding-bottom:2em;
     text-align:center;
 }
 .nomargin {
