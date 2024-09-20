@@ -25,37 +25,38 @@ function toggleDay() {
 }
 
 // Function to apply dark mode based on localStorage
-document.addEventListener('DOMContentLoaded', function() {
-    // Function to apply dark mode based on localStorage
-    function applyDarkMode() {
-        var darkMode = localStorage.getItem("darkMode") === "on";
-        console.log('Applying dark mode. darkMode from localStorage:', darkMode);
-        var element = document.body;
-        if (element) { // Check if the body exists
-            element.classList.toggle("dark-mode", darkMode);
+// Function to apply dark mode based on localStorage
+function applyDarkMode() {
+    var darkMode = localStorage.getItem("darkMode") === "on";
+    console.log('Applying dark mode. darkMode from localStorage:', darkMode);
+    var element = document.body;
+    if (element) { // Check if the body exists
+        element.classList.toggle("dark-mode", darkMode);
 
-            // Update the icon based on current mode
-            var icon = document.getElementById("day");
-            if (icon) {
-                icon.classList.toggle("fa-sun-o", !darkMode);
-                icon.classList.toggle("fa-moon-o", darkMode);
-            }
-
-            // Apply dark mode to buttons (if present)
-            var left = document.getElementById("left");
-            var right = document.getElementById("right");
-            if (left && right) {
-                left.classList.toggle("dark-btn", darkMode);
-                right.classList.toggle("dark-btn", darkMode);
-            }
-        } else {
-            console.error("Body element not found.");
+        // Update the icon based on current mode
+        var icon = document.getElementById("day");
+        if (icon) {
+            icon.classList.toggle("fa-sun-o", !darkMode);
+            icon.classList.toggle("fa-moon-o", darkMode);
         }
-    }
 
-    // Immediately apply dark mode from localStorage
-    applyDarkMode(); // Call this right away
+        // Apply dark mode to buttons (if present)
+        var left = document.getElementById("left");
+        var right = document.getElementById("right");
+        if (left && right) {
+            left.classList.toggle("dark-btn", darkMode);
+            right.classList.toggle("dark-btn", darkMode);
+        }
+    } else {
+        console.error("Body element not found.");
+    }
+}
+
+// Listen for DOMContentLoaded event and apply dark mode when ready
+document.addEventListener('DOMContentLoaded', function() {
+    applyDarkMode(); // Call this after the DOM is loaded
 });
+
 
 
 // Listen for messages from the parent window (Weebly)
