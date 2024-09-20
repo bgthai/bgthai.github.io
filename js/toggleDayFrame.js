@@ -27,6 +27,7 @@ function toggleDay() {
 // Function to apply dark mode based on localStorage
 function applyDarkMode() {
     var darkMode = localStorage.getItem("darkMode") === "on";
+    console.log('applyDarkMode called. darkMode from localStorage:', darkMode); // Log the state
     var element = document.body;
     element.classList.toggle("dark-mode", darkMode);
 
@@ -61,5 +62,6 @@ window.addEventListener('message', function(event) {
 
 // Apply dark mode from localStorage when the iframe page loads
 window.onload = function() {
+    console.log('Window onload event fired.'); // Log onload event
     applyDarkMode(); // Always check localStorage on load
 };
