@@ -31,43 +31,9 @@ function applyDarkMode() {
     if (darkMode === "on") {
         var element = document.body;
         element.classList.add("dark-mode");
-
-        var icon = document.getElementById("day");
-        if (icon) {
-            icon.classList.add("fa-moon-o");
-            icon.classList.remove("fa-sun-o");
-        }
-
         console.log('Dark mode applied.');
     } else {
         console.log('Light mode applied.');
-    }
-}
-
-// Function to apply dark mode based on message from parent (Weebly)
-function applyDarkModeFromParent(darkMode) {
-    var element = document.body;
-    if (darkMode) {
-        element.classList.add("dark-mode");
-        console.log('Dark mode applied from parent.');
-    } else {
-        element.classList.remove("dark-mode");
-        console.log('Light mode applied from parent.');
-    }
-
-    // Update buttons and other elements if necessary
-    var left = document.getElementById("left");
-    var right = document.getElementById("right");
-    if (left != null && right != null) {
-        if (darkMode) {
-            left.classList.add("dark-btn");
-            right.classList.add("dark-btn");
-            console.log('Dark mode applied to buttons.');
-        } else {
-            left.classList.remove("dark-btn");
-            right.classList.remove("dark-btn");
-            console.log('Light mode applied to buttons.');
-        }
     }
 }
 
@@ -88,4 +54,10 @@ window.addEventListener('message', function(event) {
 window.onload = function() {
     console.log('Iframe loaded.');
     applyDarkMode();
+
+    // Also ensure dark mode state is checked on navigation
+    window.addEventListener('load', function() {
+        console.log('New iframe page loaded. Checking dark mode.');
+        applyDarkMode(); // Reapply dark mode on new page load
+    });
 };
