@@ -30,6 +30,18 @@ function toggleDay() {
     console.log('Sent dark mode state to parent.');
 }
 
+// Function to apply dark mode based on message from parent (Weebly)
+function applyDarkModeFromParent(darkMode) {
+    console.log('Applying dark mode from parent:', darkMode);
+    if (darkMode) {
+        toggleDay(); // Call toggleDay to apply the dark mode styles
+    } else {
+        var element = document.body;
+        element.classList.remove("dark-mode");
+        console.log('Light mode applied from parent.');
+    }
+}
+
 // Function to apply the saved dark mode setting on page load
 function applyDarkMode() {
     var darkMode = localStorage.getItem("darkMode");
@@ -70,18 +82,6 @@ function applyDarkMode() {
             right.classList.remove("dark-btn");
             console.log('Light mode applied to buttons.');
         }
-    }
-}
-
-// Function to apply dark mode based on message from parent (Weebly)
-function applyDarkModeFromParent(darkMode) {
-    console.log('Applying dark mode from parent:', darkMode);
-    if (darkMode) {
-        toggleDay(); // Call toggleDay to apply the dark mode styles
-    } else {
-        var element = document.body;
-        element.classList.remove("dark-mode");
-        console.log('Light mode applied from parent.');
     }
 }
 
