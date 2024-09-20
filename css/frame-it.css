@@ -513,7 +513,7 @@ body {
 }
 .dark-mode{
     background-image:none;
-    background-color: black;
+    background-color: #2e250a;
     color:#a9a9a9;
 }
 .dark-btn{
