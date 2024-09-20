@@ -103,7 +103,7 @@ window.onload = function() {
     console.log('Iframe loaded.');
     applyDarkMode();
 
-    // Also ensure dark mode state is checked on navigation
+    // Ensure dark mode state is checked on navigation
     window.addEventListener('load', function() {
         console.log('New iframe page loaded. Checking dark mode.');
         applyDarkMode(); // Reapply dark mode on new page load
