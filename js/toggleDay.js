@@ -16,8 +16,8 @@ function toggleDay() {
         right.classList.toggle("dark-btn");
     }
 
-    // Save the dark mode state in localStorage
-    localStorage.setItem("darkMode", isDarkMode ? "on" : "off");
+    // Save the dark mode state in the parent window's localStorage
+    window.parent.postMessage({ darkMode: isDarkMode }, '*');
 }
 
 // Function to apply the saved dark mode setting on page load
@@ -40,6 +40,15 @@ function applyDarkMode() {
         }
     }
 }
+
+// Listen for messages from the parent window
+window.addEventListener('message', function(event) {
+    if (event.origin === 'https://ramkhamhaengcenter.iskconbangkok.com') {
+        // Update localStorage and apply dark mode based on the message
+        localStorage.setItem("darkMode", event.data.darkMode ? "on" : "off");
+        applyDarkMode(); // Reapply the dark mode setting
+    }
+});
 
 // Apply the dark mode setting when the page loads
 window.onload = function() {
