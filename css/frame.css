@@ -513,7 +513,7 @@ body {
     position:absolute;
     top:1em;
     right:1em;
-}
+    cursor: pointer;
 .mini-pager a {
     background: #efe0be;
 }

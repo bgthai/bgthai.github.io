@@ -515,6 +515,7 @@ body {
     background-image:none;
     background-color: #2e250a;
     color:#a9a9a9;
+    cursor: pointer;
 }
 .dark-btn{
     background-color:#1b1b1b !important;
