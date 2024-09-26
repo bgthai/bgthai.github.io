@@ -6,8 +6,14 @@ function toggleDay() {
     // Update the icon
     var icon = document.getElementById("day");
     if (icon) {
-        icon.classList.toggle("fa-sun-o", !isDarkMode);
-        icon.classList.toggle("fa-moon-o", isDarkMode);
+        // Instead of toggling, we directly set the class based on isDarkMode
+        if (isDarkMode) {
+            icon.classList.remove("fa-sun-o");
+            icon.classList.add("fa-moon-o");
+        } else {
+            icon.classList.remove("fa-moon-o");
+            icon.classList.add("fa-sun-o");
+        }
     }
 
     // Toggle dark-mode for buttons (if present)
@@ -20,11 +26,13 @@ function toggleDay() {
 
     // Save the dark mode state in localStorage
     localStorage.setItem("darkMode", isDarkMode ? "on" : "off");
+
     // Notify the parent about the dark mode state
     window.parent.postMessage({ darkMode: isDarkMode }, "https://ramkhamhaengcenter.iskconbangkok.com");
 }
 
-// Function to apply dark mode based on localStorage
+
+
 // Function to apply dark mode based on localStorage
 function applyDarkMode() {
     var darkMode = localStorage.getItem("darkMode") === "on";
