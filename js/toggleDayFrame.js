@@ -3,17 +3,12 @@ function toggleDay() {
     var element = document.body;
     var isDarkMode = element.classList.toggle("dark-mode");
 
-    // Update the icon
+    // Update the icon to always toggle regardless of dark mode state
     var icon = document.getElementById("day");
     if (icon) {
-        // Instead of toggling, we directly set the class based on isDarkMode
-        if (isDarkMode) {
-            icon.classList.remove("fa-sun-o");
-            icon.classList.add("fa-moon-o");
-        } else {
-            icon.classList.remove("fa-moon-o");
-            icon.classList.add("fa-sun-o");
-        }
+        // Always toggle the icon class
+        icon.classList.toggle("fa-sun-o");
+        icon.classList.toggle("fa-moon-o");
     }
 
     // Toggle dark-mode for buttons (if present)
@@ -30,6 +25,7 @@ function toggleDay() {
     // Notify the parent about the dark mode state
     window.parent.postMessage({ darkMode: isDarkMode }, "https://ramkhamhaengcenter.iskconbangkok.com");
 }
+
 
 
 
