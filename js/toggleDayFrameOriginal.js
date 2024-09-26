@@ -35,15 +35,9 @@ function applyDarkMode() {
 
         // Update the icon based on current mode
         var icon = document.getElementById("day");
-            if (icon) {
-                // Update the icon based on the darkMode state
-                if (darkMode) {
-                    icon.classList.remove("fa-moon-o");
-                    icon.classList.add("fa-sun-o");
-                } else {
-                    icon.classList.remove("fa-sun-o");
-                    icon.classList.add("fa-moon-o");
-                }
+        if (icon) {
+            icon.classList.toggle("fa-sun-o", !darkMode);
+            icon.classList.toggle("fa-moon-o", darkMode);
         }
 
         // Apply dark mode to buttons (if present)
