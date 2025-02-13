@@ -61,8 +61,8 @@ function clearImageCache() {
 async function getBlobFromIndexedDB(google_id) {
     try {
         const result = await getCachedImage(google_id);
-        // return result || null;
-        return null;
+        return result || null;
+        // return null;
     } catch (error) {
         console.error(`Error retrieving blob for '${google_id}' from IndexedDB:`, error);
         return null;
