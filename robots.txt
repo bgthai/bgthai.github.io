@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Allow: /quotes/
+Sitemap: https://bgthai.github.io/quotes/sitemap.xml

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Set default language to English
+            let lang = "en";
+
+            // Check if local storage has a set language preference
+            if (localStorage.getItem("lang") === "th") {
+                lang = "th";  // Overwrite lang if preference is set to Thai
+            }
+
+            // Perform redirect to appropriate language folder
+            window.location.href = `${lang}/`;
+        });
+    </script>
+</head>
+<body>
+    <p>Redirecting to the appropriate language...</p>
+</body>
+</html>
