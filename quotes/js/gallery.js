@@ -214,7 +214,7 @@ async function loadImages(googleIds, defaultDelay = 2000, cachedDelay = 200) {
 
 
 async function processGoogleDriveResponse(googleId) {
-    const response = await fetch(`https://script.google.com/macros/s/AKfycbySIsmyaML6hXHYghe7DmsMImeqELQukugqDj7GbHuzCe7eX1KjrF5rCcigS0Z_mAk2Yg/exec?id=${googleId}`);
+    const response = await fetch(`https://script.google.com/macros/s/AKfycbyOrx1xd10IG-VpZAF4HUOIA3wk0YkJa0IRVgNtbFBLrcHmA55eYTMWbsGwPHW1O5yiEQ/exec?id=${googleId}`);
 
     if (!response.ok) {
         throw new Error(`Failed to fetch image for ID: ${googleId}`);
