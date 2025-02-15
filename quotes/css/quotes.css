@@ -2,6 +2,27 @@
 body {
     font-family: Arial, sans-serif;
 }
+/*  Home Button */
+.home-button {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.home-button a {
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+}
+.home-button svg {
+    width: 1.5em;
+    height: 1.5em;
+    stroke: black;
+    transition: stroke 0.3s ease;
+}
+.home-button a:hover svg {
+    stroke: gray;
+}
 
 /* Language Toggle */
 .language-toggle {
