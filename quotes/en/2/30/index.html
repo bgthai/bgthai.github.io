@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1cdTGIkhPNmFir9FEqsgqTvymw1fAKvxn.jpg" alt="2.30.en.jpg - thumbnail size" title="O descendant of Bharata, he who dwells in the body can never be slain. Therefore you need not grieve for any living being." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1cdTGIkhPNmFir9FEqsgqTvymw1fAKvxn.avif" type="image/avif">
+                    <img id="image_0" src="1cdTGIkhPNmFir9FEqsgqTvymw1fAKvxn.jpg" data-google-id="1cdTGIkhPNmFir9FEqsgqTvymw1fAKvxn" alt="Bhagavad Gita 2.30.en.jpg - thumbnail size" title="O descendant of Bharata, he who dwells in the body can never be slain. Therefore you need not grieve for any living being." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1kzN6o2YV1_txRLwFpR7CQm8jUNiVp-_x.jpg" alt="purport_image_1 - thumbnail size" title="Though the soul is immortal, violence is not encouraged, but at the time of war it is not discouraged when there is actual need for it. That need must be justified in terms of the sanction of the Lord, and not capriciously." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1kzN6o2YV1_txRLwFpR7CQm8jUNiVp-_x.avif" type="image/avif">
+                    <img id="image_1" src="1kzN6o2YV1_txRLwFpR7CQm8jUNiVp-_x.jpg" data-google-id="1kzN6o2YV1_txRLwFpR7CQm8jUNiVp-_x" alt="Purport to Bhagavad Gita 2.30 image - thumbnail size" title="Though the soul is immortal, violence is not encouraged, but at the time of war it is not discouraged when there is actual need for it. That need must be justified in terms of the sanction of the Lord, and not capriciously." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1cdTGIkhPNmFir9FEqsgqTvymw1fAKvxn", "image_id": "image_0"}, {"google_id": "1kzN6o2YV1_txRLwFpR7CQm8jUNiVp-_x", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1cdTGIkhPNmFir9FEqsgqTvymw1fAKvxn.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1cdTGIkhPNmFir9FEqsgqTvymw1fAKvxn.avif",
             "caption": "O descendant of Bharata, he who dwells in the body can never be slain. Therefore you need not grieve for any living being.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1kzN6o2YV1_txRLwFpR7CQm8jUNiVp-_x.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1kzN6o2YV1_txRLwFpR7CQm8jUNiVp-_x.avif",
             "caption": "Though the soul is immortal, violence is not encouraged, but at the time of war it is not discouraged when there is actual need for it. That need must be justified in terms of the sanction of the Lord, and not capriciously.",
             "inLanguage": "en",
             "width": "300px",

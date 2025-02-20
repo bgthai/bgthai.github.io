@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1IW5tx6tNYiRkCNlsQXaexTez_MOe7nG-.jpg" alt="17.9.en.jpg - thumbnail size" title="Foods that are too bitter, too sour, salty, hot, pungent, dry and burning are dear to those in the mode of passion. Such foods cause distress, misery and disease." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1IW5tx6tNYiRkCNlsQXaexTez_MOe7nG-.avif" type="image/avif">
+                    <img id="image_0" src="1IW5tx6tNYiRkCNlsQXaexTez_MOe7nG-.jpg" data-google-id="1IW5tx6tNYiRkCNlsQXaexTez_MOe7nG-" alt="Bhagavad Gita 17.9.en.jpg - thumbnail size" title="Foods that are too bitter, too sour, salty, hot, pungent, dry and burning are dear to those in the mode of passion. Such foods cause distress, misery and disease." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -68,18 +68,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1IW5tx6tNYiRkCNlsQXaexTez_MOe7nG-", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1IW5tx6tNYiRkCNlsQXaexTez_MOe7nG-.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1IW5tx6tNYiRkCNlsQXaexTez_MOe7nG-.avif",
             "caption": "Foods that are too bitter, too sour, salty, hot, pungent, dry and burning are dear to those in the mode of passion. Such foods cause distress, misery and disease.",
             "inLanguage": "en",
             "width": "300px",

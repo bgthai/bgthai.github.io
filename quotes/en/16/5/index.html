@@ -43,28 +43,28 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1syR8B3QE_ruB2EWC5qSgtUkkG11pEd28.jpg" alt="16.5.en.jpg - thumbnail size" title="The transcendental qualities are conducive to liberation, whereas the demoniac qualities make for bondage. Do not worry, O son of Pāṇḍu, for you are born with the divine qualities." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1syR8B3QE_ruB2EWC5qSgtUkkG11pEd28.avif" type="image/avif">
+                    <img id="image_0" src="1syR8B3QE_ruB2EWC5qSgtUkkG11pEd28.jpg" data-google-id="1syR8B3QE_ruB2EWC5qSgtUkkG11pEd28" alt="Bhagavad Gita 16.5.en.jpg - thumbnail size" title="The transcendental qualities are conducive to liberation, whereas the demoniac qualities make for bondage. Do not worry, O son of Pāṇḍu, for you are born with the divine qualities." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1QvnktYse5G1KMIMf0txXycLNc8v1fzK8.jpg" alt="16.5.en.png - thumbnail size" title="The transcendental qualities are conducive to liberation, whereas the demoniac qualities make for bondage. Do not worry, O son of Pāṇḍu, for you are born with the divine qualities." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1QvnktYse5G1KMIMf0txXycLNc8v1fzK8.avif" type="image/avif">
+                    <img id="image_1" src="1QvnktYse5G1KMIMf0txXycLNc8v1fzK8.jpg" data-google-id="1QvnktYse5G1KMIMf0txXycLNc8v1fzK8" alt="Bhagavad Gita 16.5.en.png - thumbnail size" title="The transcendental qualities are conducive to liberation, whereas the demoniac qualities make for bondage. Do not worry, O son of Pāṇḍu, for you are born with the divine qualities." width="600px" height="584" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_2" src="1xVnNHzHWj1tnH8yskGx63KulP6tBdIhJ.jpg" alt="purport_image_1 - thumbnail size" title="Lord Kṛṣṇa encouraged Arjuna by telling him that he was not born with demoniac qualities. His involvement in the fight was not demoniac, because he was considering the pros and cons." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1xVnNHzHWj1tnH8yskGx63KulP6tBdIhJ.avif" type="image/avif">
+                    <img id="image_2" src="1xVnNHzHWj1tnH8yskGx63KulP6tBdIhJ.jpg" data-google-id="1xVnNHzHWj1tnH8yskGx63KulP6tBdIhJ" alt="Purport to Bhagavad Gita 16.5 image - thumbnail size" title="Lord Kṛṣṇa encouraged Arjuna by telling him that he was not born with demoniac qualities. His involvement in the fight was not demoniac, because he was considering the pros and cons." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -88,18 +88,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1syR8B3QE_ruB2EWC5qSgtUkkG11pEd28", "image_id": "image_0"}, {"google_id": "1QvnktYse5G1KMIMf0txXycLNc8v1fzK8", "image_id": "image_1"}, {"google_id": "1xVnNHzHWj1tnH8yskGx63KulP6tBdIhJ", "image_id": "image_2"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1syR8B3QE_ruB2EWC5qSgtUkkG11pEd28.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1syR8B3QE_ruB2EWC5qSgtUkkG11pEd28.avif",
             "caption": "The transcendental qualities are conducive to liberation, whereas the demoniac qualities make for bondage. Do not worry, O son of P\u0101\u1e47\u1e0du, for you are born with the divine qualities.",
             "inLanguage": "en",
             "width": "300px",
@@ -107,7 +104,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1QvnktYse5G1KMIMf0txXycLNc8v1fzK8.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1QvnktYse5G1KMIMf0txXycLNc8v1fzK8.avif",
             "caption": "The transcendental qualities are conducive to liberation, whereas the demoniac qualities make for bondage. Do not worry, O son of P\u0101\u1e47\u1e0du, for you are born with the divine qualities.",
             "inLanguage": "en",
             "width": "300px",
@@ -115,7 +112,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1xVnNHzHWj1tnH8yskGx63KulP6tBdIhJ.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1xVnNHzHWj1tnH8yskGx63KulP6tBdIhJ.avif",
             "caption": "Lord K\u1e5b\u1e63\u1e47a encouraged Arjuna by telling him that he was not born with demoniac qualities. His involvement in the fight was not demoniac, because he was considering the pros and cons.",
             "inLanguage": "en",
             "width": "300px",

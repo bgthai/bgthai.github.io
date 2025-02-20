@@ -374,5 +374,8 @@ a:active {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
     transform: translateY(2px); /* Slight "pressed down" effect */
 }
+a.galleryImage{
+    all:initial;
+}
 
 

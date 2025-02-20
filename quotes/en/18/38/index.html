@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1Cz8XIcxDR18CmCVxUIBGqlJ_Dm__ZdOC.jpg" alt="18.38.en.jpg - thumbnail size" title="That happiness which is derived from contact of the senses with their objects and which appears like nectar at first but poison at the end is said to be of the nature of passion." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1Cz8XIcxDR18CmCVxUIBGqlJ_Dm__ZdOC.avif" type="image/avif">
+                    <img id="image_0" src="1Cz8XIcxDR18CmCVxUIBGqlJ_Dm__ZdOC.jpg" data-google-id="1Cz8XIcxDR18CmCVxUIBGqlJ_Dm__ZdOC" alt="Bhagavad Gita 18.38.en.jpg - thumbnail size" title="That happiness which is derived from contact of the senses with their objects and which appears like nectar at first but poison at the end is said to be of the nature of passion." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1AizyvdKWyQ8H3osR2lpx-obsuBEhGX_-.jpg" alt="purport_image_1 - thumbnail size" title="In the beginning this may be very pleasing to the senses, but at the end, or after some time, it becomes just like poison. They are separated or there is divorce, there is lamentation, there is sorrow, etc." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1AizyvdKWyQ8H3osR2lpx-obsuBEhGX_-.avif" type="image/avif">
+                    <img id="image_1" src="1AizyvdKWyQ8H3osR2lpx-obsuBEhGX_-.jpg" data-google-id="1AizyvdKWyQ8H3osR2lpx-obsuBEhGX_-" alt="Purport to Bhagavad Gita 18.38 image - thumbnail size" title="In the beginning this may be very pleasing to the senses, but at the end, or after some time, it becomes just like poison. They are separated or there is divorce, there is lamentation, there is sorrow, etc." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1Cz8XIcxDR18CmCVxUIBGqlJ_Dm__ZdOC", "image_id": "image_0"}, {"google_id": "1AizyvdKWyQ8H3osR2lpx-obsuBEhGX_-", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1Cz8XIcxDR18CmCVxUIBGqlJ_Dm__ZdOC.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1Cz8XIcxDR18CmCVxUIBGqlJ_Dm__ZdOC.avif",
             "caption": "That happiness which is derived from contact of the senses with their objects and which appears like nectar at first but poison at the end is said to be of the nature of passion.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1AizyvdKWyQ8H3osR2lpx-obsuBEhGX_-.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1AizyvdKWyQ8H3osR2lpx-obsuBEhGX_-.avif",
             "caption": "In the beginning this may be very pleasing to the senses, but at the end, or after some time, it becomes just like poison. They are separated or there is divorce, there is lamentation, there is sorrow, etc.",
             "inLanguage": "en",
             "width": "300px",

@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="11lp3K3s-9X-Em5eRayN9dGFnTZxfCEMD.jpg" alt="5.20.jpg - thumbnail size" title="บุคคลผู้ไม่ร่าเริงเมื่อได้รับสิ่งที่พึงพอใจ ไม่เสียใจเมื่อได้รับสิ่งที่ไม่พึงพอใจ เป็นผู้มีปัญญาอยู่ในตัว ไม่สับสน และรู้ศาสตร์แห่งองค์ภควานฺถือว่าเป็นผู้สถิตในความเป็นทิพย์เรียบร้อยแล้ว" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="11lp3K3s-9X-Em5eRayN9dGFnTZxfCEMD.avif" type="image/avif">
+                    <img id="image_0" src="11lp3K3s-9X-Em5eRayN9dGFnTZxfCEMD.jpg" data-google-id="11lp3K3s-9X-Em5eRayN9dGFnTZxfCEMD" alt="ภขวัท-คีตา 5.20.jpg - thumbnail size" title="บุคคลผู้ไม่ร่าเริงเมื่อได้รับสิ่งที่พึงพอใจ ไม่เสียใจเมื่อได้รับสิ่งที่ไม่พึงพอใจ เป็นผู้มีปัญญาอยู่ในตัว ไม่สับสน และรู้ศาสตร์แห่งองค์ภควานฺถือว่าเป็นผู้สถิตในความเป็นทิพย์เรียบร้อยแล้ว" width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "11lp3K3s-9X-Em5eRayN9dGFnTZxfCEMD", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/11lp3K3s-9X-Em5eRayN9dGFnTZxfCEMD.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/11lp3K3s-9X-Em5eRayN9dGFnTZxfCEMD.avif",
             "caption": "\u0e1a\u0e38\u0e04\u0e04\u0e25\u0e1c\u0e39\u0e49\u0e44\u0e21\u0e48\u0e23\u0e48\u0e32\u0e40\u0e23\u0e34\u0e07\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e2a\u0e34\u0e48\u0e07\u0e17\u0e35\u0e48\u0e1e\u0e36\u0e07\u0e1e\u0e2d\u0e43\u0e08 \u0e44\u0e21\u0e48\u0e40\u0e2a\u0e35\u0e22\u0e43\u0e08\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e2a\u0e34\u0e48\u0e07\u0e17\u0e35\u0e48\u0e44\u0e21\u0e48\u0e1e\u0e36\u0e07\u0e1e\u0e2d\u0e43\u0e08 \u0e40\u0e1b\u0e47\u0e19\u0e1c\u0e39\u0e49\u0e21\u0e35\u0e1b\u0e31\u0e0d\u0e0d\u0e32\u0e2d\u0e22\u0e39\u0e48\u0e43\u0e19\u0e15\u0e31\u0e27 \u0e44\u0e21\u0e48\u0e2a\u0e31\u0e1a\u0e2a\u0e19 \u0e41\u0e25\u0e30\u0e23\u0e39\u0e49\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e41\u0e2b\u0e48\u0e07\u0e2d\u0e07\u0e04\u0e4c\u0e20\u0e04\u0e27\u0e32\u0e19\u0e3a\u0e16\u0e37\u0e2d\u0e27\u0e48\u0e32\u0e40\u0e1b\u0e47\u0e19\u0e1c\u0e39\u0e49\u0e2a\u0e16\u0e34\u0e15\u0e43\u0e19\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e47\u0e19\u0e17\u0e34\u0e1e\u0e22\u0e4c\u0e40\u0e23\u0e35\u0e22\u0e1a\u0e23\u0e49\u0e2d\u0e22\u0e41\u0e25\u0e49\u0e27",
             "inLanguage": "th",
             "width": "300px",

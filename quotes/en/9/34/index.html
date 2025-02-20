@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1sLL7J65kZyPOqmIk080FBECyN_Rl_bdG.jpg" alt="9.34.en.jpg - thumbnail size" title="Engage your mind always in thinking of Me, become My devotee, offer obeisances to Me and worship Me. Being completely absorbed in Me, surely you will come to Me." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1sLL7J65kZyPOqmIk080FBECyN_Rl_bdG.avif" type="image/avif">
+                    <img id="image_0" src="1sLL7J65kZyPOqmIk080FBECyN_Rl_bdG.jpg" data-google-id="1sLL7J65kZyPOqmIk080FBECyN_Rl_bdG" alt="Bhagavad Gita 9.34.en.jpg - thumbnail size" title="Engage your mind always in thinking of Me, become My devotee, offer obeisances to Me and worship Me. Being completely absorbed in Me, surely you will come to Me." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1jWslzW6lnXSWl_dkbl5dadvCHA6acFih.jpg" alt="purport_image_1 - thumbnail size" title="In this verse it is clearly indicated that Kṛṣṇa consciousness is the only means of being delivered from the clutches of this contaminated material world." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1jWslzW6lnXSWl_dkbl5dadvCHA6acFih.avif" type="image/avif">
+                    <img id="image_1" src="1jWslzW6lnXSWl_dkbl5dadvCHA6acFih.jpg" data-google-id="1jWslzW6lnXSWl_dkbl5dadvCHA6acFih" alt="Purport to Bhagavad Gita 9.34 image - thumbnail size" title="In this verse it is clearly indicated that Kṛṣṇa consciousness is the only means of being delivered from the clutches of this contaminated material world." width="600px" height="500" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -86,18 +86,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1sLL7J65kZyPOqmIk080FBECyN_Rl_bdG", "image_id": "image_0"}, {"google_id": "1jWslzW6lnXSWl_dkbl5dadvCHA6acFih", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1sLL7J65kZyPOqmIk080FBECyN_Rl_bdG.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1sLL7J65kZyPOqmIk080FBECyN_Rl_bdG.avif",
             "caption": "Engage your mind always in thinking of Me, become My devotee, offer obeisances to Me and worship Me. Being completely absorbed in Me, surely you will come to Me.",
             "inLanguage": "en",
             "width": "300px",
@@ -105,7 +102,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1jWslzW6lnXSWl_dkbl5dadvCHA6acFih.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1jWslzW6lnXSWl_dkbl5dadvCHA6acFih.avif",
             "caption": "In this verse it is clearly indicated that K\u1e5b\u1e63\u1e47a consciousness is the only means of being delivered from the clutches of this contaminated material world.",
             "inLanguage": "en",
             "width": "300px",

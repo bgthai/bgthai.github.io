@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1dd_imqKhVbhddZrrBjpZBl5Zmz3G5Du3.jpg" alt="14.16.en.jpg - thumbnail size" title="The result of pious action is pure and is said to be in the mode of goodness. But action done in the mode of passion results in misery, and action performed in the mode of ignorance results in foolishness." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1dd_imqKhVbhddZrrBjpZBl5Zmz3G5Du3.avif" type="image/avif">
+                    <img id="image_0" src="1dd_imqKhVbhddZrrBjpZBl5Zmz3G5Du3.jpg" data-google-id="1dd_imqKhVbhddZrrBjpZBl5Zmz3G5Du3" alt="Bhagavad Gita 14.16.en.jpg - thumbnail size" title="The result of pious action is pure and is said to be in the mode of goodness. But action done in the mode of passion results in misery, and action performed in the mode of ignorance results in foolishness." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1IPmvtOVhgdSQv2E3VjLhTR0Q40OLCeFj.jpg" alt="purport_image_1 - thumbnail size" title="The result of pious activities in the mode of goodness is pure. Therefore the sages, who are free from all illusion, are situated in happiness." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1IPmvtOVhgdSQv2E3VjLhTR0Q40OLCeFj.avif" type="image/avif">
+                    <img id="image_1" src="1IPmvtOVhgdSQv2E3VjLhTR0Q40OLCeFj.jpg" data-google-id="1IPmvtOVhgdSQv2E3VjLhTR0Q40OLCeFj" alt="Purport to Bhagavad Gita 14.16 image - thumbnail size" title="The result of pious activities in the mode of goodness is pure. Therefore the sages, who are free from all illusion, are situated in happiness." width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -85,18 +85,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1dd_imqKhVbhddZrrBjpZBl5Zmz3G5Du3", "image_id": "image_0"}, {"google_id": "1IPmvtOVhgdSQv2E3VjLhTR0Q40OLCeFj", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1dd_imqKhVbhddZrrBjpZBl5Zmz3G5Du3.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1dd_imqKhVbhddZrrBjpZBl5Zmz3G5Du3.avif",
             "caption": "The result of pious action is pure and is said to be in the mode of goodness. But action done in the mode of passion results in misery, and action performed in the mode of ignorance results in foolishness.",
             "inLanguage": "en",
             "width": "300px",
@@ -104,7 +101,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1IPmvtOVhgdSQv2E3VjLhTR0Q40OLCeFj.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1IPmvtOVhgdSQv2E3VjLhTR0Q40OLCeFj.avif",
             "caption": "The result of pious activities in the mode of goodness is pure. Therefore the sages, who are free from all illusion, are situated in happiness.",
             "inLanguage": "en",
             "width": "300px",

@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1C45ZpGvw58tZZdDGDy1kM8OW7TN52SIq.jpg" alt="11.16.en.jpg - thumbnail size" title="O Lord of the universe, O universal form, I see in Your body many, many arms, bellies, mouths and eyes, expanded everywhere, without limit. I see in You no end, no middle and no beginning." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1C45ZpGvw58tZZdDGDy1kM8OW7TN52SIq.avif" type="image/avif">
+                    <img id="image_0" src="1C45ZpGvw58tZZdDGDy1kM8OW7TN52SIq.jpg" data-google-id="1C45ZpGvw58tZZdDGDy1kM8OW7TN52SIq" alt="Bhagavad Gita 11.16.en.jpg - thumbnail size" title="O Lord of the universe, O universal form, I see in Your body many, many arms, bellies, mouths and eyes, expanded everywhere, without limit. I see in You no end, no middle and no beginning." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1C45ZpGvw58tZZdDGDy1kM8OW7TN52SIq", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1C45ZpGvw58tZZdDGDy1kM8OW7TN52SIq.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1C45ZpGvw58tZZdDGDy1kM8OW7TN52SIq.avif",
             "caption": "O Lord of the universe, O universal form, I see in Your body many, many arms, bellies, mouths and eyes, expanded everywhere, without limit. I see in You no end, no middle and no beginning.",
             "inLanguage": "en",
             "width": "300px",

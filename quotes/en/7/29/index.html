@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1hyMwlVd6D4SH2ICagiB8XYBKvev1Ao3D.jpg" alt="7.29.en.jpg - thumbnail size" title="Intelligent persons who are endeavoring for liberation from old age and death take refuge in Me in devotional service. They are actually Brahman because they entirely know everything about transcendental activities." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1hyMwlVd6D4SH2ICagiB8XYBKvev1Ao3D.avif" type="image/avif">
+                    <img id="image_0" src="1hyMwlVd6D4SH2ICagiB8XYBKvev1Ao3D.jpg" data-google-id="1hyMwlVd6D4SH2ICagiB8XYBKvev1Ao3D" alt="Bhagavad Gita 7.29.en.jpg - thumbnail size" title="Intelligent persons who are endeavoring for liberation from old age and death take refuge in Me in devotional service. They are actually Brahman because they entirely know everything about transcendental activities." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -78,18 +78,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1hyMwlVd6D4SH2ICagiB8XYBKvev1Ao3D", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1hyMwlVd6D4SH2ICagiB8XYBKvev1Ao3D.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1hyMwlVd6D4SH2ICagiB8XYBKvev1Ao3D.avif",
             "caption": "Intelligent persons who are endeavoring for liberation from old age and death take refuge in Me in devotional service. They are actually Brahman because they entirely know everything about transcendental activities.",
             "inLanguage": "en",
             "width": "300px",

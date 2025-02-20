@@ -43,16 +43,16 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <video id="image_0" controls preload="none" src="1Ep_8wG8fma62_C8DAWXTKmrJ0NC5EJ2h.mp4" width="600" alt="10.31.en.mp4" title="Of purifiers I am the wind, of the wielders of weapons I am Rāma, of fishes I am the shark, and of flowing rivers I am the Ganges.">
+            <div class="image-container">
+                <video id="image_0" controls preload="none" src="1Ep_8wG8fma62_C8DAWXTKmrJ0NC5EJ2h.mp4" width="600" height="517" poster="1Ep_8wG8fma62_C8DAWXTKmrJ0NC5EJ2h.jpg" alt="Bhagavad Gita 10.31.en.mp4" title="Of purifiers I am the wind, of the wielders of weapons I am Rāma, of fishes I am the shark, and of flowing rivers I am the Ganges.">
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1Ig_ANxGsycMTl5z4j1pCqeZB3k0oioKa.jpg" alt="10.31.en.jpg - thumbnail size" title="Of purifiers I am the wind, of the wielders of weapons I am Rāma, of fishes I am the shark, and of flowing rivers I am the Ganges." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1Ig_ANxGsycMTl5z4j1pCqeZB3k0oioKa.avif" type="image/avif">
+                    <img id="image_1" src="1Ig_ANxGsycMTl5z4j1pCqeZB3k0oioKa.jpg" data-google-id="1Ig_ANxGsycMTl5z4j1pCqeZB3k0oioKa" alt="Bhagavad Gita 10.31.en.jpg - thumbnail size" title="Of purifiers I am the wind, of the wielders of weapons I am Rāma, of fishes I am the shark, and of flowing rivers I am the Ganges." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -81,18 +81,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1Ig_ANxGsycMTl5z4j1pCqeZB3k0oioKa", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1Ig_ANxGsycMTl5z4j1pCqeZB3k0oioKa.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1Ig_ANxGsycMTl5z4j1pCqeZB3k0oioKa.avif",
             "caption": "Of purifiers I am the wind, of the wielders of weapons I am R\u0101ma, of fishes I am the shark, and of flowing rivers I am the Ganges.",
             "inLanguage": "en",
             "width": "300px",

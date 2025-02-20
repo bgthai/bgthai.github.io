@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1qMOXd5yiI7vGDy0rHiMpC30Q3ufFvNgL.jpg" alt="11.40.en.jpg - thumbnail size" title="Obeisances to You from the front, from behind and from all sides! O unbounded power, You are the master of limitless might! You are all-pervading, and thus You are everything!" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1qMOXd5yiI7vGDy0rHiMpC30Q3ufFvNgL.avif" type="image/avif">
+                    <img id="image_0" src="1qMOXd5yiI7vGDy0rHiMpC30Q3ufFvNgL.jpg" data-google-id="1qMOXd5yiI7vGDy0rHiMpC30Q3ufFvNgL" alt="Bhagavad Gita 11.40.en.jpg - thumbnail size" title="Obeisances to You from the front, from behind and from all sides! O unbounded power, You are the master of limitless might! You are all-pervading, and thus You are everything!" width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1DFqeZjj3ljOZuyWiAe4pgKGdXaD5k1v4.jpg" alt="purport_image_1 - thumbnail size" title="yo ’yaṁ tavāgato deva samīpaṁ devatā-gaṇaḥ sa tvam eva jagat-sraṣṭā yataḥ sarva-gato bhavān “Whoever comes before You, even if he be a demigod, is created by You, O Supreme Personality of Godhead.” Viṣṇu Purāṇa (1.9.69)" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1DFqeZjj3ljOZuyWiAe4pgKGdXaD5k1v4.avif" type="image/avif">
+                    <img id="image_1" src="1DFqeZjj3ljOZuyWiAe4pgKGdXaD5k1v4.jpg" data-google-id="1DFqeZjj3ljOZuyWiAe4pgKGdXaD5k1v4" alt="Purport to Bhagavad Gita 11.40 image - thumbnail size" title="yo ’yaṁ tavāgato deva samīpaṁ devatā-gaṇaḥ sa tvam eva jagat-sraṣṭā yataḥ sarva-gato bhavān “Whoever comes before You, even if he be a demigod, is created by You, O Supreme Personality of Godhead.” Viṣṇu Purāṇa (1.9.69)" width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -84,18 +84,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1qMOXd5yiI7vGDy0rHiMpC30Q3ufFvNgL", "image_id": "image_0"}, {"google_id": "1DFqeZjj3ljOZuyWiAe4pgKGdXaD5k1v4", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1qMOXd5yiI7vGDy0rHiMpC30Q3ufFvNgL.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1qMOXd5yiI7vGDy0rHiMpC30Q3ufFvNgL.avif",
             "caption": "Obeisances to You from the front, from behind and from all sides! O unbounded power, You are the master of limitless might! You are all-pervading, and thus You are everything!",
             "inLanguage": "en",
             "width": "300px",
@@ -103,7 +100,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1DFqeZjj3ljOZuyWiAe4pgKGdXaD5k1v4.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1DFqeZjj3ljOZuyWiAe4pgKGdXaD5k1v4.avif",
             "caption": "yo \u2019ya\u1e41 tav\u0101gato deva sam\u012bpa\u1e41 devat\u0101-ga\u1e47a\u1e25 sa tvam eva jagat-sra\u1e63\u1e6d\u0101 yata\u1e25 sarva-gato bhav\u0101n \u201cWhoever comes before You, even if he be a demigod, is created by You, O Supreme Personality of Godhead.\u201d Vi\u1e63\u1e47u Pur\u0101\u1e47a (1.9.69)",
             "inLanguage": "en",
             "width": "300px",

@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1eRDhU4lHmCIc9fIFWXbI5j67BtR8kzUI.jpg" alt="1.13.en.jpg - thumbnail size" title="After that, the conchshells, drums, bugles, trumpets and horns were all suddenly sounded, and the combined sound was tumultuous." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1eRDhU4lHmCIc9fIFWXbI5j67BtR8kzUI.avif" type="image/avif">
+                    <img id="image_0" src="1eRDhU4lHmCIc9fIFWXbI5j67BtR8kzUI.jpg" data-google-id="1eRDhU4lHmCIc9fIFWXbI5j67BtR8kzUI" alt="Bhagavad Gita 1.13.en.jpg - thumbnail size" title="After that, the conchshells, drums, bugles, trumpets and horns were all suddenly sounded, and the combined sound was tumultuous." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -68,18 +68,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1eRDhU4lHmCIc9fIFWXbI5j67BtR8kzUI", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1eRDhU4lHmCIc9fIFWXbI5j67BtR8kzUI.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1eRDhU4lHmCIc9fIFWXbI5j67BtR8kzUI.avif",
             "caption": "After that, the conchshells, drums, bugles, trumpets and horns were all suddenly sounded, and the combined sound was tumultuous.",
             "inLanguage": "en",
             "width": "300px",

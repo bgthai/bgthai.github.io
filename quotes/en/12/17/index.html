@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1jGfTppNh-FRe13vl7mT-bLKayrUqH2Ev.jpg" alt="12.17.en.jpg - thumbnail size" title="One who neither rejoices nor grieves, who neither laments nor desires, and who renounces both auspicious and inauspicious things – such a devotee is very dear to Me." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1jGfTppNh-FRe13vl7mT-bLKayrUqH2Ev.avif" type="image/avif">
+                    <img id="image_0" src="1jGfTppNh-FRe13vl7mT-bLKayrUqH2Ev.jpg" data-google-id="1jGfTppNh-FRe13vl7mT-bLKayrUqH2Ev" alt="Bhagavad Gita 12.17.en.jpg - thumbnail size" title="One who neither rejoices nor grieves, who neither laments nor desires, and who renounces both auspicious and inauspicious things – such a devotee is very dear to Me." width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1sbcFgFVM4Es3QfT_0ouiW3Ye8dZ9uWIe.jpg" alt="purport_image_1 - thumbnail size" title="If he loses anything which is very dear to him, he does not lament. Similarly, if he does not get what he desires, he is not distressed." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1sbcFgFVM4Es3QfT_0ouiW3Ye8dZ9uWIe.avif" type="image/avif">
+                    <img id="image_1" src="1sbcFgFVM4Es3QfT_0ouiW3Ye8dZ9uWIe.jpg" data-google-id="1sbcFgFVM4Es3QfT_0ouiW3Ye8dZ9uWIe" alt="Purport to Bhagavad Gita 12.17 image - thumbnail size" title="If he loses anything which is very dear to him, he does not lament. Similarly, if he does not get what he desires, he is not distressed." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1jGfTppNh-FRe13vl7mT-bLKayrUqH2Ev", "image_id": "image_0"}, {"google_id": "1sbcFgFVM4Es3QfT_0ouiW3Ye8dZ9uWIe", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1jGfTppNh-FRe13vl7mT-bLKayrUqH2Ev.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1jGfTppNh-FRe13vl7mT-bLKayrUqH2Ev.avif",
             "caption": "One who neither rejoices nor grieves, who neither laments nor desires, and who renounces both auspicious and inauspicious things \u2013 such a devotee is very dear to Me.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1sbcFgFVM4Es3QfT_0ouiW3Ye8dZ9uWIe.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1sbcFgFVM4Es3QfT_0ouiW3Ye8dZ9uWIe.avif",
             "caption": "If he loses anything which is very dear to him, he does not lament. Similarly, if he does not get what he desires, he is not distressed.",
             "inLanguage": "en",
             "width": "300px",

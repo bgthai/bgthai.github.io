@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1IZuJw-FZ9M2hUM_F3vGhlRGuXJnNM2lc.jpg" alt="2.34.en.jpg - thumbnail size" title="People will always speak of your infamy, and for a respectable person, dishonor is worse than death." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1IZuJw-FZ9M2hUM_F3vGhlRGuXJnNM2lc.avif" type="image/avif">
+                    <img id="image_0" src="1IZuJw-FZ9M2hUM_F3vGhlRGuXJnNM2lc.jpg" data-google-id="1IZuJw-FZ9M2hUM_F3vGhlRGuXJnNM2lc" alt="Bhagavad Gita 2.34.en.jpg - thumbnail size" title="People will always speak of your infamy, and for a respectable person, dishonor is worse than death." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1vxpi7N7Aum04RXikWL-Znq1wIxSun2Ax.jpg" alt="purport_image_1 - thumbnail size" title="“Arjuna, if you leave the battlefield before the battle even begins, people will call you a coward. And if you think that people may call you bad names but that you will save your life by fleeing the battlefield, then My advice is that you’d do better to die in the battle. For a respectable man like you, ill fame is worse than death. So, you should not flee for fear of your life; better to die in the battle. That will save you from the ill fame of misusing My friendship and from losing your prestige in society.”" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1vxpi7N7Aum04RXikWL-Znq1wIxSun2Ax.avif" type="image/avif">
+                    <img id="image_1" src="1vxpi7N7Aum04RXikWL-Znq1wIxSun2Ax.jpg" data-google-id="1vxpi7N7Aum04RXikWL-Znq1wIxSun2Ax" alt="Purport to Bhagavad Gita 2.34 image - thumbnail size" title="“Arjuna, if you leave the battlefield before the battle even begins, people will call you a coward. And if you think that people may call you bad names but that you will save your life by fleeing the battlefield, then My advice is that you’d do better to die in the battle. For a respectable man like you, ill fame is worse than death. So, you should not flee for fear of your life; better to die in the battle. That will save you from the ill fame of misusing My friendship and from losing your prestige in society.”" width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -83,18 +83,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1IZuJw-FZ9M2hUM_F3vGhlRGuXJnNM2lc", "image_id": "image_0"}, {"google_id": "1vxpi7N7Aum04RXikWL-Znq1wIxSun2Ax", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1IZuJw-FZ9M2hUM_F3vGhlRGuXJnNM2lc.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1IZuJw-FZ9M2hUM_F3vGhlRGuXJnNM2lc.avif",
             "caption": "People will always speak of your infamy, and for a respectable person, dishonor is worse than death.",
             "inLanguage": "en",
             "width": "300px",
@@ -102,7 +99,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1vxpi7N7Aum04RXikWL-Znq1wIxSun2Ax.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1vxpi7N7Aum04RXikWL-Znq1wIxSun2Ax.avif",
             "caption": "\u201cArjuna, if you leave the battlefield before the battle even begins, people will call you a coward. And if you think that people may call you bad names but that you will save your life by fleeing the battlefield, then My advice is that you\u2019d do better to die in the battle. For a respectable man like you, ill fame is worse than death. So, you should not flee for fear of your life; better to die in the battle. That will save you from the ill fame of misusing My friendship and from losing your prestige in society.\u201d",
             "inLanguage": "en",
             "width": "300px",

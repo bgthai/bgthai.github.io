@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1HKqHLDtJqu-7pH4R7U24mMnxGAbJIAjR.jpg" alt="2.4.en.jpg - thumbnail size" title="Arjuna said: O killer of enemies, O killer of Madhu, how can I counterattack with arrows in battle men like Bhīṣma and Droṇa, who are worthy of my worship?" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1HKqHLDtJqu-7pH4R7U24mMnxGAbJIAjR.avif" type="image/avif">
+                    <img id="image_0" src="1HKqHLDtJqu-7pH4R7U24mMnxGAbJIAjR.jpg" data-google-id="1HKqHLDtJqu-7pH4R7U24mMnxGAbJIAjR" alt="Bhagavad Gita 2.4.en.jpg - thumbnail size" title="Arjuna said: O killer of enemies, O killer of Madhu, how can I counterattack with arrows in battle men like Bhīṣma and Droṇa, who are worthy of my worship?" width="600px" height="748" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1ZXAZObVxI7t0Rq9E4f-LeFv3RLAMrjiu.jpg" alt="purport_image_1 - thumbnail size" title="Respectable superiors like Bhīṣma the grandfather and Droṇācārya the teacher are always worshipable. Even if they attack, they should not be counterattacked. It is general etiquette that superiors are not to be offered even a verbal fight. Even if they are sometimes harsh in behavior, they should not be harshly treated." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1ZXAZObVxI7t0Rq9E4f-LeFv3RLAMrjiu.avif" type="image/avif">
+                    <img id="image_1" src="1ZXAZObVxI7t0Rq9E4f-LeFv3RLAMrjiu.jpg" data-google-id="1ZXAZObVxI7t0Rq9E4f-LeFv3RLAMrjiu" alt="Purport to Bhagavad Gita 2.4 image - thumbnail size" title="Respectable superiors like Bhīṣma the grandfather and Droṇācārya the teacher are always worshipable. Even if they attack, they should not be counterattacked. It is general etiquette that superiors are not to be offered even a verbal fight. Even if they are sometimes harsh in behavior, they should not be harshly treated." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1HKqHLDtJqu-7pH4R7U24mMnxGAbJIAjR", "image_id": "image_0"}, {"google_id": "1ZXAZObVxI7t0Rq9E4f-LeFv3RLAMrjiu", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1HKqHLDtJqu-7pH4R7U24mMnxGAbJIAjR.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1HKqHLDtJqu-7pH4R7U24mMnxGAbJIAjR.avif",
             "caption": "Arjuna said: O killer of enemies, O killer of Madhu, how can I counterattack with arrows in battle men like Bh\u012b\u1e63ma and Dro\u1e47a, who are worthy of my worship?",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1ZXAZObVxI7t0Rq9E4f-LeFv3RLAMrjiu.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1ZXAZObVxI7t0Rq9E4f-LeFv3RLAMrjiu.avif",
             "caption": "Respectable superiors like Bh\u012b\u1e63ma the grandfather and Dro\u1e47\u0101c\u0101rya the teacher are always worshipable. Even if they attack, they should not be counterattacked. It is general etiquette that superiors are not to be offered even a verbal fight. Even if they are sometimes harsh in behavior, they should not be harshly treated.",
             "inLanguage": "en",
             "width": "300px",

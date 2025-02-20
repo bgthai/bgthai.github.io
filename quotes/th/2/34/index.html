@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1Y8bjLPA4VKPFmKd-GddH6bdF_Sl6PbU1.jpg" alt="2.34.jpg - thumbnail size" title="ผู้คนจะกล่าวถึงเรื่องเสื่อมเสียเกียรติยศชื่อเสียงของเธอตลอดเวลา สำหรับผู้ที่เคยได้รับความเคารพนับถือนั้นการสูญเสียเกียรติเช่นนี้เลวร้ายยิ่งกว่าความตาย" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1Y8bjLPA4VKPFmKd-GddH6bdF_Sl6PbU1.avif" type="image/avif">
+                    <img id="image_0" src="1Y8bjLPA4VKPFmKd-GddH6bdF_Sl6PbU1.jpg" data-google-id="1Y8bjLPA4VKPFmKd-GddH6bdF_Sl6PbU1" alt="ภขวัท-คีตา 2.34.jpg - thumbnail size" title="ผู้คนจะกล่าวถึงเรื่องเสื่อมเสียเกียรติยศชื่อเสียงของเธอตลอดเวลา สำหรับผู้ที่เคยได้รับความเคารพนับถือนั้นการสูญเสียเกียรติเช่นนี้เลวร้ายยิ่งกว่าความตาย" width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">คำอธิบาย</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1YXMuBPlB9t41we_8gHRh9u6n41P2e6RF.jpg" alt="purport_image_1 - thumbnail size" title="“อารจุนะเอ๋ย หากเธอหนีไปจากสมรภูมิก่อนที่สงครามจะเริ่มขึ้น ผู้คนจะเรียกเธอว่าเจ้าขี้ขลาด หากคิดว่าถูกประณามเช่นนี้แล้วเธอยังจะรักษาชีวิตได้ด้วยการหนีไปจากสมรภูมิ ข้าแนะนำว่าให้มาตายในสมรภูมิจะดีกว่า สำหรับผู้ที่เคยได้รับความเคารพนับถืออย่างเธอ การเสื่อมเสียชื่อเสียงนั้นเลวร้ายยิ่งกว่าความตาย ดังนั้น ไม่ควรหลบหนีไปเนื่องมาจากความกลัวตาย ตายอยู่ในสนามรบยังดีเสียกว่า เพราะจะช่วยให้พ้นจากการเสื่อมเสียชื่อเสียงที่ใช้ความเป็นเพื่อนของข้าไปในทางที่ผิด และเสียศักดิ์ศรีของตนเองในสังคม“" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1YXMuBPlB9t41we_8gHRh9u6n41P2e6RF.avif" type="image/avif">
+                    <img id="image_1" src="1YXMuBPlB9t41we_8gHRh9u6n41P2e6RF.jpg" data-google-id="1YXMuBPlB9t41we_8gHRh9u6n41P2e6RF" alt="อรรถกถา ภขวัท-คีตา 2.34 ภาพ - thumbnail size" title="“อารจุนะเอ๋ย หากเธอหนีไปจากสมรภูมิก่อนที่สงครามจะเริ่มขึ้น ผู้คนจะเรียกเธอว่าเจ้าขี้ขลาด หากคิดว่าถูกประณามเช่นนี้แล้วเธอยังจะรักษาชีวิตได้ด้วยการหนีไปจากสมรภูมิ ข้าแนะนำว่าให้มาตายในสมรภูมิจะดีกว่า สำหรับผู้ที่เคยได้รับความเคารพนับถืออย่างเธอ การเสื่อมเสียชื่อเสียงนั้นเลวร้ายยิ่งกว่าความตาย ดังนั้น ไม่ควรหลบหนีไปเนื่องมาจากความกลัวตาย ตายอยู่ในสนามรบยังดีเสียกว่า เพราะจะช่วยให้พ้นจากการเสื่อมเสียชื่อเสียงที่ใช้ความเป็นเพื่อนของข้าไปในทางที่ผิด และเสียศักดิ์ศรีของตนเองในสังคม“" width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -83,18 +83,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1Y8bjLPA4VKPFmKd-GddH6bdF_Sl6PbU1", "image_id": "image_0"}, {"google_id": "1YXMuBPlB9t41we_8gHRh9u6n41P2e6RF", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1Y8bjLPA4VKPFmKd-GddH6bdF_Sl6PbU1.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1Y8bjLPA4VKPFmKd-GddH6bdF_Sl6PbU1.avif",
             "caption": "\u0e1c\u0e39\u0e49\u0e04\u0e19\u0e08\u0e30\u0e01\u0e25\u0e48\u0e32\u0e27\u0e16\u0e36\u0e07\u0e40\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e40\u0e2a\u0e37\u0e48\u0e2d\u0e21\u0e40\u0e2a\u0e35\u0e22\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34\u0e22\u0e28\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e2a\u0e35\u0e22\u0e07\u0e02\u0e2d\u0e07\u0e40\u0e18\u0e2d\u0e15\u0e25\u0e2d\u0e14\u0e40\u0e27\u0e25\u0e32 \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e1c\u0e39\u0e49\u0e17\u0e35\u0e48\u0e40\u0e04\u0e22\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e04\u0e27\u0e32\u0e21\u0e40\u0e04\u0e32\u0e23\u0e1e\u0e19\u0e31\u0e1a\u0e16\u0e37\u0e2d\u0e19\u0e31\u0e49\u0e19\u0e01\u0e32\u0e23\u0e2a\u0e39\u0e0d\u0e40\u0e2a\u0e35\u0e22\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34\u0e40\u0e0a\u0e48\u0e19\u0e19\u0e35\u0e49\u0e40\u0e25\u0e27\u0e23\u0e49\u0e32\u0e22\u0e22\u0e34\u0e48\u0e07\u0e01\u0e27\u0e48\u0e32\u0e04\u0e27\u0e32\u0e21\u0e15\u0e32\u0e22",
             "inLanguage": "th",
             "width": "300px",
@@ -102,7 +99,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1YXMuBPlB9t41we_8gHRh9u6n41P2e6RF.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1YXMuBPlB9t41we_8gHRh9u6n41P2e6RF.avif",
             "caption": "\u201c\u0e2d\u0e32\u0e23\u0e08\u0e38\u0e19\u0e30\u0e40\u0e2d\u0e4b\u0e22 \u0e2b\u0e32\u0e01\u0e40\u0e18\u0e2d\u0e2b\u0e19\u0e35\u0e44\u0e1b\u0e08\u0e32\u0e01\u0e2a\u0e21\u0e23\u0e20\u0e39\u0e21\u0e34\u0e01\u0e48\u0e2d\u0e19\u0e17\u0e35\u0e48\u0e2a\u0e07\u0e04\u0e23\u0e32\u0e21\u0e08\u0e30\u0e40\u0e23\u0e34\u0e48\u0e21\u0e02\u0e36\u0e49\u0e19 \u0e1c\u0e39\u0e49\u0e04\u0e19\u0e08\u0e30\u0e40\u0e23\u0e35\u0e22\u0e01\u0e40\u0e18\u0e2d\u0e27\u0e48\u0e32\u0e40\u0e08\u0e49\u0e32\u0e02\u0e35\u0e49\u0e02\u0e25\u0e32\u0e14 \u0e2b\u0e32\u0e01\u0e04\u0e34\u0e14\u0e27\u0e48\u0e32\u0e16\u0e39\u0e01\u0e1b\u0e23\u0e30\u0e13\u0e32\u0e21\u0e40\u0e0a\u0e48\u0e19\u0e19\u0e35\u0e49\u0e41\u0e25\u0e49\u0e27\u0e40\u0e18\u0e2d\u0e22\u0e31\u0e07\u0e08\u0e30\u0e23\u0e31\u0e01\u0e29\u0e32\u0e0a\u0e35\u0e27\u0e34\u0e15\u0e44\u0e14\u0e49\u0e14\u0e49\u0e27\u0e22\u0e01\u0e32\u0e23\u0e2b\u0e19\u0e35\u0e44\u0e1b\u0e08\u0e32\u0e01\u0e2a\u0e21\u0e23\u0e20\u0e39\u0e21\u0e34 \u0e02\u0e49\u0e32\u0e41\u0e19\u0e30\u0e19\u0e33\u0e27\u0e48\u0e32\u0e43\u0e2b\u0e49\u0e21\u0e32\u0e15\u0e32\u0e22\u0e43\u0e19\u0e2a\u0e21\u0e23\u0e20\u0e39\u0e21\u0e34\u0e08\u0e30\u0e14\u0e35\u0e01\u0e27\u0e48\u0e32 \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e1c\u0e39\u0e49\u0e17\u0e35\u0e48\u0e40\u0e04\u0e22\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e04\u0e27\u0e32\u0e21\u0e40\u0e04\u0e32\u0e23\u0e1e\u0e19\u0e31\u0e1a\u0e16\u0e37\u0e2d\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e40\u0e18\u0e2d \u0e01\u0e32\u0e23\u0e40\u0e2a\u0e37\u0e48\u0e2d\u0e21\u0e40\u0e2a\u0e35\u0e22\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e2a\u0e35\u0e22\u0e07\u0e19\u0e31\u0e49\u0e19\u0e40\u0e25\u0e27\u0e23\u0e49\u0e32\u0e22\u0e22\u0e34\u0e48\u0e07\u0e01\u0e27\u0e48\u0e32\u0e04\u0e27\u0e32\u0e21\u0e15\u0e32\u0e22 \u0e14\u0e31\u0e07\u0e19\u0e31\u0e49\u0e19 \u0e44\u0e21\u0e48\u0e04\u0e27\u0e23\u0e2b\u0e25\u0e1a\u0e2b\u0e19\u0e35\u0e44\u0e1b\u0e40\u0e19\u0e37\u0e48\u0e2d\u0e07\u0e21\u0e32\u0e08\u0e32\u0e01\u0e04\u0e27\u0e32\u0e21\u0e01\u0e25\u0e31\u0e27\u0e15\u0e32\u0e22 \u0e15\u0e32\u0e22\u0e2d\u0e22\u0e39\u0e48\u0e43\u0e19\u0e2a\u0e19\u0e32\u0e21\u0e23\u0e1a\u0e22\u0e31\u0e07\u0e14\u0e35\u0e40\u0e2a\u0e35\u0e22\u0e01\u0e27\u0e48\u0e32 \u0e40\u0e1e\u0e23\u0e32\u0e30\u0e08\u0e30\u0e0a\u0e48\u0e27\u0e22\u0e43\u0e2b\u0e49\u0e1e\u0e49\u0e19\u0e08\u0e32\u0e01\u0e01\u0e32\u0e23\u0e40\u0e2a\u0e37\u0e48\u0e2d\u0e21\u0e40\u0e2a\u0e35\u0e22\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e2a\u0e35\u0e22\u0e07\u0e17\u0e35\u0e48\u0e43\u0e0a\u0e49\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19\u0e02\u0e2d\u0e07\u0e02\u0e49\u0e32\u0e44\u0e1b\u0e43\u0e19\u0e17\u0e32\u0e07\u0e17\u0e35\u0e48\u0e1c\u0e34\u0e14 \u0e41\u0e25\u0e30\u0e40\u0e2a\u0e35\u0e22\u0e28\u0e31\u0e01\u0e14\u0e34\u0e4c\u0e28\u0e23\u0e35\u0e02\u0e2d\u0e07\u0e15\u0e19\u0e40\u0e2d\u0e07\u0e43\u0e19\u0e2a\u0e31\u0e07\u0e04\u0e21\u201c",
             "inLanguage": "th",
             "width": "300px",

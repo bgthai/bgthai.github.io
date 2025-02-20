@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="17UKStSpYAclLtm9-UxNJnIvFQta7Bpwq.jpg" alt="6.16.jpg - thumbnail size" title="โอ้ อรฺชุน เป็นไปไม่ได้ที่บุคคลจะมาเป็นโยคี หากเขากินมากเกินไป หรือกินน้อยเกินไป นอนมากเกินไป หรือนอนไม่พอ" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="17UKStSpYAclLtm9-UxNJnIvFQta7Bpwq.avif" type="image/avif">
+                    <img id="image_0" src="17UKStSpYAclLtm9-UxNJnIvFQta7Bpwq.jpg" data-google-id="17UKStSpYAclLtm9-UxNJnIvFQta7Bpwq" alt="ภขวัท-คีตา 6.16.jpg - thumbnail size" title="โอ้ อรฺชุน เป็นไปไม่ได้ที่บุคคลจะมาเป็นโยคี หากเขากินมากเกินไป หรือกินน้อยเกินไป นอนมากเกินไป หรือนอนไม่พอ" width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">คำอธิบาย</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="18t2GIPXoQ_9RPCCjO0JrOIukySmCYQP9.jpg" alt="purport_image_1 - thumbnail size" title="กินมากเกินไปหมายถึงกินเกินความจำเป็นที่จะดำรงรักษาร่างกายและวิญญาณไว้ด้วยกัน" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="18t2GIPXoQ_9RPCCjO0JrOIukySmCYQP9.avif" type="image/avif">
+                    <img id="image_1" src="18t2GIPXoQ_9RPCCjO0JrOIukySmCYQP9.jpg" data-google-id="18t2GIPXoQ_9RPCCjO0JrOIukySmCYQP9" alt="อรรถกถา ภขวัท-คีตา 6.16 ภาพ - thumbnail size" title="กินมากเกินไปหมายถึงกินเกินความจำเป็นที่จะดำรงรักษาร่างกายและวิญญาณไว้ด้วยกัน" width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "17UKStSpYAclLtm9-UxNJnIvFQta7Bpwq", "image_id": "image_0"}, {"google_id": "18t2GIPXoQ_9RPCCjO0JrOIukySmCYQP9", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/17UKStSpYAclLtm9-UxNJnIvFQta7Bpwq.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/17UKStSpYAclLtm9-UxNJnIvFQta7Bpwq.avif",
             "caption": "\u0e42\u0e2d\u0e49 \u0e2d\u0e23\u0e3a\u0e0a\u0e38\u0e19 \u0e40\u0e1b\u0e47\u0e19\u0e44\u0e1b\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e17\u0e35\u0e48\u0e1a\u0e38\u0e04\u0e04\u0e25\u0e08\u0e30\u0e21\u0e32\u0e40\u0e1b\u0e47\u0e19\u0e42\u0e22\u0e04\u0e35 \u0e2b\u0e32\u0e01\u0e40\u0e02\u0e32\u0e01\u0e34\u0e19\u0e21\u0e32\u0e01\u0e40\u0e01\u0e34\u0e19\u0e44\u0e1b \u0e2b\u0e23\u0e37\u0e2d\u0e01\u0e34\u0e19\u0e19\u0e49\u0e2d\u0e22\u0e40\u0e01\u0e34\u0e19\u0e44\u0e1b \u0e19\u0e2d\u0e19\u0e21\u0e32\u0e01\u0e40\u0e01\u0e34\u0e19\u0e44\u0e1b \u0e2b\u0e23\u0e37\u0e2d\u0e19\u0e2d\u0e19\u0e44\u0e21\u0e48\u0e1e\u0e2d",
             "inLanguage": "th",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/18t2GIPXoQ_9RPCCjO0JrOIukySmCYQP9.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/18t2GIPXoQ_9RPCCjO0JrOIukySmCYQP9.avif",
             "caption": "\u0e01\u0e34\u0e19\u0e21\u0e32\u0e01\u0e40\u0e01\u0e34\u0e19\u0e44\u0e1b\u0e2b\u0e21\u0e32\u0e22\u0e16\u0e36\u0e07\u0e01\u0e34\u0e19\u0e40\u0e01\u0e34\u0e19\u0e04\u0e27\u0e32\u0e21\u0e08\u0e33\u0e40\u0e1b\u0e47\u0e19\u0e17\u0e35\u0e48\u0e08\u0e30\u0e14\u0e33\u0e23\u0e07\u0e23\u0e31\u0e01\u0e29\u0e32\u0e23\u0e48\u0e32\u0e07\u0e01\u0e32\u0e22\u0e41\u0e25\u0e30\u0e27\u0e34\u0e0d\u0e0d\u0e32\u0e13\u0e44\u0e27\u0e49\u0e14\u0e49\u0e27\u0e22\u0e01\u0e31\u0e19",
             "inLanguage": "th",
             "width": "300px",

@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1tvCJhlbbwkwHRRKVJWcrGpmd2hRiFBzm.jpg" alt="10.41.en.jpg - thumbnail size" title="Know that all opulent, beautiful and glorious creations spring from but a spark of My splendor." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1tvCJhlbbwkwHRRKVJWcrGpmd2hRiFBzm.avif" type="image/avif">
+                    <img id="image_0" src="1tvCJhlbbwkwHRRKVJWcrGpmd2hRiFBzm.jpg" data-google-id="1tvCJhlbbwkwHRRKVJWcrGpmd2hRiFBzm" alt="Bhagavad Gita 10.41.en.jpg - thumbnail size" title="Know that all opulent, beautiful and glorious creations spring from but a spark of My splendor." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1tvCJhlbbwkwHRRKVJWcrGpmd2hRiFBzm", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1tvCJhlbbwkwHRRKVJWcrGpmd2hRiFBzm.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1tvCJhlbbwkwHRRKVJWcrGpmd2hRiFBzm.avif",
             "caption": "Know that all opulent, beautiful and glorious creations spring from but a spark of My splendor.",
             "inLanguage": "en",
             "width": "300px",

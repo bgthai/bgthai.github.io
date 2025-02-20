@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1DoYq-yAGNB62B-UeDCE3Fi-vYJU51zgf.jpg" alt="4.23.en.jpg - thumbnail size" title="The work of a man who is unattached to the modes of material nature and who is fully situated in transcendental knowledge merges entirely into transcendence." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1DoYq-yAGNB62B-UeDCE3Fi-vYJU51zgf.avif" type="image/avif">
+                    <img id="image_0" src="1DoYq-yAGNB62B-UeDCE3Fi-vYJU51zgf.jpg" data-google-id="1DoYq-yAGNB62B-UeDCE3Fi-vYJU51zgf" alt="Bhagavad Gita 4.23.en.jpg - thumbnail size" title="The work of a man who is unattached to the modes of material nature and who is fully situated in transcendental knowledge merges entirely into transcendence." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1zp7xKYsvmPeYwnODmBACjEdZRunz4rxo.jpg" alt="purport_image_1 - thumbnail size" title="He can become liberated because he knows his constitutional position in relationship with Kṛṣṇa, and thus his mind cannot be drawn from Kṛṣṇa consciousness." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1zp7xKYsvmPeYwnODmBACjEdZRunz4rxo.avif" type="image/avif">
+                    <img id="image_1" src="1zp7xKYsvmPeYwnODmBACjEdZRunz4rxo.jpg" data-google-id="1zp7xKYsvmPeYwnODmBACjEdZRunz4rxo" alt="Purport to Bhagavad Gita 4.23 image - thumbnail size" title="He can become liberated because he knows his constitutional position in relationship with Kṛṣṇa, and thus his mind cannot be drawn from Kṛṣṇa consciousness." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1DoYq-yAGNB62B-UeDCE3Fi-vYJU51zgf", "image_id": "image_0"}, {"google_id": "1zp7xKYsvmPeYwnODmBACjEdZRunz4rxo", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1DoYq-yAGNB62B-UeDCE3Fi-vYJU51zgf.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1DoYq-yAGNB62B-UeDCE3Fi-vYJU51zgf.avif",
             "caption": "The work of a man who is unattached to the modes of material nature and who is fully situated in transcendental knowledge merges entirely into transcendence.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1zp7xKYsvmPeYwnODmBACjEdZRunz4rxo.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1zp7xKYsvmPeYwnODmBACjEdZRunz4rxo.avif",
             "caption": "He can become liberated because he knows his constitutional position in relationship with K\u1e5b\u1e63\u1e47a, and thus his mind cannot be drawn from K\u1e5b\u1e63\u1e47a consciousness.",
             "inLanguage": "en",
             "width": "300px",

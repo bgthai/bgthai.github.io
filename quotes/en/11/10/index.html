@@ -43,8 +43,8 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <video id="image_0" controls preload="none" src="17jCq0cIiKz295xIJR2L9oVcPe0Iup4gG.mp4" width="600" alt="11.10-11.en.mp4" title="Arjuna saw in that universal form unlimited mouths, unlimited eyes, unlimited wonderful visions. The form was decorated with many celestial ornaments and bore many divine upraised weapons. He wore celestial garlands and garments, and many divine scents were smeared over His body. All was wondrous, brilliant, unlimited, all-expanding.">
+            <div class="image-container">
+                <video id="image_0" controls preload="none" src="17jCq0cIiKz295xIJR2L9oVcPe0Iup4gG.mp4" width="600" height="750" poster="17jCq0cIiKz295xIJR2L9oVcPe0Iup4gG.jpg" alt="Bhagavad Gita 11.10-11.en.mp4" title="Arjuna saw in that universal form unlimited mouths, unlimited eyes, unlimited wonderful visions. The form was decorated with many celestial ornaments and bore many divine upraised weapons. He wore celestial garlands and garments, and many divine scents were smeared over His body. All was wondrous, brilliant, unlimited, all-expanding.">
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -53,17 +53,17 @@
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1DNDEAAfPwg-sUI4IfwIucdq9h0A2ea-h.jpg" alt="purport_image_1 - thumbnail size" title="In these two verses the repeated use of the word many indicates that there was no limit to the number of hands, mouths, legs and other manifestations Arjuna was seeing." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1DNDEAAfPwg-sUI4IfwIucdq9h0A2ea-h.avif" type="image/avif">
+                    <img id="image_1" src="1DNDEAAfPwg-sUI4IfwIucdq9h0A2ea-h.jpg" data-google-id="1DNDEAAfPwg-sUI4IfwIucdq9h0A2ea-h" alt="Purport to Bhagavad Gita 11.10-11 image - thumbnail size" title="In these two verses the repeated use of the word many indicates that there was no limit to the number of hands, mouths, legs and other manifestations Arjuna was seeing." width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_2" src="1piGHMFQd3ucGeuQmBYRTHjkxNG1Bkw4x.jpg" alt="purport_image_2 - thumbnail size" title="These manifestations were distributed throughout the universe, but by the grace of the Lord, Arjuna could see them while sitting in one place. That was due to the inconceivable potency of Kṛṣṇa." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1piGHMFQd3ucGeuQmBYRTHjkxNG1Bkw4x.avif" type="image/avif">
+                    <img id="image_2" src="1piGHMFQd3ucGeuQmBYRTHjkxNG1Bkw4x.jpg" data-google-id="1piGHMFQd3ucGeuQmBYRTHjkxNG1Bkw4x" alt="Purport to Bhagavad Gita 11.10-11 image - thumbnail size" title="These manifestations were distributed throughout the universe, but by the grace of the Lord, Arjuna could see them while sitting in one place. That was due to the inconceivable potency of Kṛṣṇa." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -87,18 +87,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1DNDEAAfPwg-sUI4IfwIucdq9h0A2ea-h", "image_id": "image_1"}, {"google_id": "1piGHMFQd3ucGeuQmBYRTHjkxNG1Bkw4x", "image_id": "image_2"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1DNDEAAfPwg-sUI4IfwIucdq9h0A2ea-h.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1DNDEAAfPwg-sUI4IfwIucdq9h0A2ea-h.avif",
             "caption": "In these two verses the repeated use of the word many indicates that there was no limit to the number of hands, mouths, legs and other manifestations Arjuna was seeing.",
             "inLanguage": "en",
             "width": "300px",
@@ -106,7 +103,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1piGHMFQd3ucGeuQmBYRTHjkxNG1Bkw4x.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1piGHMFQd3ucGeuQmBYRTHjkxNG1Bkw4x.avif",
             "caption": "These manifestations were distributed throughout the universe, but by the grace of the Lord, Arjuna could see them while sitting in one place. That was due to the inconceivable potency of K\u1e5b\u1e63\u1e47a.",
             "inLanguage": "en",
             "width": "300px",

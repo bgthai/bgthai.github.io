@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1gM8mBkySfTKFyJTFun2vanjKlA3YM8Nd.jpg" alt="18.43.en.jpg - thumbnail size" title="Heroism, power, determination, resourcefulness, courage in battle, generosity and leadership are the natural qualities of work for the kṣatriyas." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1gM8mBkySfTKFyJTFun2vanjKlA3YM8Nd.avif" type="image/avif">
+                    <img id="image_0" src="1gM8mBkySfTKFyJTFun2vanjKlA3YM8Nd.jpg" data-google-id="1gM8mBkySfTKFyJTFun2vanjKlA3YM8Nd" alt="Bhagavad Gita 18.43.en.jpg - thumbnail size" title="Heroism, power, determination, resourcefulness, courage in battle, generosity and leadership are the natural qualities of work for the kṣatriyas." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -68,18 +68,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1gM8mBkySfTKFyJTFun2vanjKlA3YM8Nd", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1gM8mBkySfTKFyJTFun2vanjKlA3YM8Nd.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1gM8mBkySfTKFyJTFun2vanjKlA3YM8Nd.avif",
             "caption": "Heroism, power, determination, resourcefulness, courage in battle, generosity and leadership are the natural qualities of work for the k\u1e63atriyas.",
             "inLanguage": "en",
             "width": "300px",

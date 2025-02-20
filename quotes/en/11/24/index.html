@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="18PNiZ5erb3e2zqV797wAr0FevViBeOJa.jpg" alt="11.24.en.jpg - thumbnail size" title="O all-pervading Viṣṇu, seeing You with Your many radiant colors touching the sky, Your gaping mouths, and Your great glowing eyes, my mind is perturbed by fear. I can no longer maintain my steadiness or equilibrium of mind." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="18PNiZ5erb3e2zqV797wAr0FevViBeOJa.avif" type="image/avif">
+                    <img id="image_0" src="18PNiZ5erb3e2zqV797wAr0FevViBeOJa.jpg" data-google-id="18PNiZ5erb3e2zqV797wAr0FevViBeOJa" alt="Bhagavad Gita 11.24.en.jpg - thumbnail size" title="O all-pervading Viṣṇu, seeing You with Your many radiant colors touching the sky, Your gaping mouths, and Your great glowing eyes, my mind is perturbed by fear. I can no longer maintain my steadiness or equilibrium of mind." width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -68,18 +68,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "18PNiZ5erb3e2zqV797wAr0FevViBeOJa", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/18PNiZ5erb3e2zqV797wAr0FevViBeOJa.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/18PNiZ5erb3e2zqV797wAr0FevViBeOJa.avif",
             "caption": "O all-pervading Vi\u1e63\u1e47u, seeing You with Your many radiant colors touching the sky, Your gaping mouths, and Your great glowing eyes, my mind is perturbed by fear. I can no longer maintain my steadiness or equilibrium of mind.",
             "inLanguage": "en",
             "width": "300px",

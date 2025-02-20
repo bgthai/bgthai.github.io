@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1iU53vmhoNeWMvTIcZ7HDq8lojsuBAGRJ.jpg" alt="2.60.en.jpg - thumbnail size" title="The senses are so strong and impetuous, O Arjuna, that they forcibly carry away the mind even of a man of discrimination who is endeavoring to control them." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1iU53vmhoNeWMvTIcZ7HDq8lojsuBAGRJ.avif" type="image/avif">
+                    <img id="image_0" src="1iU53vmhoNeWMvTIcZ7HDq8lojsuBAGRJ.jpg" data-google-id="1iU53vmhoNeWMvTIcZ7HDq8lojsuBAGRJ" alt="Bhagavad Gita 2.60.en.jpg - thumbnail size" title="The senses are so strong and impetuous, O Arjuna, that they forcibly carry away the mind even of a man of discrimination who is endeavoring to control them." width="600px" height="712" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1zGXm5-Ubqlud7VLmbEAcJlM06c4K0IA-.jpg" alt="purport_image_1 - thumbnail size" title="There are many learned sages, philosophers and transcendentalists who try to conquer the senses, but in spite of their endeavors, even the greatest of them sometimes fall victim to material sense enjoyment due to the agitated mind." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1zGXm5-Ubqlud7VLmbEAcJlM06c4K0IA-.avif" type="image/avif">
+                    <img id="image_1" src="1zGXm5-Ubqlud7VLmbEAcJlM06c4K0IA-.jpg" data-google-id="1zGXm5-Ubqlud7VLmbEAcJlM06c4K0IA-" alt="Purport to Bhagavad Gita 2.60 image - thumbnail size" title="There are many learned sages, philosophers and transcendentalists who try to conquer the senses, but in spite of their endeavors, even the greatest of them sometimes fall victim to material sense enjoyment due to the agitated mind." width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -85,18 +85,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1iU53vmhoNeWMvTIcZ7HDq8lojsuBAGRJ", "image_id": "image_0"}, {"google_id": "1zGXm5-Ubqlud7VLmbEAcJlM06c4K0IA-", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1iU53vmhoNeWMvTIcZ7HDq8lojsuBAGRJ.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1iU53vmhoNeWMvTIcZ7HDq8lojsuBAGRJ.avif",
             "caption": "The senses are so strong and impetuous, O Arjuna, that they forcibly carry away the mind even of a man of discrimination who is endeavoring to control them.",
             "inLanguage": "en",
             "width": "300px",
@@ -104,7 +101,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1zGXm5-Ubqlud7VLmbEAcJlM06c4K0IA-.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1zGXm5-Ubqlud7VLmbEAcJlM06c4K0IA-.avif",
             "caption": "There are many learned sages, philosophers and transcendentalists who try to conquer the senses, but in spite of their endeavors, even the greatest of them sometimes fall victim to material sense enjoyment due to the agitated mind.",
             "inLanguage": "en",
             "width": "300px",

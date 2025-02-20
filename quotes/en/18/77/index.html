@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1aBTHDD1kZLRbG9gUGNNNDvO7xMwD6MLA.jpg" alt="18.77.en.jpg - thumbnail size" title="O King, as I remember the wonderful form of Lord Kṛṣṇa, I am struck with wonder more and more, and I rejoice again and again." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1aBTHDD1kZLRbG9gUGNNNDvO7xMwD6MLA.avif" type="image/avif">
+                    <img id="image_0" src="1aBTHDD1kZLRbG9gUGNNNDvO7xMwD6MLA.jpg" data-google-id="1aBTHDD1kZLRbG9gUGNNNDvO7xMwD6MLA" alt="Bhagavad Gita 18.77.en.jpg - thumbnail size" title="O King, as I remember the wonderful form of Lord Kṛṣṇa, I am struck with wonder more and more, and I rejoice again and again." width="600px" height="492" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1bMgJlXiFrFNB1GnjyPpDhyKoIamuZrPk.jpg" alt="purport_image_1 - thumbnail size" title="Vyāsa ... is one of the great devotees of the Lord, and he is considered to be a powerful incarnation of Kṛṣṇa. Vyāsa disclosed this to his disciple Sañjaya, who remembered that wonderful form of Kṛṣṇa exhibited to Arjuna and enjoyed it repeatedly." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1bMgJlXiFrFNB1GnjyPpDhyKoIamuZrPk.avif" type="image/avif">
+                    <img id="image_1" src="1bMgJlXiFrFNB1GnjyPpDhyKoIamuZrPk.jpg" data-google-id="1bMgJlXiFrFNB1GnjyPpDhyKoIamuZrPk" alt="Purport to Bhagavad Gita 18.77 image - thumbnail size" title="Vyāsa ... is one of the great devotees of the Lord, and he is considered to be a powerful incarnation of Kṛṣṇa. Vyāsa disclosed this to his disciple Sañjaya, who remembered that wonderful form of Kṛṣṇa exhibited to Arjuna and enjoyed it repeatedly." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1aBTHDD1kZLRbG9gUGNNNDvO7xMwD6MLA", "image_id": "image_0"}, {"google_id": "1bMgJlXiFrFNB1GnjyPpDhyKoIamuZrPk", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1aBTHDD1kZLRbG9gUGNNNDvO7xMwD6MLA.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1aBTHDD1kZLRbG9gUGNNNDvO7xMwD6MLA.avif",
             "caption": "O King, as I remember the wonderful form of Lord K\u1e5b\u1e63\u1e47a, I am struck with wonder more and more, and I rejoice again and again.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1bMgJlXiFrFNB1GnjyPpDhyKoIamuZrPk.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1bMgJlXiFrFNB1GnjyPpDhyKoIamuZrPk.avif",
             "caption": "Vy\u0101sa ... is one of the great devotees of the Lord, and he is considered to be a powerful incarnation of K\u1e5b\u1e63\u1e47a. Vy\u0101sa disclosed this to his disciple Sa\u00f1jaya, who remembered that wonderful form of K\u1e5b\u1e63\u1e47a exhibited to Arjuna and enjoyed it repeatedly.",
             "inLanguage": "en",
             "width": "300px",

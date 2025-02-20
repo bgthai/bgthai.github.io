@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1pFvFPT3q0nXsi_Ve-bhDWV8JWNmpQLPj.jpg" alt="1.23.en.jpg - thumbnail size" title="Let me see those who have come here to fight, wishing to please the evil-minded son of Dhṛtarāṣṭra." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1pFvFPT3q0nXsi_Ve-bhDWV8JWNmpQLPj.avif" type="image/avif">
+                    <img id="image_0" src="1pFvFPT3q0nXsi_Ve-bhDWV8JWNmpQLPj.jpg" data-google-id="1pFvFPT3q0nXsi_Ve-bhDWV8JWNmpQLPj" alt="Bhagavad Gita 1.23.en.jpg - thumbnail size" title="Let me see those who have come here to fight, wishing to please the evil-minded son of Dhṛtarāṣṭra." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1y4OqD-2L083DdWLIvlfGa8qx4GO-Q54I.jpg" alt="purport_image_1 - thumbnail size" title="It was an open secret that Duryodhana wanted to usurp the kingdom of the Pāṇḍavas by evil plans, in collaboration with his father, Dhṛtarāṣṭra." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1y4OqD-2L083DdWLIvlfGa8qx4GO-Q54I.avif" type="image/avif">
+                    <img id="image_1" src="1y4OqD-2L083DdWLIvlfGa8qx4GO-Q54I.jpg" data-google-id="1y4OqD-2L083DdWLIvlfGa8qx4GO-Q54I" alt="Purport to Bhagavad Gita 1.23 image - thumbnail size" title="It was an open secret that Duryodhana wanted to usurp the kingdom of the Pāṇḍavas by evil plans, in collaboration with his father, Dhṛtarāṣṭra." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1pFvFPT3q0nXsi_Ve-bhDWV8JWNmpQLPj", "image_id": "image_0"}, {"google_id": "1y4OqD-2L083DdWLIvlfGa8qx4GO-Q54I", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1pFvFPT3q0nXsi_Ve-bhDWV8JWNmpQLPj.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1pFvFPT3q0nXsi_Ve-bhDWV8JWNmpQLPj.avif",
             "caption": "Let me see those who have come here to fight, wishing to please the evil-minded son of Dh\u1e5btar\u0101\u1e63\u1e6dra.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1y4OqD-2L083DdWLIvlfGa8qx4GO-Q54I.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1y4OqD-2L083DdWLIvlfGa8qx4GO-Q54I.avif",
             "caption": "It was an open secret that Duryodhana wanted to usurp the kingdom of the P\u0101\u1e47\u1e0davas by evil plans, in collaboration with his father, Dh\u1e5btar\u0101\u1e63\u1e6dra.",
             "inLanguage": "en",
             "width": "300px",

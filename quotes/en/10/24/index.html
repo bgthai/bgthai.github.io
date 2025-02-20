@@ -43,28 +43,28 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1qhoWadfoktiO0KBWMYX-syxYYdHOEmYa.jpg" alt="10.24.en.jpg - thumbnail size" title="Of priests, O Arjuna, know Me to be the chief, Bṛhaspati. Of generals I am Kārttikeya, and of bodies of water I am the ocean." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1qhoWadfoktiO0KBWMYX-syxYYdHOEmYa.avif" type="image/avif">
+                    <img id="image_0" src="1qhoWadfoktiO0KBWMYX-syxYYdHOEmYa.jpg" data-google-id="1qhoWadfoktiO0KBWMYX-syxYYdHOEmYa" alt="Bhagavad Gita 10.24.en.jpg - thumbnail size" title="Of priests, O Arjuna, know Me to be the chief, Bṛhaspati. Of generals I am Kārttikeya, and of bodies of water I am the ocean." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1o_UuBS7wFLD-nfcie8i3MeF9kAckgfHR.jpg" alt="purport_image_1 - thumbnail size" title="Indra is the chief demigod of the heavenly planets and is known as the king of the heavens. The planet on which he reigns is called Indraloka." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1o_UuBS7wFLD-nfcie8i3MeF9kAckgfHR.avif" type="image/avif">
+                    <img id="image_1" src="1o_UuBS7wFLD-nfcie8i3MeF9kAckgfHR.jpg" data-google-id="1o_UuBS7wFLD-nfcie8i3MeF9kAckgfHR" alt="Purport to Bhagavad Gita 10.24 image - thumbnail size" title="Indra is the chief demigod of the heavenly planets and is known as the king of the heavens. The planet on which he reigns is called Indraloka." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_2" src="147GCcnV3WRFkhjgbAPqPFETK1_A_r91F.jpg" alt="purport_image_2 - thumbnail size" title="Indra is the chief demigod of the heavenly planets and is known as the king of the heavens. The planet on which he reigns is called Indraloka." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="147GCcnV3WRFkhjgbAPqPFETK1_A_r91F.avif" type="image/avif">
+                    <img id="image_2" src="147GCcnV3WRFkhjgbAPqPFETK1_A_r91F.jpg" data-google-id="147GCcnV3WRFkhjgbAPqPFETK1_A_r91F" alt="Purport to Bhagavad Gita 10.24 image - thumbnail size" title="Indra is the chief demigod of the heavenly planets and is known as the king of the heavens. The planet on which he reigns is called Indraloka." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -88,18 +88,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1qhoWadfoktiO0KBWMYX-syxYYdHOEmYa", "image_id": "image_0"}, {"google_id": "1o_UuBS7wFLD-nfcie8i3MeF9kAckgfHR", "image_id": "image_1"}, {"google_id": "147GCcnV3WRFkhjgbAPqPFETK1_A_r91F", "image_id": "image_2"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1qhoWadfoktiO0KBWMYX-syxYYdHOEmYa.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1qhoWadfoktiO0KBWMYX-syxYYdHOEmYa.avif",
             "caption": "Of priests, O Arjuna, know Me to be the chief, B\u1e5bhaspati. Of generals I am K\u0101rttikeya, and of bodies of water I am the ocean.",
             "inLanguage": "en",
             "width": "300px",
@@ -107,7 +104,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1o_UuBS7wFLD-nfcie8i3MeF9kAckgfHR.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1o_UuBS7wFLD-nfcie8i3MeF9kAckgfHR.avif",
             "caption": "Indra is the chief demigod of the heavenly planets and is known as the king of the heavens. The planet on which he reigns is called Indraloka.",
             "inLanguage": "en",
             "width": "300px",
@@ -115,7 +112,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/147GCcnV3WRFkhjgbAPqPFETK1_A_r91F.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/147GCcnV3WRFkhjgbAPqPFETK1_A_r91F.avif",
             "caption": "Indra is the chief demigod of the heavenly planets and is known as the king of the heavens. The planet on which he reigns is called Indraloka.",
             "inLanguage": "en",
             "width": "300px",

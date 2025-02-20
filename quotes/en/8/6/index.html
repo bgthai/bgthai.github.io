@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1I5Q6TYTyAeZw3ErNQHV3WBbKR1kFs2EB.jpg" alt="8.6.en.jpg - thumbnail size" title="Whatever state of being one remembers when he quits his body, O son of Kuntī, that state he will attain without fail." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1I5Q6TYTyAeZw3ErNQHV3WBbKR1kFs2EB.avif" type="image/avif">
+                    <img id="image_0" src="1I5Q6TYTyAeZw3ErNQHV3WBbKR1kFs2EB.jpg" data-google-id="1I5Q6TYTyAeZw3ErNQHV3WBbKR1kFs2EB" alt="Bhagavad Gita 8.6.en.jpg - thumbnail size" title="Whatever state of being one remembers when he quits his body, O son of Kuntī, that state he will attain without fail." width="600px" height="513" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1m1ZWnTyM4c0uFIkXiZ0ykAWgFwo7eNqM.jpg" alt="purport_image_1 - thumbnail size" title="A person who at the end of his life quits his body thinking of Kṛṣṇa attains the transcendental nature of the Supreme Lord, but it is not true that a person who thinks of something other than Kṛṣṇa attains the same transcendental state." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1m1ZWnTyM4c0uFIkXiZ0ykAWgFwo7eNqM.avif" type="image/avif">
+                    <img id="image_1" src="1m1ZWnTyM4c0uFIkXiZ0ykAWgFwo7eNqM.jpg" data-google-id="1m1ZWnTyM4c0uFIkXiZ0ykAWgFwo7eNqM" alt="Purport to Bhagavad Gita 8.6 image - thumbnail size" title="A person who at the end of his life quits his body thinking of Kṛṣṇa attains the transcendental nature of the Supreme Lord, but it is not true that a person who thinks of something other than Kṛṣṇa attains the same transcendental state." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1I5Q6TYTyAeZw3ErNQHV3WBbKR1kFs2EB", "image_id": "image_0"}, {"google_id": "1m1ZWnTyM4c0uFIkXiZ0ykAWgFwo7eNqM", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1I5Q6TYTyAeZw3ErNQHV3WBbKR1kFs2EB.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1I5Q6TYTyAeZw3ErNQHV3WBbKR1kFs2EB.avif",
             "caption": "Whatever state of being one remembers when he quits his body, O son of Kunt\u012b, that state he will attain without fail.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1m1ZWnTyM4c0uFIkXiZ0ykAWgFwo7eNqM.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1m1ZWnTyM4c0uFIkXiZ0ykAWgFwo7eNqM.avif",
             "caption": "A person who at the end of his life quits his body thinking of K\u1e5b\u1e63\u1e47a attains the transcendental nature of the Supreme Lord, but it is not true that a person who thinks of something other than K\u1e5b\u1e63\u1e47a attains the same transcendental state.",
             "inLanguage": "en",
             "width": "300px",

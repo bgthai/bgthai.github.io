@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1H8LU_50T2BFugdgAYYk5ylVWUxEp0nGz.jpg" alt="17.22.en.jpg - thumbnail size" title="And charity performed at an impure place, at an improper time, to unworthy persons, or without proper attention and respect is said to be in the mode of ignorance." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1H8LU_50T2BFugdgAYYk5ylVWUxEp0nGz.avif" type="image/avif">
+                    <img id="image_0" src="1H8LU_50T2BFugdgAYYk5ylVWUxEp0nGz.jpg" data-google-id="1H8LU_50T2BFugdgAYYk5ylVWUxEp0nGz" alt="Bhagavad Gita 17.22.en.jpg - thumbnail size" title="And charity performed at an impure place, at an improper time, to unworthy persons, or without proper attention and respect is said to be in the mode of ignorance." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1e1Cm2v38TbrIwGBE2Envw7OLgOQ_vLx6.jpg" alt="purport_image_1 - thumbnail size" title="Contributions for indulgence in intoxication and gambling are not encouraged here." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1e1Cm2v38TbrIwGBE2Envw7OLgOQ_vLx6.avif" type="image/avif">
+                    <img id="image_1" src="1e1Cm2v38TbrIwGBE2Envw7OLgOQ_vLx6.jpg" data-google-id="1e1Cm2v38TbrIwGBE2Envw7OLgOQ_vLx6" alt="Purport to Bhagavad Gita 17.22 image - thumbnail size" title="Contributions for indulgence in intoxication and gambling are not encouraged here." width="600px" height="558" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1H8LU_50T2BFugdgAYYk5ylVWUxEp0nGz", "image_id": "image_0"}, {"google_id": "1e1Cm2v38TbrIwGBE2Envw7OLgOQ_vLx6", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1H8LU_50T2BFugdgAYYk5ylVWUxEp0nGz.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1H8LU_50T2BFugdgAYYk5ylVWUxEp0nGz.avif",
             "caption": "And charity performed at an impure place, at an improper time, to unworthy persons, or without proper attention and respect is said to be in the mode of ignorance.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1e1Cm2v38TbrIwGBE2Envw7OLgOQ_vLx6.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1e1Cm2v38TbrIwGBE2Envw7OLgOQ_vLx6.avif",
             "caption": "Contributions for indulgence in intoxication and gambling are not encouraged here.",
             "inLanguage": "en",
             "width": "300px",

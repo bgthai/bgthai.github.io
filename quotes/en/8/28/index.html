@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1fcUAlAA1aFVbIBMvF9tCp53Qe7WVixg4.jpg" alt="8.28.en.jpg - thumbnail size" title="A person who accepts the path of devotional service is not bereft of the results derived from studying the Vedas, performing sacrifices, undergoing austerities, giving charity or pursuing philosophical and fruitive activities. Simply by performing devotional service, he attains all these, and at the end he reaches the supreme eternal abode." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1fcUAlAA1aFVbIBMvF9tCp53Qe7WVixg4.avif" type="image/avif">
+                    <img id="image_0" src="1fcUAlAA1aFVbIBMvF9tCp53Qe7WVixg4.jpg" data-google-id="1fcUAlAA1aFVbIBMvF9tCp53Qe7WVixg4" alt="Bhagavad Gita 8.28.en.jpg - thumbnail size" title="A person who accepts the path of devotional service is not bereft of the results derived from studying the Vedas, performing sacrifices, undergoing austerities, giving charity or pursuing philosophical and fruitive activities. Simply by performing devotional service, he attains all these, and at the end he reaches the supreme eternal abode." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -80,18 +80,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1fcUAlAA1aFVbIBMvF9tCp53Qe7WVixg4", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1fcUAlAA1aFVbIBMvF9tCp53Qe7WVixg4.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1fcUAlAA1aFVbIBMvF9tCp53Qe7WVixg4.avif",
             "caption": "A person who accepts the path of devotional service is not bereft of the results derived from studying the Vedas, performing sacrifices, undergoing austerities, giving charity or pursuing philosophical and fruitive activities. Simply by performing devotional service, he attains all these, and at the end he reaches the supreme eternal abode.",
             "inLanguage": "en",
             "width": "300px",

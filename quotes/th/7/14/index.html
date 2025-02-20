@@ -43,23 +43,23 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1LW_pBBuqloWBzvXQmo9XE1F1aEZF7ZMz.jpg" alt="7.14.jpg - thumbnail size" title="พลังทิพย์ของข้านี้ประกอบด้วยสามระดับแห่งธรรมชาติวัตถุซึ่งเอาชนะได้ยาก แต่พวกที่ศิโรราบต่อข้าสามารถข้ามพ้นไปได้โดยง่ายดาย" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1LW_pBBuqloWBzvXQmo9XE1F1aEZF7ZMz.avif" type="image/avif">
+                    <img id="image_0" src="1LW_pBBuqloWBzvXQmo9XE1F1aEZF7ZMz.jpg" data-google-id="1LW_pBBuqloWBzvXQmo9XE1F1aEZF7ZMz" alt="ภขวัท-คีตา 7.14.jpg - thumbnail size" title="พลังทิพย์ของข้านี้ประกอบด้วยสามระดับแห่งธรรมชาติวัตถุซึ่งเอาชนะได้ยาก แต่พวกที่ศิโรราบต่อข้าสามารถข้ามพ้นไปได้โดยง่ายดาย" width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1hQ6rafwf_rZEClxDkk-2A3EjSOcRginv.jpg" alt="7.14.1.jpg - thumbnail size" title="พลังทิพย์ของข้านี้ประกอบด้วยสามระดับแห่งธรรมชาติวัตถุซึ่งเอาชนะได้ยาก แต่พวกที่ศิโรราบต่อข้าสามารถข้ามพ้นไปได้โดยง่ายดาย" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1hQ6rafwf_rZEClxDkk-2A3EjSOcRginv.avif" type="image/avif">
+                    <img id="image_1" src="1hQ6rafwf_rZEClxDkk-2A3EjSOcRginv.jpg" data-google-id="1hQ6rafwf_rZEClxDkk-2A3EjSOcRginv" alt="ภขวัท-คีตา 7.14.1.jpg - thumbnail size" title="พลังทิพย์ของข้านี้ประกอบด้วยสามระดับแห่งธรรมชาติวัตถุซึ่งเอาชนะได้ยาก แต่พวกที่ศิโรราบต่อข้าสามารถข้ามพ้นไปได้โดยง่ายดาย" width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_2" src="1MH0oRaNkf-Q560HoG22zXELfTZ8NcYY2.jpg" alt="7.14.jpg - thumbnail size" title="พลังทิพย์ของข้านี้ประกอบด้วยสามระดับแห่งธรรมชาติวัตถุซึ่งเอาชนะได้ยาก แต่พวกที่ศิโรราบต่อข้าสามารถข้ามพ้นไปได้โดยง่ายดาย" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1MH0oRaNkf-Q560HoG22zXELfTZ8NcYY2.avif" type="image/avif">
+                    <img id="image_2" src="1MH0oRaNkf-Q560HoG22zXELfTZ8NcYY2.jpg" data-google-id="1MH0oRaNkf-Q560HoG22zXELfTZ8NcYY2" alt="ภขวัท-คีตา 7.14.jpg - thumbnail size" title="พลังทิพย์ของข้านี้ประกอบด้วยสามระดับแห่งธรรมชาติวัตถุซึ่งเอาชนะได้ยาก แต่พวกที่ศิโรราบต่อข้าสามารถข้ามพ้นไปได้โดยง่ายดาย" width="600px" height="798" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -90,18 +90,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1LW_pBBuqloWBzvXQmo9XE1F1aEZF7ZMz", "image_id": "image_0"}, {"google_id": "1hQ6rafwf_rZEClxDkk-2A3EjSOcRginv", "image_id": "image_1"}, {"google_id": "1MH0oRaNkf-Q560HoG22zXELfTZ8NcYY2", "image_id": "image_2"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1LW_pBBuqloWBzvXQmo9XE1F1aEZF7ZMz.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1LW_pBBuqloWBzvXQmo9XE1F1aEZF7ZMz.avif",
             "caption": "\u0e1e\u0e25\u0e31\u0e07\u0e17\u0e34\u0e1e\u0e22\u0e4c\u0e02\u0e2d\u0e07\u0e02\u0e49\u0e32\u0e19\u0e35\u0e49\u0e1b\u0e23\u0e30\u0e01\u0e2d\u0e1a\u0e14\u0e49\u0e27\u0e22\u0e2a\u0e32\u0e21\u0e23\u0e30\u0e14\u0e31\u0e1a\u0e41\u0e2b\u0e48\u0e07\u0e18\u0e23\u0e23\u0e21\u0e0a\u0e32\u0e15\u0e34\u0e27\u0e31\u0e15\u0e16\u0e38\u0e0b\u0e36\u0e48\u0e07\u0e40\u0e2d\u0e32\u0e0a\u0e19\u0e30\u0e44\u0e14\u0e49\u0e22\u0e32\u0e01 \u0e41\u0e15\u0e48\u0e1e\u0e27\u0e01\u0e17\u0e35\u0e48\u0e28\u0e34\u0e42\u0e23\u0e23\u0e32\u0e1a\u0e15\u0e48\u0e2d\u0e02\u0e49\u0e32\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e02\u0e49\u0e32\u0e21\u0e1e\u0e49\u0e19\u0e44\u0e1b\u0e44\u0e14\u0e49\u0e42\u0e14\u0e22\u0e07\u0e48\u0e32\u0e22\u0e14\u0e32\u0e22",
             "inLanguage": "th",
             "width": "300px",
@@ -109,7 +106,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1hQ6rafwf_rZEClxDkk-2A3EjSOcRginv.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1hQ6rafwf_rZEClxDkk-2A3EjSOcRginv.avif",
             "caption": "\u0e1e\u0e25\u0e31\u0e07\u0e17\u0e34\u0e1e\u0e22\u0e4c\u0e02\u0e2d\u0e07\u0e02\u0e49\u0e32\u0e19\u0e35\u0e49\u0e1b\u0e23\u0e30\u0e01\u0e2d\u0e1a\u0e14\u0e49\u0e27\u0e22\u0e2a\u0e32\u0e21\u0e23\u0e30\u0e14\u0e31\u0e1a\u0e41\u0e2b\u0e48\u0e07\u0e18\u0e23\u0e23\u0e21\u0e0a\u0e32\u0e15\u0e34\u0e27\u0e31\u0e15\u0e16\u0e38\u0e0b\u0e36\u0e48\u0e07\u0e40\u0e2d\u0e32\u0e0a\u0e19\u0e30\u0e44\u0e14\u0e49\u0e22\u0e32\u0e01 \u0e41\u0e15\u0e48\u0e1e\u0e27\u0e01\u0e17\u0e35\u0e48\u0e28\u0e34\u0e42\u0e23\u0e23\u0e32\u0e1a\u0e15\u0e48\u0e2d\u0e02\u0e49\u0e32\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e02\u0e49\u0e32\u0e21\u0e1e\u0e49\u0e19\u0e44\u0e1b\u0e44\u0e14\u0e49\u0e42\u0e14\u0e22\u0e07\u0e48\u0e32\u0e22\u0e14\u0e32\u0e22",
             "inLanguage": "th",
             "width": "300px",
@@ -117,7 +114,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1MH0oRaNkf-Q560HoG22zXELfTZ8NcYY2.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1MH0oRaNkf-Q560HoG22zXELfTZ8NcYY2.avif",
             "caption": "\u0e1e\u0e25\u0e31\u0e07\u0e17\u0e34\u0e1e\u0e22\u0e4c\u0e02\u0e2d\u0e07\u0e02\u0e49\u0e32\u0e19\u0e35\u0e49\u0e1b\u0e23\u0e30\u0e01\u0e2d\u0e1a\u0e14\u0e49\u0e27\u0e22\u0e2a\u0e32\u0e21\u0e23\u0e30\u0e14\u0e31\u0e1a\u0e41\u0e2b\u0e48\u0e07\u0e18\u0e23\u0e23\u0e21\u0e0a\u0e32\u0e15\u0e34\u0e27\u0e31\u0e15\u0e16\u0e38\u0e0b\u0e36\u0e48\u0e07\u0e40\u0e2d\u0e32\u0e0a\u0e19\u0e30\u0e44\u0e14\u0e49\u0e22\u0e32\u0e01 \u0e41\u0e15\u0e48\u0e1e\u0e27\u0e01\u0e17\u0e35\u0e48\u0e28\u0e34\u0e42\u0e23\u0e23\u0e32\u0e1a\u0e15\u0e48\u0e2d\u0e02\u0e49\u0e32\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e02\u0e49\u0e32\u0e21\u0e1e\u0e49\u0e19\u0e44\u0e1b\u0e44\u0e14\u0e49\u0e42\u0e14\u0e22\u0e07\u0e48\u0e32\u0e22\u0e14\u0e32\u0e22",
             "inLanguage": "th",
             "width": "300px",

@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1OZ9JTILFXPFLlOnYD5FB1PigYtKNMtXj.jpg" alt="10.6.en.jpg - thumbnail size" title="The seven great sages and before them the four other great sages and the Manus [progenitors of mankind] come from Me, born from My mind, and all the living beings populating the various planets descend from them." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1OZ9JTILFXPFLlOnYD5FB1PigYtKNMtXj.avif" type="image/avif">
+                    <img id="image_0" src="1OZ9JTILFXPFLlOnYD5FB1PigYtKNMtXj.jpg" data-google-id="1OZ9JTILFXPFLlOnYD5FB1PigYtKNMtXj" alt="Bhagavad Gita 10.6.en.jpg - thumbnail size" title="The seven great sages and before them the four other great sages and the Manus [progenitors of mankind] come from Me, born from My mind, and all the living beings populating the various planets descend from them." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1v3Ge2kmntGsRfxlcK0MRUupyp01qPYBJ.jpg" alt="purport_image_1 - thumbnail size" title="Brahmā is the original creature born out of the energy of the Supreme Lord, who is known as Hiraṇyagarbha. And from Brahmā all the seven great sages, and before them four other great sages, named Sanaka, Sananda, Sanātana and Sanat-kumāra, and the fourteen Manus, are manifested." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1v3Ge2kmntGsRfxlcK0MRUupyp01qPYBJ.avif" type="image/avif">
+                    <img id="image_1" src="1v3Ge2kmntGsRfxlcK0MRUupyp01qPYBJ.jpg" data-google-id="1v3Ge2kmntGsRfxlcK0MRUupyp01qPYBJ" alt="Purport to Bhagavad Gita 10.6 image - thumbnail size" title="Brahmā is the original creature born out of the energy of the Supreme Lord, who is known as Hiraṇyagarbha. And from Brahmā all the seven great sages, and before them four other great sages, named Sanaka, Sananda, Sanātana and Sanat-kumāra, and the fourteen Manus, are manifested." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1OZ9JTILFXPFLlOnYD5FB1PigYtKNMtXj", "image_id": "image_0"}, {"google_id": "1v3Ge2kmntGsRfxlcK0MRUupyp01qPYBJ", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1OZ9JTILFXPFLlOnYD5FB1PigYtKNMtXj.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1OZ9JTILFXPFLlOnYD5FB1PigYtKNMtXj.avif",
             "caption": "The seven great sages and before them the four other great sages and the Manus [progenitors of mankind] come from Me, born from My mind, and all the living beings populating the various planets descend from them.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1v3Ge2kmntGsRfxlcK0MRUupyp01qPYBJ.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1v3Ge2kmntGsRfxlcK0MRUupyp01qPYBJ.avif",
             "caption": "Brahm\u0101 is the original creature born out of the energy of the Supreme Lord, who is known as Hira\u1e47yagarbha. And from Brahm\u0101 all the seven great sages, and before them four other great sages, named Sanaka, Sananda, San\u0101tana and Sanat-kum\u0101ra, and the fourteen Manus, are manifested.",
             "inLanguage": "en",
             "width": "300px",

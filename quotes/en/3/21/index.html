@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1fHXPkf4voRg-FxV2NJA_MMsVcLh2w0s4.jpg" alt="3.21.en.jpg - thumbnail size" title="Whatever action a great man performs, common men follow. And whatever standards he sets by exemplary acts, all the world pursues." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1fHXPkf4voRg-FxV2NJA_MMsVcLh2w0s4.avif" type="image/avif">
+                    <img id="image_0" src="1fHXPkf4voRg-FxV2NJA_MMsVcLh2w0s4.jpg" data-google-id="1fHXPkf4voRg-FxV2NJA_MMsVcLh2w0s4" alt="Bhagavad Gita 3.21.en.jpg - thumbnail size" title="Whatever action a great man performs, common men follow. And whatever standards he sets by exemplary acts, all the world pursues." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1buyWnHrpg8GfnmDWWqnJiACKh-Al1t7Y.jpg" alt="purport_image_1 - thumbnail size" title="People in general always require a leader who can teach the public by practical behavior." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1buyWnHrpg8GfnmDWWqnJiACKh-Al1t7Y.avif" type="image/avif">
+                    <img id="image_1" src="1buyWnHrpg8GfnmDWWqnJiACKh-Al1t7Y.jpg" data-google-id="1buyWnHrpg8GfnmDWWqnJiACKh-Al1t7Y" alt="Purport to Bhagavad Gita 3.21 image - thumbnail size" title="People in general always require a leader who can teach the public by practical behavior." width="600px" height="550" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1fHXPkf4voRg-FxV2NJA_MMsVcLh2w0s4", "image_id": "image_0"}, {"google_id": "1buyWnHrpg8GfnmDWWqnJiACKh-Al1t7Y", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1fHXPkf4voRg-FxV2NJA_MMsVcLh2w0s4.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1fHXPkf4voRg-FxV2NJA_MMsVcLh2w0s4.avif",
             "caption": "Whatever action a great man performs, common men follow. And whatever standards he sets by exemplary acts, all the world pursues.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1buyWnHrpg8GfnmDWWqnJiACKh-Al1t7Y.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1buyWnHrpg8GfnmDWWqnJiACKh-Al1t7Y.avif",
             "caption": "People in general always require a leader who can teach the public by practical behavior.",
             "inLanguage": "en",
             "width": "300px",

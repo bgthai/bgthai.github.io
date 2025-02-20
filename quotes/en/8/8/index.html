@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1EjIBbEWHugNqjJQrY_g5omGTkJ02kNNO.jpg" alt="8.8.en.jpg - thumbnail size" title="He who meditates on Me as the Supreme Personality of Godhead, his mind constantly engaged in remembering Me, undeviated from the path, he, O Pārtha, is sure to reach Me." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1EjIBbEWHugNqjJQrY_g5omGTkJ02kNNO.avif" type="image/avif">
+                    <img id="image_0" src="1EjIBbEWHugNqjJQrY_g5omGTkJ02kNNO.jpg" data-google-id="1EjIBbEWHugNqjJQrY_g5omGTkJ02kNNO" alt="Bhagavad Gita 8.8.en.jpg - thumbnail size" title="He who meditates on Me as the Supreme Personality of Godhead, his mind constantly engaged in remembering Me, undeviated from the path, he, O Pārtha, is sure to reach Me." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -77,18 +77,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1EjIBbEWHugNqjJQrY_g5omGTkJ02kNNO", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1EjIBbEWHugNqjJQrY_g5omGTkJ02kNNO.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1EjIBbEWHugNqjJQrY_g5omGTkJ02kNNO.avif",
             "caption": "He who meditates on Me as the Supreme Personality of Godhead, his mind constantly engaged in remembering Me, undeviated from the path, he, O P\u0101rtha, is sure to reach Me.",
             "inLanguage": "en",
             "width": "300px",

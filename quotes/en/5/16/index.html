@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1agtxVPrMLxeU3MD60Z0O62l-n-NEDo--.jpg" alt="5.16.en.jpg - thumbnail size" title="When, however, one is enlightened with the knowledge by which nescience is destroyed, then his knowledge reveals everything, as the sun lights up everything in the daytime." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1agtxVPrMLxeU3MD60Z0O62l-n-NEDo--.avif" type="image/avif">
+                    <img id="image_0" src="1agtxVPrMLxeU3MD60Z0O62l-n-NEDo--.jpg" data-google-id="1agtxVPrMLxeU3MD60Z0O62l-n-NEDo--" alt="Bhagavad Gita 5.16.en.jpg - thumbnail size" title="When, however, one is enlightened with the knowledge by which nescience is destroyed, then his knowledge reveals everything, as the sun lights up everything in the daytime." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1agtxVPrMLxeU3MD60Z0O62l-n-NEDo--", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1agtxVPrMLxeU3MD60Z0O62l-n-NEDo--.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1agtxVPrMLxeU3MD60Z0O62l-n-NEDo--.avif",
             "caption": "When, however, one is enlightened with the knowledge by which nescience is destroyed, then his knowledge reveals everything, as the sun lights up everything in the daytime.",
             "inLanguage": "en",
             "width": "300px",

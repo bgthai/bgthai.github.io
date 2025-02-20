@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="18A0o-M_Sn92gh2ioZ5-j2jccC_bD8YF2.jpg" alt="11.7.en.jpg - thumbnail size" title="O Arjuna, whatever you wish to see, behold at once in this body of Mine! This universal form can show you whatever you now desire to see and whatever you may want to see in the future. Everything – moving and nonmoving – is here completely, in one place." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="18A0o-M_Sn92gh2ioZ5-j2jccC_bD8YF2.avif" type="image/avif">
+                    <img id="image_0" src="18A0o-M_Sn92gh2ioZ5-j2jccC_bD8YF2.jpg" data-google-id="18A0o-M_Sn92gh2ioZ5-j2jccC_bD8YF2" alt="Bhagavad Gita 11.7.en.jpg - thumbnail size" title="O Arjuna, whatever you wish to see, behold at once in this body of Mine! This universal form can show you whatever you now desire to see and whatever you may want to see in the future. Everything – moving and nonmoving – is here completely, in one place." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1fWYjrkJRpkHQdm2ZNxPXU8u6ft_JVKKI.jpg" alt="purport_image_1 - thumbnail size" title="Even the most advanced scientist cannot see what is going on in other parts of the universe." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1fWYjrkJRpkHQdm2ZNxPXU8u6ft_JVKKI.avif" type="image/avif">
+                    <img id="image_1" src="1fWYjrkJRpkHQdm2ZNxPXU8u6ft_JVKKI.jpg" data-google-id="1fWYjrkJRpkHQdm2ZNxPXU8u6ft_JVKKI" alt="Purport to Bhagavad Gita 11.7 image - thumbnail size" title="Even the most advanced scientist cannot see what is going on in other parts of the universe." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "18A0o-M_Sn92gh2ioZ5-j2jccC_bD8YF2", "image_id": "image_0"}, {"google_id": "1fWYjrkJRpkHQdm2ZNxPXU8u6ft_JVKKI", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/18A0o-M_Sn92gh2ioZ5-j2jccC_bD8YF2.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/18A0o-M_Sn92gh2ioZ5-j2jccC_bD8YF2.avif",
             "caption": "O Arjuna, whatever you wish to see, behold at once in this body of Mine! This universal form can show you whatever you now desire to see and whatever you may want to see in the future. Everything \u2013 moving and nonmoving \u2013 is here completely, in one place.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1fWYjrkJRpkHQdm2ZNxPXU8u6ft_JVKKI.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1fWYjrkJRpkHQdm2ZNxPXU8u6ft_JVKKI.avif",
             "caption": "Even the most advanced scientist cannot see what is going on in other parts of the universe.",
             "inLanguage": "en",
             "width": "300px",

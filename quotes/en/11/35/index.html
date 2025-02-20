@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1skQj77kmNalr1TtvOoFsztxyu4Sr0UB7.jpg" alt="11.35.en.jpg - thumbnail size" title="Sañjaya said to Dhṛtarāṣṭra: O King, after hearing these words from the Supreme Personality of Godhead, the trembling Arjuna offered obeisances with folded hands again and again. He fearfully spoke to Lord Kṛṣṇa in a faltering voice, as follows." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1skQj77kmNalr1TtvOoFsztxyu4Sr0UB7.avif" type="image/avif">
+                    <img id="image_0" src="1skQj77kmNalr1TtvOoFsztxyu4Sr0UB7.jpg" data-google-id="1skQj77kmNalr1TtvOoFsztxyu4Sr0UB7" alt="Bhagavad Gita 11.35.en.jpg - thumbnail size" title="Sañjaya said to Dhṛtarāṣṭra: O King, after hearing these words from the Supreme Personality of Godhead, the trembling Arjuna offered obeisances with folded hands again and again. He fearfully spoke to Lord Kṛṣṇa in a faltering voice, as follows." width="600px" height="675" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1skQj77kmNalr1TtvOoFsztxyu4Sr0UB7", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1skQj77kmNalr1TtvOoFsztxyu4Sr0UB7.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1skQj77kmNalr1TtvOoFsztxyu4Sr0UB7.avif",
             "caption": "Sa\u00f1jaya said to Dh\u1e5btar\u0101\u1e63\u1e6dra: O King, after hearing these words from the Supreme Personality of Godhead, the trembling Arjuna offered obeisances with folded hands again and again. He fearfully spoke to Lord K\u1e5b\u1e63\u1e47a in a faltering voice, as follows.",
             "inLanguage": "en",
             "width": "300px",

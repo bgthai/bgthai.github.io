@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1zY10i0PfduAl_nCzuXwy8yn0f8SDJUGg.jpg" alt="18.10.en.jpg - thumbnail size" title="The intelligent renouncer situated in the mode of goodness, neither hateful of inauspicious work nor attached to auspicious work, has no doubts about work." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1zY10i0PfduAl_nCzuXwy8yn0f8SDJUGg.avif" type="image/avif">
+                    <img id="image_0" src="1zY10i0PfduAl_nCzuXwy8yn0f8SDJUGg.jpg" data-google-id="1zY10i0PfduAl_nCzuXwy8yn0f8SDJUGg" alt="Bhagavad Gita 18.10.en.jpg - thumbnail size" title="The intelligent renouncer situated in the mode of goodness, neither hateful of inauspicious work nor attached to auspicious work, has no doubts about work." width="600px" height="530" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1dpk2tUMR7KsF3Y0sPF3NxLS_GYjpd3Cx.jpg" alt="purport_image_1 - thumbnail size" title="A person in Kṛṣṇa consciousness or in the mode of goodness does not hate anyone or anything which troubles his body. He does work in the proper place and at the proper time without fearing the troublesome effects of his duty." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1dpk2tUMR7KsF3Y0sPF3NxLS_GYjpd3Cx.avif" type="image/avif">
+                    <img id="image_1" src="1dpk2tUMR7KsF3Y0sPF3NxLS_GYjpd3Cx.jpg" data-google-id="1dpk2tUMR7KsF3Y0sPF3NxLS_GYjpd3Cx" alt="Purport to Bhagavad Gita 18.10 image - thumbnail size" title="A person in Kṛṣṇa consciousness or in the mode of goodness does not hate anyone or anything which troubles his body. He does work in the proper place and at the proper time without fearing the troublesome effects of his duty." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1zY10i0PfduAl_nCzuXwy8yn0f8SDJUGg", "image_id": "image_0"}, {"google_id": "1dpk2tUMR7KsF3Y0sPF3NxLS_GYjpd3Cx", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1zY10i0PfduAl_nCzuXwy8yn0f8SDJUGg.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1zY10i0PfduAl_nCzuXwy8yn0f8SDJUGg.avif",
             "caption": "The intelligent renouncer situated in the mode of goodness, neither hateful of inauspicious work nor attached to auspicious work, has no doubts about work.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1dpk2tUMR7KsF3Y0sPF3NxLS_GYjpd3Cx.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1dpk2tUMR7KsF3Y0sPF3NxLS_GYjpd3Cx.avif",
             "caption": "A person in K\u1e5b\u1e63\u1e47a consciousness or in the mode of goodness does not hate anyone or anything which troubles his body. He does work in the proper place and at the proper time without fearing the troublesome effects of his duty.",
             "inLanguage": "en",
             "width": "300px",

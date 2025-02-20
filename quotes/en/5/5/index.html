@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1yBUNBL7BwncMQUspo-1krnXB6TMyzpvT.jpg" alt="5.5.en.jpg - thumbnail size" title="One who knows that the position reached by means of analytical study can also be attained by devotional service, and who therefore sees analytical study and devotional service to be on the same level, sees things as they are." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1yBUNBL7BwncMQUspo-1krnXB6TMyzpvT.avif" type="image/avif">
+                    <img id="image_0" src="1yBUNBL7BwncMQUspo-1krnXB6TMyzpvT.jpg" data-google-id="1yBUNBL7BwncMQUspo-1krnXB6TMyzpvT" alt="Bhagavad Gita 5.5.en.jpg - thumbnail size" title="One who knows that the position reached by means of analytical study can also be attained by devotional service, and who therefore sees analytical study and devotional service to be on the same level, sees things as they are." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1yBUNBL7BwncMQUspo-1krnXB6TMyzpvT", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1yBUNBL7BwncMQUspo-1krnXB6TMyzpvT.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1yBUNBL7BwncMQUspo-1krnXB6TMyzpvT.avif",
             "caption": "One who knows that the position reached by means of analytical study can also be attained by devotional service, and who therefore sees analytical study and devotional service to be on the same level, sees things as they are.",
             "inLanguage": "en",
             "width": "300px",

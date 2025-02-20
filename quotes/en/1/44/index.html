@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="11BXzE2ybedwvImO5cFg3sKgVH0MJQHhi.jpg" alt="1.44.en.jpg - thumbnail size" title="Alas, how strange it is that we are preparing to commit greatly sinful acts. Driven by the desire to enjoy royal happiness, we are intent on killing our own kinsmen." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="11BXzE2ybedwvImO5cFg3sKgVH0MJQHhi.avif" type="image/avif">
+                    <img id="image_0" src="11BXzE2ybedwvImO5cFg3sKgVH0MJQHhi.jpg" data-google-id="11BXzE2ybedwvImO5cFg3sKgVH0MJQHhi" alt="Bhagavad Gita 1.44.en.jpg - thumbnail size" title="Alas, how strange it is that we are preparing to commit greatly sinful acts. Driven by the desire to enjoy royal happiness, we are intent on killing our own kinsmen." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1xzzFhA0Vd_VhPOUVMmbO0ZU69w7g783B.jpg" alt="purport_image_1 - thumbnail size" title="Driven by selfish motives, one may be inclined to such sinful acts as the killing of one’s own brother, father or mother. There are many such instances in the history of the world." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1xzzFhA0Vd_VhPOUVMmbO0ZU69w7g783B.avif" type="image/avif">
+                    <img id="image_1" src="1xzzFhA0Vd_VhPOUVMmbO0ZU69w7g783B.jpg" data-google-id="1xzzFhA0Vd_VhPOUVMmbO0ZU69w7g783B" alt="Purport to Bhagavad Gita 1.44 image - thumbnail size" title="Driven by selfish motives, one may be inclined to such sinful acts as the killing of one’s own brother, father or mother. There are many such instances in the history of the world." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "11BXzE2ybedwvImO5cFg3sKgVH0MJQHhi", "image_id": "image_0"}, {"google_id": "1xzzFhA0Vd_VhPOUVMmbO0ZU69w7g783B", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/11BXzE2ybedwvImO5cFg3sKgVH0MJQHhi.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/11BXzE2ybedwvImO5cFg3sKgVH0MJQHhi.avif",
             "caption": "Alas, how strange it is that we are preparing to commit greatly sinful acts. Driven by the desire to enjoy royal happiness, we are intent on killing our own kinsmen.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1xzzFhA0Vd_VhPOUVMmbO0ZU69w7g783B.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1xzzFhA0Vd_VhPOUVMmbO0ZU69w7g783B.avif",
             "caption": "Driven by selfish motives, one may be inclined to such sinful acts as the killing of one\u2019s own brother, father or mother. There are many such instances in the history of the world.",
             "inLanguage": "en",
             "width": "300px",

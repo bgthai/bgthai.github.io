@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1du5TA7Dcc0Xh8vEqVVqmFICSbXIT8SQ7.jpg" alt="1.8.en.jpg - thumbnail size" title="There are personalities like you, Bhīṣma, Karṇa, Kṛpa, Aśvatthāmā, Vikarṇa and the son of Somadatta called Bhūriśravā, who are always victorious in battle." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1du5TA7Dcc0Xh8vEqVVqmFICSbXIT8SQ7.avif" type="image/avif">
+                    <img id="image_0" src="1du5TA7Dcc0Xh8vEqVVqmFICSbXIT8SQ7.jpg" data-google-id="1du5TA7Dcc0Xh8vEqVVqmFICSbXIT8SQ7" alt="Bhagavad Gita 1.8.en.jpg - thumbnail size" title="There are personalities like you, Bhīṣma, Karṇa, Kṛpa, Aśvatthāmā, Vikarṇa and the son of Somadatta called Bhūriśravā, who are always victorious in battle." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1du5TA7Dcc0Xh8vEqVVqmFICSbXIT8SQ7", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1du5TA7Dcc0Xh8vEqVVqmFICSbXIT8SQ7.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1du5TA7Dcc0Xh8vEqVVqmFICSbXIT8SQ7.avif",
             "caption": "There are personalities like you, Bh\u012b\u1e63ma, Kar\u1e47a, K\u1e5bpa, A\u015bvatth\u0101m\u0101, Vikar\u1e47a and the son of Somadatta called Bh\u016bri\u015brav\u0101, who are always victorious in battle.",
             "inLanguage": "en",
             "width": "300px",

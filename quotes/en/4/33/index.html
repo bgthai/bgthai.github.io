@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1GjmZdNQ95kfHpRv_FqpVa-VWnii8t6Bo.jpg" alt="4.33.en.jpg - thumbnail size" title="O chastiser of the enemy, the sacrifice performed in knowledge is better than the mere sacrifice of material possessions. After all, O son of Pṛthā, all sacrifices of work culminate in transcendental knowledge." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1GjmZdNQ95kfHpRv_FqpVa-VWnii8t6Bo.avif" type="image/avif">
+                    <img id="image_0" src="1GjmZdNQ95kfHpRv_FqpVa-VWnii8t6Bo.jpg" data-google-id="1GjmZdNQ95kfHpRv_FqpVa-VWnii8t6Bo" alt="Bhagavad Gita 4.33.en.jpg - thumbnail size" title="O chastiser of the enemy, the sacrifice performed in knowledge is better than the mere sacrifice of material possessions. After all, O son of Pṛthā, all sacrifices of work culminate in transcendental knowledge." width="600px" height="717" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1GjmZdNQ95kfHpRv_FqpVa-VWnii8t6Bo", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1GjmZdNQ95kfHpRv_FqpVa-VWnii8t6Bo.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1GjmZdNQ95kfHpRv_FqpVa-VWnii8t6Bo.avif",
             "caption": "O chastiser of the enemy, the sacrifice performed in knowledge is better than the mere sacrifice of material possessions. After all, O son of P\u1e5bth\u0101, all sacrifices of work culminate in transcendental knowledge.",
             "inLanguage": "en",
             "width": "300px",

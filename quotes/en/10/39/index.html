@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1pVavvBg8-mFwgaM4SljasPPRkw77C9yO.jpg" alt="10.39.en.jpg - thumbnail size" title="Furthermore, O Arjuna, I am the generating seed of all existences. There is no being – moving or nonmoving – that can exist without Me." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1pVavvBg8-mFwgaM4SljasPPRkw77C9yO.avif" type="image/avif">
+                    <img id="image_0" src="1pVavvBg8-mFwgaM4SljasPPRkw77C9yO.jpg" data-google-id="1pVavvBg8-mFwgaM4SljasPPRkw77C9yO" alt="Bhagavad Gita 10.39.en.jpg - thumbnail size" title="Furthermore, O Arjuna, I am the generating seed of all existences. There is no being – moving or nonmoving – that can exist without Me." width="600px" height="560" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1pVavvBg8-mFwgaM4SljasPPRkw77C9yO", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1pVavvBg8-mFwgaM4SljasPPRkw77C9yO.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1pVavvBg8-mFwgaM4SljasPPRkw77C9yO.avif",
             "caption": "Furthermore, O Arjuna, I am the generating seed of all existences. There is no being \u2013 moving or nonmoving \u2013 that can exist without Me.",
             "inLanguage": "en",
             "width": "300px",

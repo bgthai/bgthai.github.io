@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1D2QTXpiduR8valnc1jmN-8284RAwcDNa.jpg" alt="5.2.en.jpg - thumbnail size" title="The Personality of Godhead replied: The renunciation of work and work in devotion are both good for liberation. But, of the two, work in devotional service is better than renunciation of work." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1D2QTXpiduR8valnc1jmN-8284RAwcDNa.avif" type="image/avif">
+                    <img id="image_0" src="1D2QTXpiduR8valnc1jmN-8284RAwcDNa.jpg" data-google-id="1D2QTXpiduR8valnc1jmN-8284RAwcDNa" alt="Bhagavad Gita 5.2.en.jpg - thumbnail size" title="The Personality of Godhead replied: The renunciation of work and work in devotion are both good for liberation. But, of the two, work in devotional service is better than renunciation of work." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -83,18 +83,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1D2QTXpiduR8valnc1jmN-8284RAwcDNa", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1D2QTXpiduR8valnc1jmN-8284RAwcDNa.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1D2QTXpiduR8valnc1jmN-8284RAwcDNa.avif",
             "caption": "The Personality of Godhead replied: The renunciation of work and work in devotion are both good for liberation. But, of the two, work in devotional service is better than renunciation of work.",
             "inLanguage": "en",
             "width": "300px",

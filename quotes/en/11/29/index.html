@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="12oueezWHk54JNkUeqUFeG8MU5g2zkirF.jpg" alt="11.29.en.jpg - thumbnail size" title="I see all people rushing full speed into Your mouths, as moths dash to destruction in a blazing fire." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="12oueezWHk54JNkUeqUFeG8MU5g2zkirF.avif" type="image/avif">
+                    <img id="image_0" src="12oueezWHk54JNkUeqUFeG8MU5g2zkirF.jpg" data-google-id="12oueezWHk54JNkUeqUFeG8MU5g2zkirF" alt="Bhagavad Gita 11.29.en.jpg - thumbnail size" title="I see all people rushing full speed into Your mouths, as moths dash to destruction in a blazing fire." width="600px" height="533" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -68,18 +68,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "12oueezWHk54JNkUeqUFeG8MU5g2zkirF", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/12oueezWHk54JNkUeqUFeG8MU5g2zkirF.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/12oueezWHk54JNkUeqUFeG8MU5g2zkirF.avif",
             "caption": "I see all people rushing full speed into Your mouths, as moths dash to destruction in a blazing fire.",
             "inLanguage": "en",
             "width": "300px",

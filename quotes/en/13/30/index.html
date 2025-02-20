@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1e0MGPr77naNXb4KSOVk5OAEPx21hjdAW.jpg" alt="13.30.en.jpg - thumbnail size" title="One who can see that all activities are performed by the body, which is created of material nature, and sees that the self does nothing, actually sees." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1e0MGPr77naNXb4KSOVk5OAEPx21hjdAW.avif" type="image/avif">
+                    <img id="image_0" src="1e0MGPr77naNXb4KSOVk5OAEPx21hjdAW.jpg" data-google-id="1e0MGPr77naNXb4KSOVk5OAEPx21hjdAW" alt="Bhagavad Gita 13.30.en.jpg - thumbnail size" title="One who can see that all activities are performed by the body, which is created of material nature, and sees that the self does nothing, actually sees." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="11Vlt5CPwa0DXT4GsbOjtdLYzliILCLMg.jpg" alt="purport_image_1 - thumbnail size" title="This body is given according to one’s past desires. To fulfill desires, one is given the body, with which he acts accordingly. Practically speaking, the body is a machine, designed by the Supreme Lord, to fulfill desires." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="11Vlt5CPwa0DXT4GsbOjtdLYzliILCLMg.avif" type="image/avif">
+                    <img id="image_1" src="11Vlt5CPwa0DXT4GsbOjtdLYzliILCLMg.jpg" data-google-id="11Vlt5CPwa0DXT4GsbOjtdLYzliILCLMg" alt="Purport to Bhagavad Gita 13.30 image - thumbnail size" title="This body is given according to one’s past desires. To fulfill desires, one is given the body, with which he acts accordingly. Practically speaking, the body is a machine, designed by the Supreme Lord, to fulfill desires." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1e0MGPr77naNXb4KSOVk5OAEPx21hjdAW", "image_id": "image_0"}, {"google_id": "11Vlt5CPwa0DXT4GsbOjtdLYzliILCLMg", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1e0MGPr77naNXb4KSOVk5OAEPx21hjdAW.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1e0MGPr77naNXb4KSOVk5OAEPx21hjdAW.avif",
             "caption": "One who can see that all activities are performed by the body, which is created of material nature, and sees that the self does nothing, actually sees.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/11Vlt5CPwa0DXT4GsbOjtdLYzliILCLMg.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/11Vlt5CPwa0DXT4GsbOjtdLYzliILCLMg.avif",
             "caption": "This body is given according to one\u2019s past desires. To fulfill desires, one is given the body, with which he acts accordingly. Practically speaking, the body is a machine, designed by the Supreme Lord, to fulfill desires.",
             "inLanguage": "en",
             "width": "300px",

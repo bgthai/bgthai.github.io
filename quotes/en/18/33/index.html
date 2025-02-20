@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1cCtZx1TRVdbbnV4tYRYfHgMMLpjiuBYY.jpg" alt="18.33.en.jpg - thumbnail size" title="O son of Pṛthā, that determination which is unbreakable, which is sustained with steadfastness by yoga practice, and which thus controls the activities of the mind, life and senses is determination in the mode of goodness." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1cCtZx1TRVdbbnV4tYRYfHgMMLpjiuBYY.avif" type="image/avif">
+                    <img id="image_0" src="1cCtZx1TRVdbbnV4tYRYfHgMMLpjiuBYY.jpg" data-google-id="1cCtZx1TRVdbbnV4tYRYfHgMMLpjiuBYY" alt="Bhagavad Gita 18.33.en.jpg - thumbnail size" title="O son of Pṛthā, that determination which is unbreakable, which is sustained with steadfastness by yoga practice, and which thus controls the activities of the mind, life and senses is determination in the mode of goodness." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1cCtZx1TRVdbbnV4tYRYfHgMMLpjiuBYY", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1cCtZx1TRVdbbnV4tYRYfHgMMLpjiuBYY.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1cCtZx1TRVdbbnV4tYRYfHgMMLpjiuBYY.avif",
             "caption": "O son of P\u1e5bth\u0101, that determination which is unbreakable, which is sustained with steadfastness by yoga practice, and which thus controls the activities of the mind, life and senses is determination in the mode of goodness.",
             "inLanguage": "en",
             "width": "300px",

@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1Q6rn-Q0dKTi7hSqRRndGmH8zBPOIlXqR.jpg" alt="4.4.en.jpg - thumbnail size" title="Arjuna said: The sun-god Vivasvān is senior by birth to You. How am I to understand that in the beginning You instructed this science to him?" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1Q6rn-Q0dKTi7hSqRRndGmH8zBPOIlXqR.avif" type="image/avif">
+                    <img id="image_0" src="1Q6rn-Q0dKTi7hSqRRndGmH8zBPOIlXqR.jpg" data-google-id="1Q6rn-Q0dKTi7hSqRRndGmH8zBPOIlXqR" alt="Bhagavad Gita 4.4.en.jpg - thumbnail size" title="Arjuna said: The sun-god Vivasvān is senior by birth to You. How am I to understand that in the beginning You instructed this science to him?" width="600px" height="550" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1BrwkE8QEUbUkdrmT3KhnrRFrpeUK8kbm.jpg" alt="purport_image_1 - thumbnail size" title="Arjuna is an accepted devotee of the Lord, so how could he not believe Kṛṣṇa’s words?" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1BrwkE8QEUbUkdrmT3KhnrRFrpeUK8kbm.avif" type="image/avif">
+                    <img id="image_1" src="1BrwkE8QEUbUkdrmT3KhnrRFrpeUK8kbm.jpg" data-google-id="1BrwkE8QEUbUkdrmT3KhnrRFrpeUK8kbm" alt="Purport to Bhagavad Gita 4.4 image - thumbnail size" title="Arjuna is an accepted devotee of the Lord, so how could he not believe Kṛṣṇa’s words?" width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1Q6rn-Q0dKTi7hSqRRndGmH8zBPOIlXqR", "image_id": "image_0"}, {"google_id": "1BrwkE8QEUbUkdrmT3KhnrRFrpeUK8kbm", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1Q6rn-Q0dKTi7hSqRRndGmH8zBPOIlXqR.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1Q6rn-Q0dKTi7hSqRRndGmH8zBPOIlXqR.avif",
             "caption": "Arjuna said: The sun-god Vivasv\u0101n is senior by birth to You. How am I to understand that in the beginning You instructed this science to him?",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1BrwkE8QEUbUkdrmT3KhnrRFrpeUK8kbm.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1BrwkE8QEUbUkdrmT3KhnrRFrpeUK8kbm.avif",
             "caption": "Arjuna is an accepted devotee of the Lord, so how could he not believe K\u1e5b\u1e63\u1e47a\u2019s words?",
             "inLanguage": "en",
             "width": "300px",

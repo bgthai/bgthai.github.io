@@ -43,28 +43,28 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="137zM8WSktoZY07U0E-hZxuIlB4DE9I5M.jpg" alt="18.11.jpg - thumbnail size" title="แน่นอนว่าเป็นไปไม่ได้สำหรับสิ่งมีชีวิตผู้อยู่ในร่างกายที่จะยกเลิกกิจกรรมทั้งหมด แต่ผู้สละผลของกิจกรรมได้ชื่อว่าเป็นผู้เสียสละที่แท้จริง" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="137zM8WSktoZY07U0E-hZxuIlB4DE9I5M.avif" type="image/avif">
+                    <img id="image_0" src="137zM8WSktoZY07U0E-hZxuIlB4DE9I5M.jpg" data-google-id="137zM8WSktoZY07U0E-hZxuIlB4DE9I5M" alt="ภขวัท-คีตา 18.11.jpg - thumbnail size" title="แน่นอนว่าเป็นไปไม่ได้สำหรับสิ่งมีชีวิตผู้อยู่ในร่างกายที่จะยกเลิกกิจกรรมทั้งหมด แต่ผู้สละผลของกิจกรรมได้ชื่อว่าเป็นผู้เสียสละที่แท้จริง" width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">คำอธิบาย</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1tFNsXTK2YI16VQP0vaAjn7evR39tgK2z.jpg" alt="purport_image_1 - thumbnail size" title="มีสมาชิกของสมาคมนานาชาติเพื่อคริชณะจิตสำนึกมากมายที่ทำงานหนักมากในสำนักงาน ในโรงงาน หรือในสถานที่อื่น ๆ" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1tFNsXTK2YI16VQP0vaAjn7evR39tgK2z.avif" type="image/avif">
+                    <img id="image_1" src="1tFNsXTK2YI16VQP0vaAjn7evR39tgK2z.jpg" data-google-id="1tFNsXTK2YI16VQP0vaAjn7evR39tgK2z" alt="อรรถกถา ภขวัท-คีตา 18.11 ภาพ - thumbnail size" title="มีสมาชิกของสมาคมนานาชาติเพื่อคริชณะจิตสำนึกมากมายที่ทำงานหนักมากในสำนักงาน ในโรงงาน หรือในสถานที่อื่น ๆ" width="600px" height="715" loading="lazy" />
+                </picture>
             </div>
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_2" src="1kp8mLnK_fuilLN4JLX4JokMWgjDbpCYu.jpg" alt="purport_image_2 - thumbnail size" title="ดวงวิญญาณผู้เจริญเหล่านี้เป็น สันนยาสี และสถิตในชีวิตสละโลกที่แท้จริง ได้กล่าวโดยย่ออย่างชัดเจน ณ ที่นี้ว่า เราควรจะสละผลของงานอย่างไร และสละผลเพื่อจุดมุ่งหมายอันใด" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1kp8mLnK_fuilLN4JLX4JokMWgjDbpCYu.avif" type="image/avif">
+                    <img id="image_2" src="1kp8mLnK_fuilLN4JLX4JokMWgjDbpCYu.jpg" data-google-id="1kp8mLnK_fuilLN4JLX4JokMWgjDbpCYu" alt="อรรถกถา ภขวัท-คีตา 18.11 ภาพ - thumbnail size" title="ดวงวิญญาณผู้เจริญเหล่านี้เป็น สันนยาสี และสถิตในชีวิตสละโลกที่แท้จริง ได้กล่าวโดยย่ออย่างชัดเจน ณ ที่นี้ว่า เราควรจะสละผลของงานอย่างไร และสละผลเพื่อจุดมุ่งหมายอันใด" width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -88,18 +88,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "137zM8WSktoZY07U0E-hZxuIlB4DE9I5M", "image_id": "image_0"}, {"google_id": "1tFNsXTK2YI16VQP0vaAjn7evR39tgK2z", "image_id": "image_1"}, {"google_id": "1kp8mLnK_fuilLN4JLX4JokMWgjDbpCYu", "image_id": "image_2"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/137zM8WSktoZY07U0E-hZxuIlB4DE9I5M.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/137zM8WSktoZY07U0E-hZxuIlB4DE9I5M.avif",
             "caption": "\u0e41\u0e19\u0e48\u0e19\u0e2d\u0e19\u0e27\u0e48\u0e32\u0e40\u0e1b\u0e47\u0e19\u0e44\u0e1b\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e2a\u0e34\u0e48\u0e07\u0e21\u0e35\u0e0a\u0e35\u0e27\u0e34\u0e15\u0e1c\u0e39\u0e49\u0e2d\u0e22\u0e39\u0e48\u0e43\u0e19\u0e23\u0e48\u0e32\u0e07\u0e01\u0e32\u0e22\u0e17\u0e35\u0e48\u0e08\u0e30\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14 \u0e41\u0e15\u0e48\u0e1c\u0e39\u0e49\u0e2a\u0e25\u0e30\u0e1c\u0e25\u0e02\u0e2d\u0e07\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e44\u0e14\u0e49\u0e0a\u0e37\u0e48\u0e2d\u0e27\u0e48\u0e32\u0e40\u0e1b\u0e47\u0e19\u0e1c\u0e39\u0e49\u0e40\u0e2a\u0e35\u0e22\u0e2a\u0e25\u0e30\u0e17\u0e35\u0e48\u0e41\u0e17\u0e49\u0e08\u0e23\u0e34\u0e07",
             "inLanguage": "th",
             "width": "300px",
@@ -107,7 +104,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1tFNsXTK2YI16VQP0vaAjn7evR39tgK2z.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1tFNsXTK2YI16VQP0vaAjn7evR39tgK2z.avif",
             "caption": "\u0e21\u0e35\u0e2a\u0e21\u0e32\u0e0a\u0e34\u0e01\u0e02\u0e2d\u0e07\u0e2a\u0e21\u0e32\u0e04\u0e21\u0e19\u0e32\u0e19\u0e32\u0e0a\u0e32\u0e15\u0e34\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e04\u0e23\u0e34\u0e0a\u0e13\u0e30\u0e08\u0e34\u0e15\u0e2a\u0e33\u0e19\u0e36\u0e01\u0e21\u0e32\u0e01\u0e21\u0e32\u0e22\u0e17\u0e35\u0e48\u0e17\u0e33\u0e07\u0e32\u0e19\u0e2b\u0e19\u0e31\u0e01\u0e21\u0e32\u0e01\u0e43\u0e19\u0e2a\u0e33\u0e19\u0e31\u0e01\u0e07\u0e32\u0e19 \u0e43\u0e19\u0e42\u0e23\u0e07\u0e07\u0e32\u0e19 \u0e2b\u0e23\u0e37\u0e2d\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e2d\u0e37\u0e48\u0e19 \u0e46",
             "inLanguage": "th",
             "width": "300px",
@@ -115,7 +112,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1kp8mLnK_fuilLN4JLX4JokMWgjDbpCYu.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1kp8mLnK_fuilLN4JLX4JokMWgjDbpCYu.avif",
             "caption": "\u0e14\u0e27\u0e07\u0e27\u0e34\u0e0d\u0e0d\u0e32\u0e13\u0e1c\u0e39\u0e49\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e40\u0e2b\u0e25\u0e48\u0e32\u0e19\u0e35\u0e49\u0e40\u0e1b\u0e47\u0e19 \u0e2a\u0e31\u0e19\u0e19\u0e22\u0e32\u0e2a\u0e35 \u0e41\u0e25\u0e30\u0e2a\u0e16\u0e34\u0e15\u0e43\u0e19\u0e0a\u0e35\u0e27\u0e34\u0e15\u0e2a\u0e25\u0e30\u0e42\u0e25\u0e01\u0e17\u0e35\u0e48\u0e41\u0e17\u0e49\u0e08\u0e23\u0e34\u0e07 \u0e44\u0e14\u0e49\u0e01\u0e25\u0e48\u0e32\u0e27\u0e42\u0e14\u0e22\u0e22\u0e48\u0e2d\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e0a\u0e31\u0e14\u0e40\u0e08\u0e19 \u0e13 \u0e17\u0e35\u0e48\u0e19\u0e35\u0e49\u0e27\u0e48\u0e32 \u0e40\u0e23\u0e32\u0e04\u0e27\u0e23\u0e08\u0e30\u0e2a\u0e25\u0e30\u0e1c\u0e25\u0e02\u0e2d\u0e07\u0e07\u0e32\u0e19\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e44\u0e23 \u0e41\u0e25\u0e30\u0e2a\u0e25\u0e30\u0e1c\u0e25\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e08\u0e38\u0e14\u0e21\u0e38\u0e48\u0e07\u0e2b\u0e21\u0e32\u0e22\u0e2d\u0e31\u0e19\u0e43\u0e14",
             "inLanguage": "th",
             "width": "300px",

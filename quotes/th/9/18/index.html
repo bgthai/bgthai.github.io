@@ -43,28 +43,28 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="14rbGmbR30oWj81igtCDzOCKlUg-AVw3b.jpg" alt="9.18.jpg - thumbnail size" title="ข้าคือจุดมุ่งหมาย ผู้ค้ำจุน อาจารย์ พยาน ตำหนัก ร่มโพธิ์ร่มไทร และเพื่อนที่รักที่สุด ข้าคือการสร้างและการทำลาย พื้นฐานของทุกสิ่งทุกอย่าง ข้าคือที่พักและเมล็ดพันธุ์นิรันดร" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="14rbGmbR30oWj81igtCDzOCKlUg-AVw3b.avif" type="image/avif">
+                    <img id="image_0" src="14rbGmbR30oWj81igtCDzOCKlUg-AVw3b.jpg" data-google-id="14rbGmbR30oWj81igtCDzOCKlUg-AVw3b" alt="ภขวัท-คีตา 9.18.jpg - thumbnail size" title="ข้าคือจุดมุ่งหมาย ผู้ค้ำจุน อาจารย์ พยาน ตำหนัก ร่มโพธิ์ร่มไทร และเพื่อนที่รักที่สุด ข้าคือการสร้างและการทำลาย พื้นฐานของทุกสิ่งทุกอย่าง ข้าคือที่พักและเมล็ดพันธุ์นิรันดร" width="600px" height="535" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">คำอธิบาย</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="18iAS2CzvRMSAqTd-RmJYRn_vSycgquTf.jpg" alt="purport_image_1 - thumbnail size" title="กะทิหมายถึงจุดมุ่งหมายที่เราต้องการไป แต่จุดมุ่งหมายสูงสุดคือคริชณะ ถึงแม้ว่าผู้คนไม่รู้" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="18iAS2CzvRMSAqTd-RmJYRn_vSycgquTf.avif" type="image/avif">
+                    <img id="image_1" src="18iAS2CzvRMSAqTd-RmJYRn_vSycgquTf.jpg" data-google-id="18iAS2CzvRMSAqTd-RmJYRn_vSycgquTf" alt="อรรถกถา ภขวัท-คีตา 9.18 ภาพ - thumbnail size" title="กะทิหมายถึงจุดมุ่งหมายที่เราต้องการไป แต่จุดมุ่งหมายสูงสุดคือคริชณะ ถึงแม้ว่าผู้คนไม่รู้" width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_2" src="1H6r3qr4l-8GTWxCvxAj1yNB-my7gtY5W.jpg" alt="purport_image_2 - thumbnail size" title="ผู้ที่ไม่รู้จักองค์กฺฤษฺณจะถูกนำไปในทางที่ผิดและสิ่งที่สมมติว่าเป็นขบวนการในความเจริญก้าวหน้าเป็นเพียงส่วนหนึ่งหรือเป็นภาพหลอน" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1H6r3qr4l-8GTWxCvxAj1yNB-my7gtY5W.avif" type="image/avif">
+                    <img id="image_2" src="1H6r3qr4l-8GTWxCvxAj1yNB-my7gtY5W.jpg" data-google-id="1H6r3qr4l-8GTWxCvxAj1yNB-my7gtY5W" alt="อรรถกถา ภขวัท-คีตา 9.18 ภาพ - thumbnail size" title="ผู้ที่ไม่รู้จักองค์กฺฤษฺณจะถูกนำไปในทางที่ผิดและสิ่งที่สมมติว่าเป็นขบวนการในความเจริญก้าวหน้าเป็นเพียงส่วนหนึ่งหรือเป็นภาพหลอน" width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -88,18 +88,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "14rbGmbR30oWj81igtCDzOCKlUg-AVw3b", "image_id": "image_0"}, {"google_id": "18iAS2CzvRMSAqTd-RmJYRn_vSycgquTf", "image_id": "image_1"}, {"google_id": "1H6r3qr4l-8GTWxCvxAj1yNB-my7gtY5W", "image_id": "image_2"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/14rbGmbR30oWj81igtCDzOCKlUg-AVw3b.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/14rbGmbR30oWj81igtCDzOCKlUg-AVw3b.avif",
             "caption": "\u0e02\u0e49\u0e32\u0e04\u0e37\u0e2d\u0e08\u0e38\u0e14\u0e21\u0e38\u0e48\u0e07\u0e2b\u0e21\u0e32\u0e22 \u0e1c\u0e39\u0e49\u0e04\u0e49\u0e33\u0e08\u0e38\u0e19 \u0e2d\u0e32\u0e08\u0e32\u0e23\u0e22\u0e4c \u0e1e\u0e22\u0e32\u0e19 \u0e15\u0e33\u0e2b\u0e19\u0e31\u0e01 \u0e23\u0e48\u0e21\u0e42\u0e1e\u0e18\u0e34\u0e4c\u0e23\u0e48\u0e21\u0e44\u0e17\u0e23 \u0e41\u0e25\u0e30\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19\u0e17\u0e35\u0e48\u0e23\u0e31\u0e01\u0e17\u0e35\u0e48\u0e2a\u0e38\u0e14 \u0e02\u0e49\u0e32\u0e04\u0e37\u0e2d\u0e01\u0e32\u0e23\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e41\u0e25\u0e30\u0e01\u0e32\u0e23\u0e17\u0e33\u0e25\u0e32\u0e22 \u0e1e\u0e37\u0e49\u0e19\u0e10\u0e32\u0e19\u0e02\u0e2d\u0e07\u0e17\u0e38\u0e01\u0e2a\u0e34\u0e48\u0e07\u0e17\u0e38\u0e01\u0e2d\u0e22\u0e48\u0e32\u0e07 \u0e02\u0e49\u0e32\u0e04\u0e37\u0e2d\u0e17\u0e35\u0e48\u0e1e\u0e31\u0e01\u0e41\u0e25\u0e30\u0e40\u0e21\u0e25\u0e47\u0e14\u0e1e\u0e31\u0e19\u0e18\u0e38\u0e4c\u0e19\u0e34\u0e23\u0e31\u0e19\u0e14\u0e23",
             "inLanguage": "th",
             "width": "300px",
@@ -107,7 +104,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/18iAS2CzvRMSAqTd-RmJYRn_vSycgquTf.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/18iAS2CzvRMSAqTd-RmJYRn_vSycgquTf.avif",
             "caption": "\u0e01\u0e30\u0e17\u0e34\u0e2b\u0e21\u0e32\u0e22\u0e16\u0e36\u0e07\u0e08\u0e38\u0e14\u0e21\u0e38\u0e48\u0e07\u0e2b\u0e21\u0e32\u0e22\u0e17\u0e35\u0e48\u0e40\u0e23\u0e32\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e44\u0e1b \u0e41\u0e15\u0e48\u0e08\u0e38\u0e14\u0e21\u0e38\u0e48\u0e07\u0e2b\u0e21\u0e32\u0e22\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14\u0e04\u0e37\u0e2d\u0e04\u0e23\u0e34\u0e0a\u0e13\u0e30 \u0e16\u0e36\u0e07\u0e41\u0e21\u0e49\u0e27\u0e48\u0e32\u0e1c\u0e39\u0e49\u0e04\u0e19\u0e44\u0e21\u0e48\u0e23\u0e39\u0e49",
             "inLanguage": "th",
             "width": "300px",
@@ -115,7 +112,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1H6r3qr4l-8GTWxCvxAj1yNB-my7gtY5W.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1H6r3qr4l-8GTWxCvxAj1yNB-my7gtY5W.avif",
             "caption": "\u0e1c\u0e39\u0e49\u0e17\u0e35\u0e48\u0e44\u0e21\u0e48\u0e23\u0e39\u0e49\u0e08\u0e31\u0e01\u0e2d\u0e07\u0e04\u0e4c\u0e01\u0e3a\u0e24\u0e29\u0e3a\u0e13\u0e08\u0e30\u0e16\u0e39\u0e01\u0e19\u0e33\u0e44\u0e1b\u0e43\u0e19\u0e17\u0e32\u0e07\u0e17\u0e35\u0e48\u0e1c\u0e34\u0e14\u0e41\u0e25\u0e30\u0e2a\u0e34\u0e48\u0e07\u0e17\u0e35\u0e48\u0e2a\u0e21\u0e21\u0e15\u0e34\u0e27\u0e48\u0e32\u0e40\u0e1b\u0e47\u0e19\u0e02\u0e1a\u0e27\u0e19\u0e01\u0e32\u0e23\u0e43\u0e19\u0e04\u0e27\u0e32\u0e21\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e01\u0e49\u0e32\u0e27\u0e2b\u0e19\u0e49\u0e32\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e1e\u0e35\u0e22\u0e07\u0e2a\u0e48\u0e27\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e2b\u0e23\u0e37\u0e2d\u0e40\u0e1b\u0e47\u0e19\u0e20\u0e32\u0e1e\u0e2b\u0e25\u0e2d\u0e19",
             "inLanguage": "th",
             "width": "300px",

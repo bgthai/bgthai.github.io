@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1LpGoI8pJOfxTucOMqPt5Ut9FHoYF332M.jpg" alt="16.22.en.jpg - thumbnail size" title="The man who has escaped these three gates of hell, O son of Kuntī, performs acts conducive to self-realization and thus gradually attains the supreme destination." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1LpGoI8pJOfxTucOMqPt5Ut9FHoYF332M.avif" type="image/avif">
+                    <img id="image_0" src="1LpGoI8pJOfxTucOMqPt5Ut9FHoYF332M.jpg" data-google-id="1LpGoI8pJOfxTucOMqPt5Ut9FHoYF332M" alt="Bhagavad Gita 16.22.en.jpg - thumbnail size" title="The man who has escaped these three gates of hell, O son of Kuntī, performs acts conducive to self-realization and thus gradually attains the supreme destination." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1AUsvi0ooqCYWNmRJkIQKf_BJTgQaHSGV.jpg" alt="purport_image_1 - thumbnail size" title="One should be very careful of these three enemies to human life: lust, anger and greed." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1AUsvi0ooqCYWNmRJkIQKf_BJTgQaHSGV.avif" type="image/avif">
+                    <img id="image_1" src="1AUsvi0ooqCYWNmRJkIQKf_BJTgQaHSGV.jpg" data-google-id="1AUsvi0ooqCYWNmRJkIQKf_BJTgQaHSGV" alt="Purport to Bhagavad Gita 16.22 image - thumbnail size" title="One should be very careful of these three enemies to human life: lust, anger and greed." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1LpGoI8pJOfxTucOMqPt5Ut9FHoYF332M", "image_id": "image_0"}, {"google_id": "1AUsvi0ooqCYWNmRJkIQKf_BJTgQaHSGV", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1LpGoI8pJOfxTucOMqPt5Ut9FHoYF332M.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1LpGoI8pJOfxTucOMqPt5Ut9FHoYF332M.avif",
             "caption": "The man who has escaped these three gates of hell, O son of Kunt\u012b, performs acts conducive to self-realization and thus gradually attains the supreme destination.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1AUsvi0ooqCYWNmRJkIQKf_BJTgQaHSGV.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1AUsvi0ooqCYWNmRJkIQKf_BJTgQaHSGV.avif",
             "caption": "One should be very careful of these three enemies to human life: lust, anger and greed.",
             "inLanguage": "en",
             "width": "300px",

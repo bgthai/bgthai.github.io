@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1rqfmLAawhAEISQTOHiGJSqUbf-jzb6zp.jpg" alt="11.17.en.jpg - thumbnail size" title="Your form is difficult to see because of its glaring effulgence, spreading on all sides, like blazing fire or the immeasurable radiance of the sun. Yet I see this glowing form everywhere, adorned with various crowns, clubs and discs." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1rqfmLAawhAEISQTOHiGJSqUbf-jzb6zp.avif" type="image/avif">
+                    <img id="image_0" src="1rqfmLAawhAEISQTOHiGJSqUbf-jzb6zp.jpg" data-google-id="1rqfmLAawhAEISQTOHiGJSqUbf-jzb6zp" alt="Bhagavad Gita 11.17.en.jpg - thumbnail size" title="Your form is difficult to see because of its glaring effulgence, spreading on all sides, like blazing fire or the immeasurable radiance of the sun. Yet I see this glowing form everywhere, adorned with various crowns, clubs and discs." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -68,18 +68,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1rqfmLAawhAEISQTOHiGJSqUbf-jzb6zp", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1rqfmLAawhAEISQTOHiGJSqUbf-jzb6zp.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1rqfmLAawhAEISQTOHiGJSqUbf-jzb6zp.avif",
             "caption": "Your form is difficult to see because of its glaring effulgence, spreading on all sides, like blazing fire or the immeasurable radiance of the sun. Yet I see this glowing form everywhere, adorned with various crowns, clubs and discs.",
             "inLanguage": "en",
             "width": "300px",

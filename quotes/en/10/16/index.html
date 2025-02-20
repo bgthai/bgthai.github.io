@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1gMnWbVIXfziwmfkjeUcMT5AFeTKu-H9t.jpg" alt="10.16.en.jpg - thumbnail size" title="Please tell me in detail of Your divine opulences by which You pervade all these worlds." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1gMnWbVIXfziwmfkjeUcMT5AFeTKu-H9t.avif" type="image/avif">
+                    <img id="image_0" src="1gMnWbVIXfziwmfkjeUcMT5AFeTKu-H9t.jpg" data-google-id="1gMnWbVIXfziwmfkjeUcMT5AFeTKu-H9t" alt="Bhagavad Gita 10.16.en.jpg - thumbnail size" title="Please tell me in detail of Your divine opulences by which You pervade all these worlds." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1ECnvtqDuBfrKV3iG-mSW5UhPk1N2S8zy.jpg" alt="purport_image_1 - thumbnail size" title="People in general and the impersonalists in particular concern themselves mainly with the all-pervading nature of the Supreme. So Arjuna is asking Kṛṣṇa how He exists in His all-pervading aspect through His different energies. One should know that this is being asked by Arjuna on behalf of the common people." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1ECnvtqDuBfrKV3iG-mSW5UhPk1N2S8zy.avif" type="image/avif">
+                    <img id="image_1" src="1ECnvtqDuBfrKV3iG-mSW5UhPk1N2S8zy.jpg" data-google-id="1ECnvtqDuBfrKV3iG-mSW5UhPk1N2S8zy" alt="Purport to Bhagavad Gita 10.16 image - thumbnail size" title="People in general and the impersonalists in particular concern themselves mainly with the all-pervading nature of the Supreme. So Arjuna is asking Kṛṣṇa how He exists in His all-pervading aspect through His different energies. One should know that this is being asked by Arjuna on behalf of the common people." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1gMnWbVIXfziwmfkjeUcMT5AFeTKu-H9t", "image_id": "image_0"}, {"google_id": "1ECnvtqDuBfrKV3iG-mSW5UhPk1N2S8zy", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1gMnWbVIXfziwmfkjeUcMT5AFeTKu-H9t.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1gMnWbVIXfziwmfkjeUcMT5AFeTKu-H9t.avif",
             "caption": "Please tell me in detail of Your divine opulences by which You pervade all these worlds.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1ECnvtqDuBfrKV3iG-mSW5UhPk1N2S8zy.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1ECnvtqDuBfrKV3iG-mSW5UhPk1N2S8zy.avif",
             "caption": "People in general and the impersonalists in particular concern themselves mainly with the all-pervading nature of the Supreme. So Arjuna is asking K\u1e5b\u1e63\u1e47a how He exists in His all-pervading aspect through His different energies. One should know that this is being asked by Arjuna on behalf of the common people.",
             "inLanguage": "en",
             "width": "300px",

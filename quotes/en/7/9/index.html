@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1OOv17m_bUPZTz_CSUs9-2S2mC1hGKxpx.jpg" alt="7.9.en.jpg - thumbnail size" title="I am the original fragrance of the earth, and I am the heat in fire. I am the life of all that lives, and I am the penances of all ascetics." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1OOv17m_bUPZTz_CSUs9-2S2mC1hGKxpx.avif" type="image/avif">
+                    <img id="image_0" src="1OOv17m_bUPZTz_CSUs9-2S2mC1hGKxpx.jpg" data-google-id="1OOv17m_bUPZTz_CSUs9-2S2mC1hGKxpx" alt="Bhagavad Gita 7.9.en.jpg - thumbnail size" title="I am the original fragrance of the earth, and I am the heat in fire. I am the life of all that lives, and I am the penances of all ascetics." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="10kdNzhQBF-LZx4rFW2sBvz-IuGfEz-lU.jpg" alt="purport_image_1 - thumbnail size" title="Everything in the material world has a certain flavor or fragrance... The uncontaminated flavor, the original flavor, which permeates everything, is Kṛṣṇa." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="10kdNzhQBF-LZx4rFW2sBvz-IuGfEz-lU.avif" type="image/avif">
+                    <img id="image_1" src="10kdNzhQBF-LZx4rFW2sBvz-IuGfEz-lU.jpg" data-google-id="10kdNzhQBF-LZx4rFW2sBvz-IuGfEz-lU" alt="Purport to Bhagavad Gita 7.9 image - thumbnail size" title="Everything in the material world has a certain flavor or fragrance... The uncontaminated flavor, the original flavor, which permeates everything, is Kṛṣṇa." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1OOv17m_bUPZTz_CSUs9-2S2mC1hGKxpx", "image_id": "image_0"}, {"google_id": "10kdNzhQBF-LZx4rFW2sBvz-IuGfEz-lU", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1OOv17m_bUPZTz_CSUs9-2S2mC1hGKxpx.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1OOv17m_bUPZTz_CSUs9-2S2mC1hGKxpx.avif",
             "caption": "I am the original fragrance of the earth, and I am the heat in fire. I am the life of all that lives, and I am the penances of all ascetics.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/10kdNzhQBF-LZx4rFW2sBvz-IuGfEz-lU.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/10kdNzhQBF-LZx4rFW2sBvz-IuGfEz-lU.avif",
             "caption": "Everything in the material world has a certain flavor or fragrance... The uncontaminated flavor, the original flavor, which permeates everything, is K\u1e5b\u1e63\u1e47a.",
             "inLanguage": "en",
             "width": "300px",

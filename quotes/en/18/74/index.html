@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1f1uuiggIHzl0nOyiYYZqcM6o34m5h3gp.jpg" alt="18.74.en.jpg - thumbnail size" title="Sañjaya said: Thus have I heard the conversation of two great souls, Kṛṣṇa and Arjuna. And so wonderful is that message that my hair is standing on end." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1f1uuiggIHzl0nOyiYYZqcM6o34m5h3gp.avif" type="image/avif">
+                    <img id="image_0" src="1f1uuiggIHzl0nOyiYYZqcM6o34m5h3gp.jpg" data-google-id="1f1uuiggIHzl0nOyiYYZqcM6o34m5h3gp" alt="Bhagavad Gita 18.74.en.jpg - thumbnail size" title="Sañjaya said: Thus have I heard the conversation of two great souls, Kṛṣṇa and Arjuna. And so wonderful is that message that my hair is standing on end." width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1-2m6u0JKwX8nLWXXWChxmicuCTWvj51z.jpg" alt="purport_image_1 - thumbnail size" title="Now it is concluded that wherever there is Kṛṣṇa and Arjuna, there is victory." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1-2m6u0JKwX8nLWXXWChxmicuCTWvj51z.avif" type="image/avif">
+                    <img id="image_1" src="1-2m6u0JKwX8nLWXXWChxmicuCTWvj51z.jpg" data-google-id="1-2m6u0JKwX8nLWXXWChxmicuCTWvj51z" alt="Purport to Bhagavad Gita 18.74 image - thumbnail size" title="Now it is concluded that wherever there is Kṛṣṇa and Arjuna, there is victory." width="600px" height="562" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1f1uuiggIHzl0nOyiYYZqcM6o34m5h3gp", "image_id": "image_0"}, {"google_id": "1-2m6u0JKwX8nLWXXWChxmicuCTWvj51z", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1f1uuiggIHzl0nOyiYYZqcM6o34m5h3gp.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1f1uuiggIHzl0nOyiYYZqcM6o34m5h3gp.avif",
             "caption": "Sa\u00f1jaya said: Thus have I heard the conversation of two great souls, K\u1e5b\u1e63\u1e47a and Arjuna. And so wonderful is that message that my hair is standing on end.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1-2m6u0JKwX8nLWXXWChxmicuCTWvj51z.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1-2m6u0JKwX8nLWXXWChxmicuCTWvj51z.avif",
             "caption": "Now it is concluded that wherever there is K\u1e5b\u1e63\u1e47a and Arjuna, there is victory.",
             "inLanguage": "en",
             "width": "300px",

@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="14nKEeLMWgpBWysQR7aY51wOaJKHxt2lh.jpg" alt="18.13.en.jpg - thumbnail size" title="O mighty-armed Arjuna, according to the Vedānta there are five causes for the accomplishment of all action. Now learn of these from Me." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="14nKEeLMWgpBWysQR7aY51wOaJKHxt2lh.avif" type="image/avif">
+                    <img id="image_0" src="14nKEeLMWgpBWysQR7aY51wOaJKHxt2lh.jpg" data-google-id="14nKEeLMWgpBWysQR7aY51wOaJKHxt2lh" alt="Bhagavad Gita 18.13.en.jpg - thumbnail size" title="O mighty-armed Arjuna, according to the Vedānta there are five causes for the accomplishment of all action. Now learn of these from Me." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1lbbL4yGRGoY0yQGO-yOF5Q58ybG1HxOR.jpg" alt="purport_image_1 - thumbnail size" title="Sāṅkhya means the stock of knowledge, and Vedānta is the final stock of knowledge accepted by all leading ācāryas. Even Śaṅkara accepts Vedānta-sūtra as such. Therefore such authority should be consulted" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1lbbL4yGRGoY0yQGO-yOF5Q58ybG1HxOR.avif" type="image/avif">
+                    <img id="image_1" src="1lbbL4yGRGoY0yQGO-yOF5Q58ybG1HxOR.jpg" data-google-id="1lbbL4yGRGoY0yQGO-yOF5Q58ybG1HxOR" alt="Purport to Bhagavad Gita 18.13 image - thumbnail size" title="Sāṅkhya means the stock of knowledge, and Vedānta is the final stock of knowledge accepted by all leading ācāryas. Even Śaṅkara accepts Vedānta-sūtra as such. Therefore such authority should be consulted" width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -83,18 +83,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "14nKEeLMWgpBWysQR7aY51wOaJKHxt2lh", "image_id": "image_0"}, {"google_id": "1lbbL4yGRGoY0yQGO-yOF5Q58ybG1HxOR", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/14nKEeLMWgpBWysQR7aY51wOaJKHxt2lh.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/14nKEeLMWgpBWysQR7aY51wOaJKHxt2lh.avif",
             "caption": "O mighty-armed Arjuna, according to the Ved\u0101nta there are five causes for the accomplishment of all action. Now learn of these from Me.",
             "inLanguage": "en",
             "width": "300px",
@@ -102,7 +99,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1lbbL4yGRGoY0yQGO-yOF5Q58ybG1HxOR.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1lbbL4yGRGoY0yQGO-yOF5Q58ybG1HxOR.avif",
             "caption": "S\u0101\u1e45khya means the stock of knowledge, and Ved\u0101nta is the final stock of knowledge accepted by all leading \u0101c\u0101ryas. Even \u015aa\u1e45kara accepts Ved\u0101nta-s\u016btra as such. Therefore such authority should be consulted",
             "inLanguage": "en",
             "width": "300px",

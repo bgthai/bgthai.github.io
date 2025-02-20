@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1CwFIbYUcLL7nf4N40TQ9mnJV62aWFMjY.jpg" alt="5.1.en.jpg - thumbnail size" title="Arjuna said: O Kṛṣṇa, first of all You ask me to renounce work, and then again You recommend work with devotion. Now will You kindly tell me definitely which of the two is more beneficial?" width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1CwFIbYUcLL7nf4N40TQ9mnJV62aWFMjY.avif" type="image/avif">
+                    <img id="image_0" src="1CwFIbYUcLL7nf4N40TQ9mnJV62aWFMjY.jpg" data-google-id="1CwFIbYUcLL7nf4N40TQ9mnJV62aWFMjY" alt="Bhagavad Gita 5.1.en.jpg - thumbnail size" title="Arjuna said: O Kṛṣṇa, first of all You ask me to renounce work, and then again You recommend work with devotion. Now will You kindly tell me definitely which of the two is more beneficial?" width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1ox828FMtZGdcrKW1euSaZNrzww9w8YTz.jpg" alt="purport_image_1 - thumbnail size" title="...the Lord advised Arjuna to wake up and fight, being situated in perfect knowledge. Therefore, by simultaneously stressing the importance of both work in devotion and inaction in knowledge, Kṛṣṇa has perplexed Arjuna and confused his determination..." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1ox828FMtZGdcrKW1euSaZNrzww9w8YTz.avif" type="image/avif">
+                    <img id="image_1" src="1ox828FMtZGdcrKW1euSaZNrzww9w8YTz.jpg" data-google-id="1ox828FMtZGdcrKW1euSaZNrzww9w8YTz" alt="Purport to Bhagavad Gita 5.1 image - thumbnail size" title="...the Lord advised Arjuna to wake up and fight, being situated in perfect knowledge. Therefore, by simultaneously stressing the importance of both work in devotion and inaction in knowledge, Kṛṣṇa has perplexed Arjuna and confused his determination..." width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1CwFIbYUcLL7nf4N40TQ9mnJV62aWFMjY", "image_id": "image_0"}, {"google_id": "1ox828FMtZGdcrKW1euSaZNrzww9w8YTz", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1CwFIbYUcLL7nf4N40TQ9mnJV62aWFMjY.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1CwFIbYUcLL7nf4N40TQ9mnJV62aWFMjY.avif",
             "caption": "Arjuna said: O K\u1e5b\u1e63\u1e47a, first of all You ask me to renounce work, and then again You recommend work with devotion. Now will You kindly tell me definitely which of the two is more beneficial?",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1ox828FMtZGdcrKW1euSaZNrzww9w8YTz.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1ox828FMtZGdcrKW1euSaZNrzww9w8YTz.avif",
             "caption": "...the Lord advised Arjuna to wake up and fight, being situated in perfect knowledge. Therefore, by simultaneously stressing the importance of both work in devotion and inaction in knowledge, K\u1e5b\u1e63\u1e47a has perplexed Arjuna and confused his determination...",
             "inLanguage": "en",
             "width": "300px",

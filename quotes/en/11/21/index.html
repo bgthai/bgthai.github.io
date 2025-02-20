@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1QHAhmLN795ykHyUe2UL-o6mXkbeIzoTy.jpg" alt="11.21.en.jpg - thumbnail size" title="All the hosts of demigods are surrendering before You and entering into You. Some of them, very much afraid, are offering prayers with folded hands. Hosts of great sages and perfected beings, crying “All peace!” are praying to You by singing the Vedic hymns." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1QHAhmLN795ykHyUe2UL-o6mXkbeIzoTy.avif" type="image/avif">
+                    <img id="image_0" src="1QHAhmLN795ykHyUe2UL-o6mXkbeIzoTy.jpg" data-google-id="1QHAhmLN795ykHyUe2UL-o6mXkbeIzoTy" alt="Bhagavad Gita 11.21.en.jpg - thumbnail size" title="All the hosts of demigods are surrendering before You and entering into You. Some of them, very much afraid, are offering prayers with folded hands. Hosts of great sages and perfected beings, crying “All peace!” are praying to You by singing the Vedic hymns." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1QHAhmLN795ykHyUe2UL-o6mXkbeIzoTy", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1QHAhmLN795ykHyUe2UL-o6mXkbeIzoTy.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1QHAhmLN795ykHyUe2UL-o6mXkbeIzoTy.avif",
             "caption": "All the hosts of demigods are surrendering before You and entering into You. Some of them, very much afraid, are offering prayers with folded hands. Hosts of great sages and perfected beings, crying \u201cAll peace!\u201d are praying to You by singing the Vedic hymns.",
             "inLanguage": "en",
             "width": "300px",

@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1zNJw4kbD7_gK00eE7hMPiF2_F7eIhvLy.jpg" alt="12.8.en.jpg - thumbnail size" title="Just fix your mind upon Me, the Supreme Personality of Godhead, and engage all your intelligence in Me. Thus you will live in Me always, without a doubt." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1zNJw4kbD7_gK00eE7hMPiF2_F7eIhvLy.avif" type="image/avif">
+                    <img id="image_0" src="1zNJw4kbD7_gK00eE7hMPiF2_F7eIhvLy.jpg" data-google-id="1zNJw4kbD7_gK00eE7hMPiF2_F7eIhvLy" alt="Bhagavad Gita 12.8.en.jpg - thumbnail size" title="Just fix your mind upon Me, the Supreme Personality of Godhead, and engage all your intelligence in Me. Thus you will live in Me always, without a doubt." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1vwxaP0hh-7S5HWNAvuO8XpjAVaLtO44y.jpg" alt="purport_image_1 - thumbnail size" title="One who is engaged in Lord Kṛṣṇa’s devotional service lives in a direct relationship with the Supreme Lord, so there is no doubt that his position is transcendental from the very beginning." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1vwxaP0hh-7S5HWNAvuO8XpjAVaLtO44y.avif" type="image/avif">
+                    <img id="image_1" src="1vwxaP0hh-7S5HWNAvuO8XpjAVaLtO44y.jpg" data-google-id="1vwxaP0hh-7S5HWNAvuO8XpjAVaLtO44y" alt="Purport to Bhagavad Gita 12.8 image - thumbnail size" title="One who is engaged in Lord Kṛṣṇa’s devotional service lives in a direct relationship with the Supreme Lord, so there is no doubt that his position is transcendental from the very beginning." width="600px" height="550" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1zNJw4kbD7_gK00eE7hMPiF2_F7eIhvLy", "image_id": "image_0"}, {"google_id": "1vwxaP0hh-7S5HWNAvuO8XpjAVaLtO44y", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1zNJw4kbD7_gK00eE7hMPiF2_F7eIhvLy.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1zNJw4kbD7_gK00eE7hMPiF2_F7eIhvLy.avif",
             "caption": "Just fix your mind upon Me, the Supreme Personality of Godhead, and engage all your intelligence in Me. Thus you will live in Me always, without a doubt.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1vwxaP0hh-7S5HWNAvuO8XpjAVaLtO44y.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1vwxaP0hh-7S5HWNAvuO8XpjAVaLtO44y.avif",
             "caption": "One who is engaged in Lord K\u1e5b\u1e63\u1e47a\u2019s devotional service lives in a direct relationship with the Supreme Lord, so there is no doubt that his position is transcendental from the very beginning.",
             "inLanguage": "en",
             "width": "300px",

@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1kkx1mMh0rQG0birFw8vzcxbfpQz2Wvsq.jpg" alt="4.17.en.jpg - thumbnail size" title="The intricacies of action are very hard to understand. Therefore one should know properly what action is, what forbidden action is and what inaction is." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1kkx1mMh0rQG0birFw8vzcxbfpQz2Wvsq.avif" type="image/avif">
+                    <img id="image_0" src="1kkx1mMh0rQG0birFw8vzcxbfpQz2Wvsq.jpg" data-google-id="1kkx1mMh0rQG0birFw8vzcxbfpQz2Wvsq" alt="Bhagavad Gita 4.17.en.jpg - thumbnail size" title="The intricacies of action are very hard to understand. Therefore one should know properly what action is, what forbidden action is and what inaction is." width="600px" height="572" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1BACO6nvyDOJPL3dnS7V0P0J4z_A9a_DG.jpg" alt="purport_image_1 - thumbnail size" title="If one is serious about liberation from material bondage, one has to understand the distinctions between action, inaction and unauthorized actions." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1BACO6nvyDOJPL3dnS7V0P0J4z_A9a_DG.avif" type="image/avif">
+                    <img id="image_1" src="1BACO6nvyDOJPL3dnS7V0P0J4z_A9a_DG.jpg" data-google-id="1BACO6nvyDOJPL3dnS7V0P0J4z_A9a_DG" alt="Purport to Bhagavad Gita 4.17 image - thumbnail size" title="If one is serious about liberation from material bondage, one has to understand the distinctions between action, inaction and unauthorized actions." width="600px" height="616" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1kkx1mMh0rQG0birFw8vzcxbfpQz2Wvsq", "image_id": "image_0"}, {"google_id": "1BACO6nvyDOJPL3dnS7V0P0J4z_A9a_DG", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1kkx1mMh0rQG0birFw8vzcxbfpQz2Wvsq.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1kkx1mMh0rQG0birFw8vzcxbfpQz2Wvsq.avif",
             "caption": "The intricacies of action are very hard to understand. Therefore one should know properly what action is, what forbidden action is and what inaction is.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1BACO6nvyDOJPL3dnS7V0P0J4z_A9a_DG.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1BACO6nvyDOJPL3dnS7V0P0J4z_A9a_DG.avif",
             "caption": "If one is serious about liberation from material bondage, one has to understand the distinctions between action, inaction and unauthorized actions.",
             "inLanguage": "en",
             "width": "300px",

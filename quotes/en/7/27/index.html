@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1vesJsrCnBxZygBBXhwLc8WX-WUVqvWU-.jpg" alt="7.27.en.jpg - thumbnail size" title="O scion of Bharata, O conqueror of the foe, all living entities are born into delusion, bewildered by dualities arisen from desire and hate." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1vesJsrCnBxZygBBXhwLc8WX-WUVqvWU-.avif" type="image/avif">
+                    <img id="image_0" src="1vesJsrCnBxZygBBXhwLc8WX-WUVqvWU-.jpg" data-google-id="1vesJsrCnBxZygBBXhwLc8WX-WUVqvWU-" alt="Bhagavad Gita 7.27.en.jpg - thumbnail size" title="O scion of Bharata, O conqueror of the foe, all living entities are born into delusion, bewildered by dualities arisen from desire and hate." width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1QFBHaacXswVybhHPt6SGgCI4OP9kzBBJ.jpg" alt="purport_image_1 - thumbnail size" title="The real constitutional position of the living entity is that of subordination to the Supreme Lord, who is pure knowledge." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1QFBHaacXswVybhHPt6SGgCI4OP9kzBBJ.avif" type="image/avif">
+                    <img id="image_1" src="1QFBHaacXswVybhHPt6SGgCI4OP9kzBBJ.jpg" data-google-id="1QFBHaacXswVybhHPt6SGgCI4OP9kzBBJ" alt="Purport to Bhagavad Gita 7.27 image - thumbnail size" title="The real constitutional position of the living entity is that of subordination to the Supreme Lord, who is pure knowledge." width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1vesJsrCnBxZygBBXhwLc8WX-WUVqvWU-", "image_id": "image_0"}, {"google_id": "1QFBHaacXswVybhHPt6SGgCI4OP9kzBBJ", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1vesJsrCnBxZygBBXhwLc8WX-WUVqvWU-.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1vesJsrCnBxZygBBXhwLc8WX-WUVqvWU-.avif",
             "caption": "O scion of Bharata, O conqueror of the foe, all living entities are born into delusion, bewildered by dualities arisen from desire and hate.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1QFBHaacXswVybhHPt6SGgCI4OP9kzBBJ.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1QFBHaacXswVybhHPt6SGgCI4OP9kzBBJ.avif",
             "caption": "The real constitutional position of the living entity is that of subordination to the Supreme Lord, who is pure knowledge.",
             "inLanguage": "en",
             "width": "300px",

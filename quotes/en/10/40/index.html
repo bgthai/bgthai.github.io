@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="18nC8GJGMAtC5ala8441s4C6zO0hDT747.jpg" alt="10.40.en.jpg - thumbnail size" title="O mighty conqueror of enemies, there is no end to My divine manifestations. What I have spoken to you is but a mere indication of My infinite opulences." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="18nC8GJGMAtC5ala8441s4C6zO0hDT747.avif" type="image/avif">
+                    <img id="image_0" src="18nC8GJGMAtC5ala8441s4C6zO0hDT747.jpg" data-google-id="18nC8GJGMAtC5ala8441s4C6zO0hDT747" alt="Bhagavad Gita 10.40.en.jpg - thumbnail size" title="O mighty conqueror of enemies, there is no end to My divine manifestations. What I have spoken to you is but a mere indication of My infinite opulences." width="600px" height="480" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "18nC8GJGMAtC5ala8441s4C6zO0hDT747", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/18nC8GJGMAtC5ala8441s4C6zO0hDT747.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/18nC8GJGMAtC5ala8441s4C6zO0hDT747.avif",
             "caption": "O mighty conqueror of enemies, there is no end to My divine manifestations. What I have spoken to you is but a mere indication of My infinite opulences.",
             "inLanguage": "en",
             "width": "300px",

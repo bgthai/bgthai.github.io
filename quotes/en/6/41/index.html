@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1O-AKKUJzkYuFiPOwdrb_PH0WZe3VuqwY.jpg" alt="6.41.en.jpg - thumbnail size" title="The unsuccessful yogī, after many, many years of enjoyment on the planets of the pious living entities, is born into a family of righteous people, or into a family of rich aristocracy." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1O-AKKUJzkYuFiPOwdrb_PH0WZe3VuqwY.avif" type="image/avif">
+                    <img id="image_0" src="1O-AKKUJzkYuFiPOwdrb_PH0WZe3VuqwY.jpg" data-google-id="1O-AKKUJzkYuFiPOwdrb_PH0WZe3VuqwY" alt="Bhagavad Gita 6.41.en.jpg - thumbnail size" title="The unsuccessful yogī, after many, many years of enjoyment on the planets of the pious living entities, is born into a family of righteous people, or into a family of rich aristocracy." width="600px" height="552" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1iEVbRrz_uGUL32Llk6COKiKXyT5ogjj2.jpg" alt="purport_image_1 - thumbnail size" title="The unsuccessful yogīs are divided into two classes: one is fallen after very little progress, and one is fallen after long practice of yoga." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1iEVbRrz_uGUL32Llk6COKiKXyT5ogjj2.avif" type="image/avif">
+                    <img id="image_1" src="1iEVbRrz_uGUL32Llk6COKiKXyT5ogjj2.jpg" data-google-id="1iEVbRrz_uGUL32Llk6COKiKXyT5ogjj2" alt="Purport to Bhagavad Gita 6.41 image - thumbnail size" title="The unsuccessful yogīs are divided into two classes: one is fallen after very little progress, and one is fallen after long practice of yoga." width="600px" height="750" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -83,18 +83,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1O-AKKUJzkYuFiPOwdrb_PH0WZe3VuqwY", "image_id": "image_0"}, {"google_id": "1iEVbRrz_uGUL32Llk6COKiKXyT5ogjj2", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1O-AKKUJzkYuFiPOwdrb_PH0WZe3VuqwY.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1O-AKKUJzkYuFiPOwdrb_PH0WZe3VuqwY.avif",
             "caption": "The unsuccessful yog\u012b, after many, many years of enjoyment on the planets of the pious living entities, is born into a family of righteous people, or into a family of rich aristocracy.",
             "inLanguage": "en",
             "width": "300px",
@@ -102,7 +99,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1iEVbRrz_uGUL32Llk6COKiKXyT5ogjj2.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1iEVbRrz_uGUL32Llk6COKiKXyT5ogjj2.avif",
             "caption": "The unsuccessful yog\u012bs are divided into two classes: one is fallen after very little progress, and one is fallen after long practice of yoga.",
             "inLanguage": "en",
             "width": "300px",

@@ -43,11 +43,11 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1K7XtGvxO9sttil4K6726lLfba_2fUbu5.jpg" alt="1.20.en.jpg - thumbnail size" title="At that time Arjuna, the son of Pāṇḍu, seated in the chariot bearing the flag marked with Hanumān, took up his bow and prepared to shoot his arrows. O King, after looking at the sons of Dhṛtarāṣṭra drawn in military array, Arjuna then spoke to Lord Kṛṣṇa these words." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1K7XtGvxO9sttil4K6726lLfba_2fUbu5.avif" type="image/avif">
+                    <img id="image_0" src="1K7XtGvxO9sttil4K6726lLfba_2fUbu5.jpg" data-google-id="1K7XtGvxO9sttil4K6726lLfba_2fUbu5" alt="Bhagavad Gita 1.20.en.jpg - thumbnail size" title="At that time Arjuna, the son of Pāṇḍu, seated in the chariot bearing the flag marked with Hanumān, took up his bow and prepared to shoot his arrows. O King, after looking at the sons of Dhṛtarāṣṭra drawn in military array, Arjuna then spoke to Lord Kṛṣṇa these words." width="600px" height="541" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,18 +76,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1K7XtGvxO9sttil4K6726lLfba_2fUbu5", "image_id": "image_0"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1K7XtGvxO9sttil4K6726lLfba_2fUbu5.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1K7XtGvxO9sttil4K6726lLfba_2fUbu5.avif",
             "caption": "At that time Arjuna, the son of P\u0101\u1e47\u1e0du, seated in the chariot bearing the flag marked with Hanum\u0101n, took up his bow and prepared to shoot his arrows. O King, after looking at the sons of Dh\u1e5btar\u0101\u1e63\u1e6dra drawn in military array, Arjuna then spoke to Lord K\u1e5b\u1e63\u1e47a these words.",
             "inLanguage": "en",
             "width": "300px",

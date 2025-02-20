@@ -43,22 +43,22 @@
     </div>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_0" src="1PARN7zO8UZo50buj-AUXGXv-FcBQuPUe.jpg" alt="1.24.en.jpg - thumbnail size" title="Sañjaya said: O descendant of Bharata, having thus been addressed by Arjuna, Lord Kṛṣṇa drew up the fine chariot in the midst of the armies of both parties." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1PARN7zO8UZo50buj-AUXGXv-FcBQuPUe.avif" type="image/avif">
+                    <img id="image_0" src="1PARN7zO8UZo50buj-AUXGXv-FcBQuPUe.jpg" data-google-id="1PARN7zO8UZo50buj-AUXGXv-FcBQuPUe" alt="Bhagavad Gita 1.24.en.jpg - thumbnail size" title="Sañjaya said: O descendant of Bharata, having thus been addressed by Arjuna, Lord Kṛṣṇa drew up the fine chariot in the midst of the armies of both parties." width="600px" height="600" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
     <h2 style="text-align: center;">Purport</h2>
     <div class="gallery-container">
         <div class="gallery">
-            <div class="image-placeholder">
-                <div class="skeleton">
-                    <img id="image_1" src="1RwlCKHsXGbpPaaiXxycZV_KrWBzfjGe3.jpg" alt="purport_image_1 - thumbnail size" title="In this verse Arjuna is referred to as Guḍākeśa. Guḍākā means sleep, and one who conquers sleep is called guḍākeśa." width=600px />
-                </div>
-                <img class="loading" src="../../../css/loading.gif" alt="loading.." />
+            <div class="image-container">
+                <picture onclick="showFullSizeImage(this)">
+                    <source srcset="1RwlCKHsXGbpPaaiXxycZV_KrWBzfjGe3.avif" type="image/avif">
+                    <img id="image_1" src="1RwlCKHsXGbpPaaiXxycZV_KrWBzfjGe3.jpg" data-google-id="1RwlCKHsXGbpPaaiXxycZV_KrWBzfjGe3" alt="Purport to Bhagavad Gita 1.24 image - thumbnail size" title="In this verse Arjuna is referred to as Guḍākeśa. Guḍākā means sleep, and one who conquers sleep is called guḍākeśa." width="600px" height="540" loading="lazy" />
+                </picture>
             </div>
         </div>
     </div>
@@ -82,18 +82,15 @@
             </li>
         </ul>
     </div>
-    <script src="../../../js/gallery.js"></script>
     <script src="../../../js/verse-validation.js" defer></script>
-    <script>
-        loadImages([{"google_id": "1PARN7zO8UZo50buj-AUXGXv-FcBQuPUe", "image_id": "image_0"}, {"google_id": "1RwlCKHsXGbpPaaiXxycZV_KrWBzfjGe3", "image_id": "image_1"}], 2000);
-    </script>
+    <script src="../../../js/fullScreenImage.js" defer></script>
     <script type="application/ld+json">
         {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1PARN7zO8UZo50buj-AUXGXv-FcBQuPUe.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1PARN7zO8UZo50buj-AUXGXv-FcBQuPUe.avif",
             "caption": "Sa\u00f1jaya said: O descendant of Bharata, having thus been addressed by Arjuna, Lord K\u1e5b\u1e63\u1e47a drew up the fine chariot in the midst of the armies of both parties.",
             "inLanguage": "en",
             "width": "300px",
@@ -101,7 +98,7 @@
         },
         {
             "@type": "ImageObject",
-            "contentUrl": "https://bgthai.github.io/thumbnails/1RwlCKHsXGbpPaaiXxycZV_KrWBzfjGe3.jpg",
+            "contentUrl": "https://bgthai.github.io/thumbnails/1RwlCKHsXGbpPaaiXxycZV_KrWBzfjGe3.avif",
             "caption": "In this verse Arjuna is referred to as Gu\u1e0d\u0101ke\u015ba. Gu\u1e0d\u0101k\u0101 means sleep, and one who conquers sleep is called gu\u1e0d\u0101ke\u015ba.",
             "inLanguage": "en",
             "width": "300px",
