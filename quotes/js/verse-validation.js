@@ -67,10 +67,12 @@ function showVerse() {
 
         if (pageType === "index") {
             // Redirect to index page
-            window.location.href = `${chapter}/${verse}/index.html`;
+            // window.location.href = `${chapter}/${verse}/index.html`;
+            window.location.href = `${chapter}/${verse}`;
         } else if (pageType === "verse") {
             // Redirect to verse page, modify URL accordingly
-            window.location.href = `../../${chapter}/${verse}/index.html`;
+            // window.location.href = `../../${chapter}/${verse}/index.html`;
+            window.location.href = `../../${chapter}/${verse}`;
         }
     }
 }
