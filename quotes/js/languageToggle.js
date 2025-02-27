@@ -1,11 +1,1 @@
-// languageToggle.js
-// Function to toggle between languages
-function toggleLanguage(lang) {
-    // Save selected language to localStorage
-    localStorage.setItem("lang", lang);
-
-    // Redirect to the same path but with the new language
-    const currentPath = window.location.pathname;
-    const newPath = currentPath.replace(/\/(en|th)\//, `/${lang}/`);
-    window.location.href = newPath;
-}
+document.addEventListener("DOMContentLoaded",function(){const toggleLinks=document.querySelectorAll(".language-toggle a");toggleLinks.forEach(link=>{link.addEventListener("click",function(event){event.preventDefault();if(!this.classList.contains("disabled")){toggleLanguage(this.textContent.trim()==="English"?"en":"th");}else{}});});});function toggleLanguage(lang){console.log(`🔄 toggleLanguage called for: ${lang}`);localStorage.setItem("lang",lang);const currentPath=window.location.pathname;const newPath=currentPath.replace(/\/(en|th)\//,`/${lang}/`);window.location.href=newPath;}
