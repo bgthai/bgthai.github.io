@@ -523,3 +523,11 @@ body {
 }
 /*p {margin-left:3em;}*/
 .contentOuter {font-size:1.2rem;line-height:2em;}
+
+.chapter-sub{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
